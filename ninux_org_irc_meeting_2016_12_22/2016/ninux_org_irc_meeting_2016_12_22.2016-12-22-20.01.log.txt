@@ -1,0 +1,473 @@
+20:01:28 <lerrigatto> #startmeeting Ninux.org IRC Meeting 2016-12-22
+20:01:28 <meetbot-ninux> Meeting started Thu Dec 22 20:01:28 2016 UTC and is due to finish in 60 minutes.  The chair is lerrigatto. Information about MeetBot at http://86.119.33.5.
+20:01:28 <meetbot-ninux> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+20:01:28 <meetbot-ninux> The meeting name has been set to 'ninux_org_irc_meeting_2016_12_22'
+20:01:36 <M-rubo77> but if you better speak italian, thats fine, I will only "lurk" if that's ok with you ;)
+20:01:42 <nemesis-ninux> what's tippt sorry?
+20:01:52 <lerrigatto> #topic Data del prossimo meeting
+20:02:31 <zioproto> volete cambiare invece di giovedi per non overlappare con Roma ?
+20:02:35 <lerrigatto> Bene, iniziamo: dobbiamo decidere quando incontrarci su irc la prossima volta.
+20:02:46 <valhalla> io preferirei cambiare (anche perché overlappa anche con como)
+20:02:57 <albertux1> esatto..
+20:03:10 <lerrigatto> zioproto: hai modo di incollarci un link ai risultati del sondaggio?
+20:03:13 <fabio70mi> E overlappa anche con gli incontri a Legnano
+20:03:18 <stefanauss> ok cambio giovedì (ma martedì overlapperebbe cosenza)
+20:03:25 <albertux1> propongo venerdì
+20:03:39 <valhalla> uhm, il venerdì di solito viene considerato weekend
+20:03:43 <fabio70mi> i giovani il venerdi vanno a divertirsi
+20:03:53 <zioproto> provo a cercare il link del sondaggio
+20:04:00 <lerrigatto> albertux1: venerdi non mi pare un giorno cosi saggio per vederci, sopratutto se vogliamo aumentare il numero di non-vecchi
+20:04:12 <lerrigatto> (io per primo non ci sarei quasi mai ;) )
+20:04:19 <albertux1> ok io sono vecchio.... :)
+20:04:35 <lerrigatto> imho Mercoledi sempre alle 21 per un oretta
+20:05:06 <albertux1> lerrigatto: anche prima, così i  giovani poi si vanno a divertire...
+20:05:08 * valhalla non ha niente in contrario né al mercoledì né al lunedì
+20:05:09 <zioproto> #link https://docs.google.com/forms/d/14yhO8BrYVF5xhrKYhnxmZKwPcBWRnmXz_2Uam41EWT0/edit
+20:05:22 <nemesis-ninux> personalmente il venerdì ho voglia di staccare, amenochè il meeting non si faccia dalle 17:30 alle 18:30
+20:05:44 <nemesis-ninux> ma invece farlo alla fine della giornata lavorativa del lunedì?
+20:05:44 <stefanauss> la mia preferenza è !martedì && (<20 | >22)
+20:05:52 <fabio70mi> però il sondaggio era relativo a date specifiche e non a un giorno della settimana
+20:05:54 <lerrigatto> Dal sondaggio lunedi alle 21
+20:06:12 <lerrigatto> fabio70mi: hai ragione
+20:06:13 <valhalla> fabio70mi: uhm, no, il sondaggio era per le date della settimana
+20:06:33 <hispanico> io sono per lunedi
+20:06:36 <valhalla> s/le date/i giorni/
+20:06:45 <nemesis-ninux> ma dobbiamo rifare un doodle/google form/whatever?
+20:06:53 <fabio70mi> valhalla: opsss    cmq lunedi va bene per me
+20:07:09 <lerrigatto> potremmo anche fare un poll ogni mese al termine del meeting, per tre giorni
+20:07:12 <nemesis-ninux> lunedì o martedì per me vanno bene
+20:07:19 <albertux1> votiamo qui... chi è per il Lunedi'?
+20:07:24 <stefanauss> nemesis-ninux: se siamo rapidi ed è solo per chi è presente adesso, per me va bene
+20:07:38 <valhalla> dobbiamo installare l'infrastruttura per poter fare votazioni con metodo di condorcet :D
+20:07:44 <nemesis-ninux> stefanauss: per me è indifferente
+20:08:09 <stefanauss> zio proto: quanta diff c'è tra il numero di votanti sul gdoc e i presenti adesso?
+20:08:22 <zioproto> 50 persone sul doc
+20:08:26 <zioproto> me pare
+20:08:30 <valhalla> 49 (circa)
+20:08:44 <lerrigatto> #startvote giorno della settimana: lun mar mer gio
+20:08:44 <meetbot-ninux> Unable to parse vote topic and options.
+20:09:02 <lerrigatto> #startvote giorno della settimana? lun, mar, mer, gio
+20:09:02 <meetbot-ninux> Begin voting on: giorno della settimana? Valid vote options are lun, mar, mer, gio.
+20:09:02 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+20:09:13 <zioproto> #vote lun
+20:09:13 <lerrigatto> #mer
+20:09:18 <lerrigatto> #vote mer
+20:09:19 <fabio70mi> #vote lun
+20:09:29 <valhalla> e chi è indifferente tra lun e mer?
+20:09:39 <nemesis-ninux> posso votare due giorni?
+20:09:44 <lerrigatto> no.
+20:09:47 <albertux1> #vote lun
+20:09:48 <nemesis-ninux> doh
+20:09:55 <stefanauss> #vote mer
+20:09:55 <nemesis-ninux> #vote lun
+20:10:01 <lerrigatto> a me ne vanno bene tre, scegliete suvvia!
+20:10:39 <lerrigatto> direi altri 60sec
+20:10:43 <lerrigatto> #showvote
+20:10:43 <meetbot-ninux> lun (4): albertux1, zioproto, fabio70mi, nemesis-ninux
+20:10:43 <meetbot-ninux> mer (2): lerrigatto, stefanauss
+20:10:55 <leobowski> ciao gene
+20:10:57 <leobowski> gente
+20:11:01 <lerrigatto> ciao leobowski
+20:11:05 <lipos[m]> salve a tutti
+20:11:12 <lerrigatto> ciao lipos[m]
+20:11:14 <nemesis-ninux> abbiamo votato in pochi rispetto a tutti i presenti
+20:11:17 <nemesis-ninux> o no?
+20:11:28 <leobowski> scusate il ritardo, sto ancora mangiando... :-(
+20:11:30 <stefanauss> verissimo :-(
+20:11:40 <nemesis-ninux> peggio del M5S
+20:11:54 <clauz> Ciao
+20:11:57 <zioproto> dai cazzo gia 11 minuti solo per scegliere il prox meeting :)
+20:12:01 * valhalla non ha votato perché lun o mer è completamente indifferente
+20:12:03 <zioproto> scegliamo a cazzo e poi lo rivotiamo tra 1 mese
+20:12:03 <albertux1> ok ci ssta un dudle ext...
+20:12:06 <zioproto> non e' importante :)
+20:12:17 <zioproto> dai pragmatici cazzo
+20:12:18 <zioproto> :)
+20:12:25 <lerrigatto> ragazzi se volete votare fatelo ora
+20:12:26 <valhalla> quarto lunedì del mese?
+20:12:28 <nemesis-ninux> zioproto: basta che evitiamo flame che poi qualcuno dopo rosica
+20:12:33 <lipos[m]> #vote lun, mer
+20:12:33 <meetbot-ninux> lipos[m]: lun, mer is not a valid option. Valid options are lun, mar, mer, gio.
+20:12:48 <nemesis-ninux> lipos[m]: mi dicevano che si può votare solo uno
+20:13:05 <leobowski> come si vota?
+20:13:08 <lipos[m]> ok allora #vote mer
+20:13:09 <lerrigatto> lipos[m]: un solo giorno
+20:13:19 <zioproto> dai ragazzi che l'agenda e' lunga #link http://pad.ninux.org/p/IRC-agenda-2016-12-22
+20:13:25 <clauz> #vote mer
+20:13:28 <lerrigatto> leobowski: devi scrivere #vote seguito da lun mar mer o gio
+20:13:31 <valhalla> leobowski: scrivendo ``#vote [giorno che vuoi]``
+20:13:45 <nemesis-ninux> zioproto: dacci il tempo di familiarizzare un attimo
+20:13:49 <clauz> #vote mer,lun
+20:13:49 <meetbot-ninux> clauz: mer,lun is not a valid option. Valid options are lun, mar, mer, gio.
+20:13:57 <lerrigatto> solo un giorno ragazzi
+20:14:00 <clauz> ok
+20:14:01 <leobowski> #vote mer
+20:14:02 <zioproto> 1 opzione solaaaaaaaa
+20:14:05 <zioproto> :)
+20:14:23 <leobowski> #showvote
+20:14:23 <meetbot-ninux> lun (4): albertux1, zioproto, fabio70mi, nemesis-ninux
+20:14:23 <meetbot-ninux> mer (4): clauz, lerrigatto, stefanauss, leobowski
+20:14:24 <nemesis-ninux> ci siamo quasi
+20:14:32 <nemesis-ninux> lol pari
+20:14:36 <leobowski> ah ho capito...
+20:14:44 <nemesis-ninux> e mo?
+20:14:54 <zioproto> e mo decide lerrigatto
+20:15:05 <lerrigatto> altri 30 sec e chiudo
+20:15:08 <stefanauss> non ha contato il voto di lipos
+20:15:13 <zioproto> #vote mer
+20:15:17 <zioproto> #showvote
+20:15:17 <meetbot-ninux> lun (3): albertux1, fabio70mi, nemesis-ninux
+20:15:17 <meetbot-ninux> mer (5): clauz, lerrigatto, zioproto, stefanauss, leobowski
+20:15:18 <stefanauss> perché lo ha scritto con altro
+20:15:19 <nemesis-ninux> lipos[m]: vota bene
+20:15:21 <zioproto> fatto
+20:15:25 <zioproto> risolto
+20:15:31 <lerrigatto> #endvote
+20:15:31 <meetbot-ninux> Voted on "giorno della settimana?" Results are
+20:15:31 <meetbot-ninux> lun (3): albertux1, fabio70mi, nemesis-ninux
+20:15:31 <meetbot-ninux> mer (5): clauz, lerrigatto, zioproto, stefanauss, leobowski
+20:15:44 <zioproto> mercoledi 25 gennaio ?
+20:15:50 <zioproto> va bene ?
+20:15:51 <albertux1> ok
+20:15:53 <fabio70mi> ok
+20:16:02 <lerrigatto> #agreed il prossimo incontro si terrá su IRC Mercoledí 25 gennaio alle 21
+20:16:02 <leobowski> nok
+20:16:08 <zioproto> #agreed prossimo meeting mercoledi 25 gennaio 2017 ore 21:00
+20:16:18 <clauz> ok
+20:16:24 <zioproto> lerrigatto: scusa ! avevi fatto gia tu :)
+20:16:28 <lerrigatto> #chair zioproto
+20:16:28 <meetbot-ninux> Current chairs: lerrigatto zioproto
+20:16:29 <valhalla> 25 gennaio o quarto mercoledì del mese salvo flame?
+20:16:45 <lerrigatto> no 25 poichè è un bel numero
+20:16:48 <zioproto> dai ogni volta scegliamo il prox
+20:16:55 <stefanauss> self-memo: sulla prossima agenda proporre di discutere la cadenza bi-weekly
+20:17:00 <lerrigatto> #topic tunnel ipv6
+20:17:09 <lerrigatto> Creare un servizio stile SixXS ma dentro Ninux ?   In questo modo ogni nodo potrebbe accedere alla sua rete IPv6 via rete fisica o via Tunnel   Si potrebbe fare qualcosa di furbo con olsrdV2. Primo step sarebbe scrivere l'architettura.   Feedback su questa idea ?
+20:17:17 <zioproto> #action stefanauss prossima agenda proporre di discutere la cadenza bi-weekly
+20:17:49 <zioproto> chi non conosce SIxXS ?
+20:17:56 <albertux1> io
+20:17:58 <lerrigatto> io
+20:17:59 <nemesis-ninux> mai usati
+20:18:05 <leobowski> io
+20:18:06 <nemesis-ninux> conosco solo di fama
+20:18:06 <zioproto> ok, e' un tunnel broker IPv6
+20:18:15 <zioproto> invece di fare la VPN
+20:18:25 <valhalla> idem di fama
+20:18:28 <zioproto> ti da indirizzi solo IPv6 a routing
+20:18:41 <zioproto> fai il tunnel con loro e ti da ruota sul tunnel una /64 IPv6
+20:18:50 <zioproto> volevamo andare oltre il wifi
+20:18:53 <zioproto> e fare una rete overlay
+20:19:00 <zioproto> potremmo fare una cosa IPv6 only
+20:19:05 <albertux1> l'idea è buona...
+20:19:07 <zioproto> piu facile da integrare con la WiFi esistente
+20:19:09 <clauz> che meccanismo di tunneling usa Sixxs?
+20:19:21 <lerrigatto> #link https://www.sixxs.net/main/
+20:19:37 <zioproto> clauz: usare Anything in Anything :) aiccu e' il client open source
+20:19:41 <nemesis-ninux> zioproto: potresti farmi un esempio in stile user story? Mario Rossi vuole fare il tunnel ipv6 ninux, cosa fa?
+20:20:15 <nemesis-ninux> installa un pacchetto sul suo openwrt?
+20:20:19 <nemesis-ninux> configura una roba?
+20:20:26 <zioproto> allora
+20:20:35 <zioproto> Mario Rossi si fa un account
+20:20:38 <zioproto> sul map server
+20:20:45 <zioproto> e noi gli assegnamo una /64 che e' la sua
+20:20:54 <zioproto> lui si collega con un programmino in tunnel
+20:20:59 <zioproto> ed usa questa rete IPv6
+20:21:05 <zioproto> poi con qualcosa che dobbiamo pensare
+20:21:12 <zioproto> lo stesso indirizzamento funziona anche sulla rete WiFi
+20:21:28 <diego71> zioproto: il tunnel dove inizia e dove finisce?
+20:21:35 <lerrigatto> zioproto: dove finisce il tunnel?
+20:21:39 <zioproto> inizia a casa, e finisce per esempio al Namex al nostro BGP
+20:22:01 <stefanauss> da dove proverrebbe l'address space di questo broker ninux?
+20:22:06 <diego71> quindi per parlare con il mio vicino, vado fino al namex e torno indietro?
+20:22:09 <clauz> Gli argentini avevano fatto una cosa simile con guifi: http://docs.altermundi.net/LibreNet6/
+20:22:11 <valhalla> una domanda: c'è motivo per cui invece non si può configurare ipv6 direttamente sulla rete ninux?
+20:22:21 <clauz> usavano tinc + babel
+20:22:23 <zioproto> diego71: no l'idea e' integrare il routeing con la rete wifi
+20:22:24 <lerrigatto> #link http://docs.altermundi.net/LibreNet6/
+20:22:36 <zioproto> l'idea e' la poi la rete la puoi annunciare anche dentro Ninux
+20:22:51 <zioproto> volevo sapere se c'e' gente interessata
+20:23:00 <zioproto> se c'e' scrivo 2 o 3 pagine e le faccio girare entro il prossimo meeting
+20:23:11 <lerrigatto> zioproto: e funzionerebbe anche come vpn per chi non ha il nodo, giusto?
+20:23:13 <zioproto> mi sembra che dalle domande c'e' interesse
+20:23:19 <zioproto> lerrigatto: giusto
+20:23:28 <fabio70mi> personalmente ogni soluzione mi va bene per entrare in rete visto che sono isolato; però nella logica di una mesh network sarebbe stato più congeniale che due nodi che si mettono d'accordo si creano il loro link tramite VPN Tunnel o altro, da considerare alla pari di un link wifi
+20:23:35 <zioproto> stefanauss: abbiamo una /48 di Ninux mi pare
+20:23:42 <diego71> io non mi intendo di bgp, quindi sono interessato (se non altro per imparare una cosa nuova)
+20:24:14 <lerrigatto> c'è qualcuno interessato ad aiutare zioproto ?
+20:24:27 <lerrigatto> (a scrivere il paper)
+20:24:37 <albertux1> anche io sono isolato e mi interessa, ci sta un howto...
+20:24:57 <nemesis-ninux> forse Michele Salerno potrebbe essere interessato a questa cosa per offrire ipv6 alla sua piccola rete a Matera, ma non essendoci lui non posso parlare per lui
+20:25:15 <zioproto> se sta bene a tutti usero' google docs e faccio girare il link in scrittura aperta a tutti
+20:25:27 <clauz> ok
+20:25:34 <zioproto> nel 2012 quando abbiamo fatto ild oc della vecchia rete ha funzionato bene
+20:25:50 <leobowski> non e' che sia proprio user-friendly come procedura, siamo sempre in nerdspace. pero' niente in contrario
+20:26:11 <lerrigatto> #action zioproto prepara un gdocs sull'uso di SixXS per fare tunneling IPV6
+20:26:11 <zioproto> l'idea e' centrostella da qualche parte dove ci si collega in tunnel e si prendono /64 IPv6
+20:26:18 <zioproto> perfetto
+20:26:21 <zioproto> andiamo avvanti
+20:26:26 <clauz> Domanda: essendoci il bot ha senso scrivere sul pad?
+20:26:27 <nemesis-ninux> un'ultima domanda
+20:26:31 <stefanauss> a) io sono interessato b) bene gdoc c) benissimo per ricevere ipv6 pubblici utilizzabili anche per la mesh d) io non sono convinto dell'opportunità o necessità di fare overlay
+20:26:36 <nemesis-ninux> ma ste configurazioni, tipo del centro-stella ecc.
+20:26:44 <nemesis-ninux> si faranno a manella come al solito?
+20:26:48 <zioproto> nemesis-ninux: ansible
+20:26:57 <lerrigatto> #agreed la prossima riunione discuteremo del paper di zioproto e decideremo gli step necessari per l'implementazione, se ci interessa
+20:27:07 <nemesis-ninux> quante persone sono interessate a usare/imparare/smanettare con ansible?
+20:27:09 <valhalla> zioproto: c'è già un repo con roba ansible da qualche parte?
+20:27:15 <Caterpillar2> nemesis-ninux: io
+20:27:18 <valhalla> io lo uso (ansible)
+20:27:27 <lerrigatto> clauz: no, imho. il bot genera un log che condivideremo e da cui poi creeremo il pad per la prossima riunione
+20:27:33 <zioproto> valhalla: https://github.com/zioproto/ansible-cubieboard-sixxs-gw
+20:27:38 <clauz> lerrigatto: ok allora smetto
+20:27:40 <clauz> :)
+20:27:46 <zioproto> questo playbook per la mia cubieboard che fa da client SixxS
+20:27:49 <lerrigatto> nemesis-ninux: io sono interessato ad ansible
+20:28:06 <nemesis-ninux> ok
+20:28:07 <zioproto> #link https://github.com/zioproto/ansible-cubieboard-sixxs-gw
+20:28:08 <clauz> #link https://github.com/zioproto/ansible-cubieboard-sixxs-gw
+20:28:23 <nemesis-ninux> a mio avviso
+20:28:48 <nemesis-ninux> ci potrebbe servire un git privato
+20:28:54 <nemesis-ninux> non so se in questo caso si applica
+20:29:03 <nemesis-ninux> se ci sono password o cose simili
+20:29:20 <nemesis-ninux> io in genere metto i ruoli pubblici su github, e le configurazioni dei playbook per i server miei o di lavoro su gitlab
+20:29:32 <hispanico> possiamo usare il mio gitlab o metterne su uno in Ninux
+20:29:33 <valhalla> nemesis-ninux: per salvare password o simili ci sono cose tipo l'ansible-vault
+20:29:36 <lerrigatto> si, un gitlab interno sarebbe bello. io ho una macchina a disposizione ma non ho il tempo di finire il setup e metterla in rete, inoltre mi servirebbe una vpn per farlo
+20:29:38 <nemesis-ninux> facciamo così anche con l'istanza openwisp2 con Michele Salerno
+20:30:04 <nemesis-ninux> ok cmq questi dettagli saranno da vedere in futuro, o sbaglio?
+20:30:14 <lerrigatto> si, imho
+20:30:15 <nemesis-ninux> volevo giusto menzionarli così ci ragioniamo
+20:30:30 <nemesis-ninux> valhalla: non ho mai usato ansible-valut ancora, mi piacerebbe provare
+20:30:46 <valhalla> (in realtà neanche io, solo visto che c'è e circa come funziona)
+20:30:52 <zioproto> siamo a meta' meeting
+20:30:54 <zioproto> 30 minuti
+20:31:03 <nemesis-ninux> andiamo avanti
+20:31:19 <lerrigatto> #topic piattaforma di chat
+20:31:30 <lerrigatto> Hispanico ha messo su Mattermost. Proviamo a promuoverlo ? Migriamo tutti su una     piattaforma unica ? https://mattermost.ninux.org/login
+20:31:48 <lerrigatto> attualmente usiamo slack, mattermost, irc freenode, and telegram
+20:31:52 <lerrigatto> oltre alla ml
+20:32:13 <zioproto> io non so come integrare questo mattermost con il MeetBot
+20:32:15 <leobowski> hispanico: ci dici che cosa ha di meglio mattermost?
+20:32:30 <lerrigatto> personalmente terrei solamente slack e irc solo per valore affettivo
+20:32:40 <stefanauss> leobowski: rispetto a?
+20:32:43 <hispanico> mattermost é la versione open di slack
+20:32:45 <valhalla> per me è più comodo stare su irc, già che ci sono per altri canali
+20:32:52 <zioproto> possiamo chiudere lo slack a patto che ci spostiamo tutti su una chat sola
+20:32:52 <valhalla> andare su un'altra chat ancora, non lo farei
+20:32:54 <hispanico> io sono per ripristinare jabber
+20:33:14 <nemesis-ninux> quante cazzo de chat..
+20:33:14 <hispanico> visto che l'ultima versione di ejabberd supporta anche il cluster
+20:33:30 <hispanico> potremmo provare a tirar su un jabber distribuito
+20:33:32 <albertux1> IRC
+20:33:34 <leobowski> e slack che ha in piu' di telegram?
+20:33:40 <zioproto> oltre a Hispanico che ci ha messo tempo per tirare su mattermost, ci sono altri volontari per infrastruttura chat ?
+20:33:52 <Caterpillar2> io sono per IRC + Telegram
+20:33:53 <lerrigatto> consideriamo che la piattaforma di chat DEVE avere il supporto per un meetingbot
+20:34:16 <zioproto> leobowski: su slack puoi incollare meglio gli snippet di codice, e la ricerca funziona molto meglio. E poi mille piccole accortezze per chattare di codice.
+20:34:27 <diego71> personalmente andrei di irc
+20:34:53 <hispanico> <leobowski> e slack che ha in piu' di telegram?: slack e mattermost sono piu leggibili in per il codice
+20:35:14 <hispanico> esiste un client irc per mobile?
+20:35:15 <zioproto> IRC ha il problema che quandi sei offline perdi la storia del canale
+20:35:17 <leobowski> io penso che ce ne voglia una di chat, faccio fatica a seguirle io N chat diverse, quindi immagino uno nuovo
+20:35:28 <zioproto> si d;accordo sulla chat unica
+20:35:31 <lerrigatto> leobowski: si
+20:35:33 <zioproto> fondamentale avere 1 sola chat unica
+20:35:34 <clauz> secondo il mio sistema slack occupa circa 600 MB in RAM :)
+20:35:48 <fabio70mi> magari son poco pratico, ma con IRC devi essere sempre collegato per non perderti nulla... ecco come dice zioproto
+20:35:49 <valhalla> zioproto: si potrebbe metter su un bot che tenga un log del canale, volendo
+20:35:51 <clauz> zioproto: sto usando znc, non si perde nulla
+20:36:12 <lerrigatto> clauz: esiste un client mobile per irc?
+20:36:20 <valhalla> (oppure, usarla come si usa di solito senza log, se qualcuno vuole non perdere nulla può usare qassel o irssi+screen o....)
+20:36:22 <clauz> lerrigatto: si' yaicc
+20:36:30 <valhalla> afaik anche quassel ha un client mobile
+20:36:33 <Caterpillar2> lerrigatto: andchat
+20:36:50 <leobowski> mattermost ha un client mobile figo?
+20:36:51 <stefanauss> impossibile scegliere un sistema unico che si adatta a tutti i casi d'uso concreti che ci interessano
+20:36:55 <lerrigatto> leobowski: si
+20:36:56 <valhalla> e comunque quando ci sono dei meeting c'è meetbot
+20:36:59 <valhalla> (che tiene anche i log)
+20:37:00 <zioproto> qualcuno vuole prendersi questo action point dell'armonizzazione delle chat di ninux ?
+20:37:09 <zioproto> tanto stasera non si risolve
+20:37:13 <albertux1> Telegram?
+20:37:16 <leobowski> e c'e' il modo di collegare una chat irc a mattermost?
+20:37:18 <stefanauss> e io ne vedo già 2 precisi: newbie + gruppi di lavoro
+20:37:31 <stefanauss> zioproto: lo sto facendo già per hacklab, sono interessato
+20:37:49 <nemesis-ninux> io penso che la soluzione che usiamo ora, IRC e Telegram sia sufficiente per quello che faccio oggi; mantenere in piedi una roba distribuita è tosta e non so quante persone ci sono effettivamente che vogliono farlo ora; capisco i goodies che portano slack e mattermost ma non mi pare tutta sta svolta, ergo puoi chattare quanto ti pare ma se poi non lavoriamo sulle cose che migliorano ninux è tutto tempo sprec
+20:38:24 <valhalla> albertux1: telegram ha il server proprietario
+20:38:28 <lerrigatto> #action stefanauss prepara una proposta su gdocs di armonizzazione per le chat da discutere alla prossima riunione.
+20:38:43 <albertux1> valhalla: già....:(
+20:38:59 <lerrigatto> trovo mattermost una buona soluzione in quanto possiamo tenerlo su un server interno
+20:39:03 <zioproto> #help
+20:39:08 <leobowski> quanti utenti ci sono sul canale telegram?
+20:39:10 <lerrigatto> zioproto: #commands
+20:39:16 <zioproto> #commands
+20:39:16 <meetbot-ninux> Available commands: #accept #accepted #action #agree #agreed #chair #commands #endmeeting #endvote #halp #help #idea #info #link #lurk #meetingname #meetingtopic #nick #reject #rejected #restrictlogs #save #showvote #startmeeting #startvote #topic #unchair #undo #unlurk #vote
+20:39:17 <stefanauss> 104 utenti telegram
+20:39:18 <valhalla> però mattermost è un'altra chat alla quale ci si deve collegare apposta solo per ninux
+20:39:26 <zioproto> ok volevo controllare che 'action' esisteva
+20:39:53 <lerrigatto> valhalla: vero. come molte altre, tuttavia. io ad esempio irc non lo uso, nemmeno slack
+20:40:02 <valhalla> lerrigatto: cosa usi?
+20:40:22 <valhalla> irc è ampiamente usato dai progetti di software libero, se non altro
+20:40:22 <hispanico> io sono per jabber
+20:40:23 <clauz> irc ha anche il vantaggio che non serve registrazione
+20:40:31 <hispanico> e irc per i meeting
+20:40:41 <lerrigatto> valhalla: telegram, wa, facebook. nulla che vada bene per noi ;)
+20:40:42 <diego71> io voto come hispanico
+20:40:49 <claud43> Ciao a tutti, preferisco telegram
+20:40:57 <hispanico> con jabber abilitando la federation
+20:41:08 <hispanico> ti porti dentro che altri domini
+20:41:08 <leobowski> ha ragione nemesis, cambiare una chat in una nuova, perdendo 104 utenti solo per fare meglio copia e incolla di codice non vale la pena, imho.
+20:41:12 <lerrigatto> stefanauss: se riuscissi a fare un sondaggio di uso sarebbe bello
+20:41:21 <fabio70mi> anche io preferisco telegram, che già uso come altri 104
+20:41:24 <zioproto> di quelli di telegram stasera qui chi ci sta ?
+20:41:31 <Caterpillar2> io
+20:41:33 <leobowski> io
+20:41:34 <fabio70mi> io
+20:41:35 <lerrigatto> io
+20:41:36 <stefanauss> io
+20:41:38 <zioproto> io
+20:41:39 <hispanico> io
+20:41:40 <claud43> io
+20:41:44 <valhalla> io non verrei su telegram, in quanto servizio proprietario
+20:41:45 <clauz> hispanico: la federation in effetti e' un plus
+20:41:46 <clauz> io
+20:41:47 <nemesis-ninux> io
+20:41:59 <nemesis-ninux> ma un bridge IRC-Telegram?
+20:42:05 <valhalla> (jabber invece mi starebbe benissimo)
+20:42:21 <lerrigatto> telegram poi non permette i canali, come slack o mattermost.
+20:42:28 <albertux1> jabber è un buon compromesso... ;)
+20:42:28 <stefanauss> e abbiamo appena assistito al motivo per cui telegram come chat general purpose non possiamo più rinunciarci
+20:42:41 <hispanico> cmq non l'ho ancora annunciato ma ho messo su anche jitsi-meet
+20:42:43 <hispanico> :D
+20:42:44 <clauz> IMHO una cosa e' usare telegram, un'altra dire che e' un canale "ufficiale" e farlo obbligatorio per chi vuole comunicare con noi
+20:42:47 <stefanauss> lerrigatto: vero, ma io su telegram ho 2 entità che lo usano con i gruppi
+20:42:53 <hispanico> per le video conference
+20:42:54 <diego71> stefanauss: se era per telegram, non vi avrei mai parlato
+20:43:07 <lerrigatto> stefanauss: cerca di capire anche quali sono le alternative per il meetbot e quali possono essere le integrazioni crosschat
+20:43:08 <claud43> su telegram ho visto anche i bot nei canali
+20:43:09 <stefanauss> lerrigatto: un orrido hack che prevede [entità] nome gruppo
+20:43:10 <nemesis-ninux> ragazzi e ragazze
+20:43:19 <hispanico> meet.ninux.org
+20:43:22 <nemesis-ninux> mi rinfrescate la memoria su qual'è l'obiettivo di questa discussione?
+20:43:27 <zioproto> cmq anche se abbiamo 100 chat diverse, la cosa importanti ed essere tutti a questi meeting di 1 ora che sono condensati, siete d'accordo ?
+20:43:50 <nemesis-ninux> zioproto: sì, impegni permettendo
+20:43:59 <stefanauss> zioproto: ~si
+20:44:07 <lerrigatto> io proseguirei con l'ultimo punto, e continuerei questa discussione la prossima volta, basandoci su quello che stefanauss riuscirá a produrre
+20:44:12 <zioproto> lerrigatto: abbiamo altri punti in OdG ?
+20:44:13 <clauz> hispanico: fico meet.ninux.org :)
+20:44:20 <lerrigatto> #topic uso di matrix
+20:44:25 <clauz> #link http://meet.ninux.org
+20:44:30 <lerrigatto> Matrix https://matrix.org/ Basato su tanti home servers che fanno la federazione.
+20:44:31 <leobowski> zioproto: al momento, questo meeting irc e' l'unica cosa ufficiale che abbiamo oltre la ML.
+20:44:56 <clauz> domanda: ma il bot da' retta solo ai moderatori?
+20:45:02 <stefanauss> leobowski: disagree, per me telegram è ufficiale, a meno che non fraintendo cosa intendi
+20:45:12 <zioproto> clauz:  si ma posso fare questo
+20:45:14 <valhalla> lerrigatto: che vantaggio ha matrix rispetto a jabber che anche lui è basato su tanti server che federano?
+20:45:15 <zioproto> #chair clauz
+20:45:15 <meetbot-ninux> Current chairs: clauz lerrigatto zioproto
+20:45:23 <clauz> lol thanks
+20:45:36 <lerrigatto> qualcuno ci spieghi cosa è matrix
+20:45:43 <clauz> #link https://meet.ninux.org/
+20:45:55 <zioproto> lo avevo proposto io matrix. Ma ora mi tiro indietro perche' ho gia tanto da fare con IPv6 per voi
+20:46:03 <zioproto> clauz il comando link funziona anche se non sei chair
+20:46:10 <clauz> zioproto: ah ok
+20:46:21 <clauz> di matrix ho visto il talk a fodem un paio di anni fa
+20:46:22 <lerrigatto> zioproto: ok ma intanto due righe su cosa è e cosa non è puoi farcele? :)
+20:46:29 <stefanauss> ma matrix non clasha col topic sul sistema di chat?
+20:46:31 <clauz> *fosdem
+20:46:36 <zioproto> stefanauss: si
+20:46:53 <zioproto> infatti Matrix e' un sistema di chat dove ognuno puo mettersi il server in casa
+20:46:59 <zioproto> e poi i servers si federano
+20:47:04 <claud43> figo Mattermost
+20:47:06 <zioproto> a freifunk lo usano e sono contenti
+20:47:16 <nemesis-ninux> anche io ho visto il talk a FOSDEM ed ho parlato con il tizio, ci sono dei bridge per jabber
+20:47:25 <clauz> nel talk a cui ho assistito paragonavano matrix a jabber
+20:47:27 <nemesis-ninux> ma cerchiamo di focalizzarci e prioritizzare
+20:47:28 <zioproto> ci sono anche i bridge per IRC
+20:47:32 <zioproto> e ci sta la appmobile
+20:47:38 <leobowski> stefanauss: mettiamo matrix nella lista delle chat papabili
+20:47:38 <zioproto> sarebbe la soluzione definitiva per uttto :)
+20:47:40 <clauz> ma ha il supporto per la disconnessione ed usa json invece di xml
+20:48:05 <zioproto> solo che e' molto nuovo come cosa quindi richiede forse piu effort
+20:48:06 <lerrigatto> #action stefanauss valuta matrix come possibile alternativa alle chat, considerando i possibili bridge
+20:48:16 <clauz> supporto per la disconnessione == buffering/storage e sincronizzazione in riconnessione
+20:48:28 <stefanauss> leobowski: ok, e lo è anche rocket.chat (sistema completamente diverso)
+20:48:44 <leobowski> tnx
+20:48:59 <stefanauss> domanda per tutti: indicativamente, a prescindere dal sistema di chat, qualcuno sarebbe in disaccordo forte a mantenere i meeting ufficiali su irc?
+20:48:59 <zioproto> quelli in questa stanza che ora hanno nel nick una roba come [m] adesso sono collegati tramite un bridge matrix
+20:49:42 <rubo77> yes, matrix is the ultimate solution for everything
+20:49:45 <leobowski> io sono d'accordo per i meet IRC, poi vediamo a valle della discussione sulle chat
+20:50:08 <lerrigatto> #startvote Sei in FORTE disaccordo a tenere i meeting ufficiali su irc? si, no
+20:50:08 <meetbot-ninux> Begin voting on: Sei in FORTE disaccordo a tenere i meeting ufficiali su irc? Valid vote options are si, no.
+20:50:08 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+20:50:15 <lerrigatto> #vote no
+20:50:18 <nemesis-ninux> #vote no
+20:50:19 <zioproto> #vote no
+20:50:21 <valhalla> #vote no
+20:50:27 <stefanauss> #vote no
+20:50:31 <lerrigatto> abbiamo 4min per votare
+20:50:33 <diego71> #vote no
+20:50:36 <hispanico> #vote no
+20:50:37 <leobowski> #vote no
+20:50:50 <clauz> #vote no
+20:50:52 <lipos[m]1> #vote no
+20:51:05 <albertux1> #vote no
+20:51:06 <rubo77> what is the voting about?
+20:51:26 <lerrigatto> rubo77: do you strongly disagree on keeping the official meetings on irc? yes, no
+20:51:36 <stefanauss> rubo77: about keeping the official meeting on irc regardless of the ultimate choice in chat system
+20:52:07 <rubo77> IRC is fine
+20:52:10 <lerrigatto> imho è una cosa comoda avere la piattaforma per il meeting separata dalla chat
+20:52:13 <rubo77> so I should vote no too?
+20:52:17 <lerrigatto> rubo77: so #vote no
+20:52:20 <stefanauss> yes, you should :-)
+20:52:22 <rubo77> #vote no
+20:52:33 <valhalla> lerrigatto: come mai?
+20:53:21 <lerrigatto> valhalla: meno inquinamento, domattina non mi ritrovo ventimila notifiche sul telefono, di contro se qualcuno vuole scrivere in chat mentre noi siamo qua puo farlo
+20:53:57 <leobowski> lerrigatto: rimandiamo a valle di quello che ci racconta stefanauss
+20:53:58 <lerrigatto> slack ad esempio supporterebbe la creazione ti un canale per i meeting, telegram no
+20:53:59 <valhalla> beh, se la chat è irc non si han notifiche comunque
+20:54:11 <lerrigatto> valhalla: esatto qunidi è scomoda come chat :)
+20:54:18 <lerrigatto> (gusti, eh!)
+20:54:24 <lerrigatto> #endvote
+20:54:24 <meetbot-ninux> Voted on "Sei in FORTE disaccordo a tenere i meeting ufficiali su irc?" Results are
+20:54:24 <meetbot-ninux> no (12): clauz, rubo77, diego71, stefanauss, hispanico, albertux1, zioproto, leobowski, lipos[m]1, lerrigatto, valhalla, nemesis-ninux
+20:54:34 <zioproto> mancano 5 minuti
+20:54:36 <valhalla> lerrigatto: beh, io per le chat di gruppo preferisco *non* avere notifiche (salvo highlight)
+20:54:37 <leobowski> votazione bulgara
+20:54:39 <zioproto> #topic varie ed eventuali
+20:54:51 <lerrigatto> ho detto abbiamo 4 min per votare
+20:54:51 <zioproto> buon natale
+20:55:02 <hispanico> buon natale
+20:55:06 <lerrigatto> zioproto: ti caccio da chair
+20:55:17 <clauz> buone feste
+20:55:17 <stefanauss> ovviamente guys&gals, buon natale
+20:55:22 <lerrigatto> -.-*
+20:55:29 <nemesis-ninux> chi va a FOSDEM?
+20:55:31 <zioproto> io sono a Roma i giorni di natale, il 28 con Clauduys se beccamo per panettone, chi vuole mi telefoni
+20:55:35 <valhalla> buon natale
+20:55:37 <valhalla> nemesis-ninux: io
+20:55:39 <fabio70mi> buone feste
+20:55:42 <albertux1> buone feste!
+20:55:45 <nemesis-ninux> zioproto: ti chiamerò!
+20:55:53 <diego71> nemesis-ninux: io
+20:55:55 <zioproto> nemesis-ninux: forse, se vengo di avviso per fosdem
+20:55:55 <hispanico> anche io vado a fosdem
+20:55:56 <clauz> nemesis-ninux: mi piacerebbe ma ancora non so
+20:55:56 <lipos[m]1> buone feste
+20:55:59 <lerrigatto> #agreed tenere IRC come piattaforma per i meeting indipendentemente dalla scelta della chat
+20:56:01 <diego71> buon feste
+20:56:06 <leobowski> #topic quando facciamo il prossimo ninuxday?
+20:56:08 <nemesis-ninux> farò un talk su OpenWISP2 nella decentralized internet devroom
+20:56:11 <lerrigatto> auguri a tutti :)
+20:56:21 <lerrigatto> leobowski: non funziona ;)
+20:56:24 <clauz> leobowski: anche dove
+20:56:30 <leobowski> #choprovato :-)
+20:56:40 <nemesis-ninux> auguri a tutti!
+20:56:41 <zioproto> carico i log della chat qui #link https://github.com/ninuxorg/meetbot-ninux-logs
+20:56:46 <leobowski> io propongo bologna
+20:56:49 <zioproto> se la VM del meetbot dovesse perdersi
+20:57:01 <lerrigatto> zioproto: ottimo
+20:57:09 <stefanauss> agreed bologna
+20:57:12 <leobowski> c'e' qualche bolognese qui?
+20:57:16 <lerrigatto> #link  https://github.com/ninuxorg/meetbot-ninux-logs
+20:57:19 <lerrigatto> #endmeeting
