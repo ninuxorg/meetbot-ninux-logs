@@ -1,0 +1,423 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>#ninux.org log</title>
+<style type="text/css">
+/* For the .log.html */
+pre { /*line-height: 125%;*/
+      white-space: pre-wrap; }
+body { background: #f0f0f0; }
+
+body .tm  { color: #007020 }                      /* time */
+body .nk  { color: #062873; font-weight: bold }   /* nick, regular */
+body .nka { color: #007020; font-weight: bold }  /* action nick */
+body .ac  { color: #00A000 }                      /* action line */
+body .hi  { color: #4070a0 }                 /* hilights */
+/* Things to make particular MeetBot commands stick out */
+body .topic     { color: #007020; font-weight: bold }
+body .topicline { color: #000080; font-weight: bold }
+body .cmd       { color: #007020; font-weight: bold }
+body .cmdline  { font-weight: bold }
+
+</style>
+</head>
+
+<body>
+<pre><a name="l-1"></a><span class="tm">20:07:23</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#startmeeting </span><span class="cmdline">ninux.org irc meeting</span>
+<a name="l-2"></a><span class="tm">20:07:23</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Meeting started Wed Jan 25 20:07:23 2017 UTC and is due to finish in 60 minutes.  The chair is valhalla. Information about MeetBot at http://86.119.33.5.
+<a name="l-3"></a><span class="tm">20:07:23</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+<a name="l-4"></a><span class="tm">20:07:23</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> The meeting name has been set to 'ninux_org_irc_meeting'
+<a name="l-5"></a><span class="tm">20:07:47</span><span class="nk"> &lt;nemesis-ninux&gt;</span> cmq incredibilmente trovo la UI di pigdin più leggibile
+<a name="l-6"></a><span class="tm">20:08:00</span><span class="nk"> &lt;nemesis-ninux&gt;</span> sto grigio chiaro della web app non aiuta
+<a name="l-7"></a><span class="tm">20:08:23</span><span class="nk"> &lt;stefanauss&gt;</span> la paletta è customizzabile
+<a name="l-8"></a><span class="tm">20:08:33</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ok non sapevo
+<a name="l-9"></a><span class="tm">20:08:52</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> tu alla fine confermi di non aver fatto in tempo a scrivere il papero su SixXS?
+<a name="l-10"></a><span class="tm">20:09:00</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://pad.ninux.org/p/IRC-agenda-2017-01-25</span>
+<a name="l-11"></a><span class="tm">20:09:05</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">valhalla:</span> pero' qualcosa ho fatto
+<a name="l-12"></a><span class="tm">20:09:27</span><span class="nk"> &lt;valhalla&gt;</span> allora partiamo con
+<a name="l-13"></a><span class="tm">20:09:28</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#link </span><span class="cmdline">https://github.com/zioproto/ansible-cubieboard-sixxs-gw</span>
+<a name="l-14"></a><span class="tm">20:09:50</span><span class="nk"> &lt;valhalla&gt;</span> <span class="topic">#topic </span><span class="topicline">scelta data prossimo IRC meeting</span>
+<a name="l-15"></a><span class="tm">20:09:57</span><span class="nk"> &lt;valhalla&gt;</span> (che è il punto zero, mi pare)
+<a name="l-16"></a><span class="tm">20:10:38</span><span class="nk"> &lt;zioproto&gt;</span> allora sempre mensile ?
+<a name="l-17"></a><span class="tm">20:10:45</span><span class="nk"> &lt;zioproto&gt;</span> oppure vogliamo fare bisettimanale ?
+<a name="l-18"></a><span class="tm">20:11:01</span><span class="nk"> &lt;zioproto&gt;</span> mensile non mi ha motivato molto a lavorare con l'obiettivo di far vedere qualcosa un mese dopo :)
+<a name="l-19"></a><span class="tm">20:11:21</span><span class="nk"> &lt;BornAgain&gt;</span> secondo me se 'ngrana si può fare bisettimanale
+<a name="l-20"></a><span class="tm">20:11:40</span><span class="nk"> &lt;Gigabit&gt;</span> sera a tutti
+<a name="l-21"></a><span class="tm">20:11:48</span><span class="nk"> &lt;stefanauss&gt;</span> e se fosse la bisettimanalità che può farlo ingranare? :-D
+<a name="l-22"></a><span class="tm">20:12:01</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">stefanauss:</span> +1
+<a name="l-23"></a><span class="tm">20:12:05</span><span class="nk"> &lt;FaByS_RM&gt;</span> per il momento facciamola mensile a meno di non avere qualcosa pronto da fare tra due settimane
+<a name="l-24"></a><span class="tm">20:12:21</span><span class="nk"> &lt;BornAgain&gt;</span> @stefanauss +1
+<a name="l-25"></a><span class="tm">20:12:22</span><span class="nk"> &lt;nemesis-ninux&gt;</span> io qualcosa di cui parlare ogni 2 settimane ce l'avrei
+<a name="l-26"></a><span class="tm">20:12:41</span><span class="nk"> &lt;Massimiliano-IPV&gt;</span> E' da votare o direttamente iniziamo a provare coi 15 gg e poi si vede ?
+<a name="l-27"></a><span class="tm">20:12:48</span><span class="nk"> &lt;nemesis-ninux&gt;</span> il lavoro che stiamo facendo con l'isola di Palermo e Matera (nnxx) è arrivato a un punto interessante
+<a name="l-28"></a><span class="tm">20:13:06</span><span class="nk"> &lt;gabriel_shatana&gt;</span> bella
+<a name="l-29"></a><span class="tm">20:13:08</span><span class="nk"> &lt;valhalla&gt;</span> secondo me si può provare un meeting tra 15 giorni e poi decidere, cheddite?
+<a name="l-30"></a><span class="tm">20:13:15</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">valhalla:</span> +1
+<a name="l-31"></a><span class="tm">20:13:19</span><span class="nk"> &lt;BornAgain&gt;</span> yes
+<a name="l-32"></a><span class="tm">20:13:25</span><span class="nk"> &lt;stefanauss&gt;</span> per me questi meeting non hanno necessariamente una finalità decisionale, pratica. sono un raduno fisso per tutti. si risolvesse anche a cazzeggio sarebbe comunque obbiettivo raggiunto, anche se prevedo che ci sarà sempre qualcosa di cui parlare
+<a name="l-33"></a><span class="tm">20:14:05</span><span class="nk"> &lt;FaByS_RM&gt;</span> per me ok
+<a name="l-34"></a><span class="tm">20:14:10</span><span class="nk"> &lt;valhalla&gt;</span> today + 2 settimane = 8 febbraio, va bene?
+<a name="l-35"></a><span class="tm">20:14:40</span><span class="nk"> &lt;fabio70mi&gt;</span> yes
+<a name="l-36"></a><span class="tm">20:14:42</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#startvote?</span><span class="cmdline"></span>
+<a name="l-37"></a><span class="tm">20:14:42</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Only the meeting chair may start a vote.
+<a name="l-38"></a><span class="tm">20:15:07</span><span class="nk"> &lt;nemesis-ninux&gt;</span> aspèè
+<a name="l-39"></a><span class="tm">20:15:10</span><span class="nk"> &lt;Massimiliano-IPV&gt;</span> qual e' la sintassi per votare
+<a name="l-40"></a><span class="tm">20:15:33</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ok 8 febbraio ok per me
+<a name="l-41"></a><span class="tm">20:15:35</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">valhalla:</span> puoi fare altri chair scrivendo #chair nickname
+<a name="l-42"></a><span class="tm">20:15:44</span><span class="nk"> &lt;valhalla&gt;</span> ecco, io stavo cercando la sintassi per far partire il voto, invece, vado a fare due chiacchiere con meetbot-ninux
+<a name="l-43"></a><span class="tm">20:15:48</span><span class="nk"> &lt;nemesis-ninux&gt;</span> un reminder per come si vota?
+<a name="l-44"></a><span class="tm">20:15:55</span><span class="nk"> &lt;stefanauss&gt;</span> quando valhalla fa partire il sondaggio, compare un reminder su come si vota
+<a name="l-45"></a><span class="tm">20:15:56</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#startvote</span><span class="cmdline"></span>
+<a name="l-46"></a><span class="tm">20:15:56</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Only the meeting chair may start a vote.
+<a name="l-47"></a><span class="tm">20:16:00</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ok
+<a name="l-48"></a><span class="tm">20:16:04</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#chair </span><span class="cmdline">zioproto</span>
+<a name="l-49"></a><span class="tm">20:16:04</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Current chairs: valhalla zioproto
+<a name="l-50"></a><span class="tm">20:16:09</span><span class="nk"> &lt;clauz&gt;</span> sempre alle 21?
+<a name="l-51"></a><span class="tm">20:16:14</span><span class="nk"> &lt;BornAgain&gt;</span> no un reminder su tutto che la sintassi di irc chi se la ricorda più
+<a name="l-52"></a><span class="tm">20:16:39</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#startvote </span><span class="cmdline">Meeting 8 febbraio alle 21:00 va bene ?</span>
+<a name="l-53"></a><span class="tm">20:16:39</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Begin voting on: Meeting 8 febbraio alle 21:00 va bene ? Valid vote options are Yes, No.
+<a name="l-54"></a><span class="tm">20:16:39</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Vote using '#vote OPTION'. Only your last vote counts.
+<a name="l-55"></a><span class="tm">20:16:40</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">clauz:</span> non saprei, ma diciamo che non cambierei troppe cose per volta, sia cadenza che orario assieme
+<a name="l-56"></a><span class="tm">20:16:55</span><span class="nk"> &lt;clauz&gt;</span> si' era giusto per chiarezza
+<a name="l-57"></a><span class="tm">20:16:59</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Yes</span>
+<a name="l-58"></a><span class="tm">20:17:01</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-59"></a><span class="tm">20:17:05</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Yes</span>
+<a name="l-60"></a><span class="tm">20:17:05</span><span class="nk"> &lt;clauz&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-61"></a><span class="tm">20:17:06</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-62"></a><span class="tm">20:17:09</span><span class="nk"> &lt;Massimiliano-IPV&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-63"></a><span class="tm">20:17:10</span><span class="nk"> &lt;stefanauss&gt;</span> (case sensitive?)
+<a name="l-64"></a><span class="tm">20:17:11</span><span class="nk"> &lt;fabio70mi&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-65"></a><span class="tm">20:17:11</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-66"></a><span class="tm">20:17:14</span><span class="nk"> &lt;FaByS_RM&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-67"></a><span class="tm">20:17:18</span><span class="nk"> &lt;gabriel_shatana&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-68"></a><span class="tm">20:17:28</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#votestatus</span><span class="cmdline"></span>
+<a name="l-69"></a><span class="tm">20:17:32</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#showvote</span><span class="cmdline"></span>
+<a name="l-70"></a><span class="tm">20:17:36</span><span class="nk"> &lt;zioproto&gt;</span> come cazzo era :)
+<a name="l-71"></a><span class="tm">20:17:39</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#status</span><span class="cmdline"></span>
+<a name="l-72"></a><span class="tm">20:17:39</span><span class="nk"> &lt;clauz&gt;</span> LOL
+<a name="l-73"></a><span class="tm">20:17:46</span><span class="nk"> &lt;FaByS_RM&gt;</span> <span class="cmd">#banana</span><span class="cmdline"></span>
+<a name="l-74"></a><span class="tm">20:17:48</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#help</span><span class="cmdline"></span>
+<a name="l-75"></a><span class="tm">20:17:56</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">meetbot-ninux`:</span> help
+<a name="l-76"></a><span class="tm">20:17:56</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> <span class="hi">zioproto:</span> (help [&lt;plugin&gt;] [&lt;command&gt;]) -- This command gives a useful description of what &lt;command&gt; does. &lt;plugin&gt; is only necessary if the command is in more than one plugin.
+<a name="l-77"></a><span class="tm">20:18:08</span><span class="nk"> &lt;Caterpillar2&gt;</span> <span class="cmd">#vote </span><span class="cmdline">status</span>
+<a name="l-78"></a><span class="tm">20:18:23</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#showvote</span><span class="cmdline"></span>
+<a name="l-79"></a><span class="tm">20:18:37</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#vote</span><span class="cmdline"></span>
+<a name="l-80"></a><span class="tm">20:18:40</span><span class="nk"> &lt;valhalla&gt;</span> (ma ce li ha gli help meetbot?)
+<a name="l-81"></a><span class="tm">20:18:42</span><span class="nk"> &lt;stefanauss&gt;</span> forse endvote?
+<a name="l-82"></a><span class="tm">20:18:45</span><span class="nk"> &lt;diego71&gt;</span> <span class="cmd">#vote </span><span class="cmdline">yes</span>
+<a name="l-83"></a><span class="tm">20:18:59</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#endvote</span><span class="cmdline"></span>
+<a name="l-84"></a><span class="tm">20:18:59</span><span class="nk"> &lt;meetbot-ninux`&gt;</span> Voted on "Meeting 8 febbraio alle 21:00 va bene ?" Results are
+<a name="l-85"></a><span class="tm">20:19:33</span><span class="nk"> &lt;zioproto&gt;</span> results are ?
+<a name="l-86"></a><span class="tm">20:19:42</span><span class="nk"> &lt;diego71&gt;</span> suspence!
+<a name="l-87"></a><span class="tm">20:19:42</span><span class="nk"> &lt;fabio70mi&gt;</span> <span class="cmd">#suspance </span><span class="cmdline">off</span>
+<a name="l-88"></a><span class="tm">20:19:52</span><span class="nk"> &lt;nemesis-ninux&gt;</span> lol
+<a name="l-89"></a><span class="tm">20:19:59</span><span class="nk"> &lt;zioproto&gt;</span> mi sta che si e' impallato
+<a name="l-90"></a><span class="tm">20:19:59</span><span class="nk"> &lt;valhalla&gt;</span> oh, io direi
+<a name="l-91"></a><span class="tm">20:20:02</span><span class="nk"> &lt;ilario&gt;</span> <span class="cmd">#vote </span><span class="cmdline">sticazzi mensile o bisettimanale...</span>
+<a name="l-92"></a><span class="tm">20:20:11</span><span class="nk"> &lt;zioproto&gt;</span> cmq mi pare che siamo d'accordo 8 febbraio
+<a name="l-93"></a><span class="tm">20:20:21</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">tutti a favore per il meeting l'8 febbraio alle 21</span>
+<a name="l-94"></a><span class="tm">20:20:28</span><span class="nk"> &lt;clauz&gt;</span> tutti i votanti hanno votato yes
+<a name="l-95"></a><span class="tm">20:20:34</span><span class="nk"> &lt;BornAgain&gt;</span> minchia il conto l'ho fatto prima a mano che con sto bot .. ma che è sta ciofega? :D
+<a name="l-96"></a><span class="tm">20:20:47</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> riesci a vedere se meetbot è vivo? o andiamo avanti e via?
+<a name="l-97"></a><span class="tm">20:21:00</span><span class="nk"> &lt;mikytux[m]&gt;</span> c'è qualcuno?? :)
+<a name="l-98"></a><span class="tm">20:21:10</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">mikytux[m]:</span> guarda quanti siamo :-D
+<a name="l-99"></a><span class="tm">20:21:10</span><span class="nk"> &lt;valhalla&gt;</span> <span class="topic">#topic </span><span class="topicline">Uso di SixXS [ zioproto ]</span>
+<a name="l-100"></a><span class="tm">20:21:49</span><span class="nk"> &lt;zioproto&gt;</span> sto debuggando il meetbot
+<a name="l-101"></a><span class="tm">20:21:50</span><span class="nk"> &lt;zioproto&gt;</span> allora
+<a name="l-102"></a><span class="tm">20:21:55</span><span class="nk"> &lt;zioproto&gt;</span> Sixxs
+<a name="l-103"></a><span class="tm">20:21:58</span><span class="nk"> &lt;BornAgain&gt;</span> breve sintesi di cosa sia Sixxs
+<a name="l-104"></a><span class="tm">20:22:01</span><span class="nk"> &lt;BornAgain&gt;</span> tnx
+<a name="l-105"></a><span class="tm">20:22:02</span><span class="nk"> &lt;zioproto&gt;</span> lasciamo perdere il software aiccu
+<a name="l-106"></a><span class="tm">20:22:12</span><span class="nk"> &lt;zioproto&gt;</span> un ipv6 tunnel broker
+<a name="l-107"></a><span class="tm">20:22:17</span><span class="nk"> &lt;zioproto&gt;</span> non accetta piu nuovi account
+<a name="l-108"></a><span class="tm">20:22:20</span><span class="nk"> &lt;zioproto&gt;</span> progetto in declino
+<a name="l-109"></a><span class="tm">20:22:26</span><span class="nk"> &lt;zioproto&gt;</span> parte server side open source ma in Perl
+<a name="l-110"></a><span class="tm">20:22:44</span><span class="nk"> &lt;zioproto&gt;</span> sarebbe meglio rifare un tunnel broker da zero con IPv6 prefix delegation
+<a name="l-111"></a><span class="tm">20:22:46</span><span class="nk"> &lt;zioproto&gt;</span> con dibbler
+<a name="l-112"></a><span class="tm">20:22:51</span><span class="nk"> &lt;zioproto&gt;</span> mi sono andato a guardare qualcosa
+<a name="l-113"></a><span class="tm">20:22:55</span><span class="nk"> &lt;zioproto&gt;</span> ma non abbastanza da scrivere niente
+<a name="l-114"></a><span class="tm">20:22:57</span><span class="nk"> &lt;nemesis[m]&gt;</span> mi ricordate qual'era l'argomento reale? Tunnel sixis per fare cosa esattamente?
+<a name="l-115"></a><span class="tm">20:23:02</span><span class="nk"> &lt;zioproto&gt;</span> rinviato a tra due settimane
+<a name="l-116"></a><span class="tm">20:23:12</span><span class="nk"> &lt;zioproto&gt;</span> tunnel ipv6 per fare la connessione ipv6 tra le varie isole
+<a name="l-117"></a><span class="tm">20:23:15</span><span class="nk"> &lt;zioproto&gt;</span> e fare la rete overlay
+<a name="l-118"></a><span class="tm">20:23:18</span><span class="nk"> &lt;zioproto&gt;</span> dove tutti si possonocollegare
+<a name="l-119"></a><span class="tm">20:23:26</span><span class="nk"> &lt;nemesis[m]&gt;</span> ok
+<a name="l-120"></a><span class="tm">20:23:30</span><span class="nk"> &lt;clauz&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://klub.com.pl/dhcpv6/</span>
+<a name="l-121"></a><span class="tm">20:23:40</span><span class="nk"> &lt;zioproto&gt;</span> fico, me lo vado a vedere
+<a name="l-122"></a><span class="tm">20:23:55</span><span class="nk"> &lt;ilario&gt;</span> sarebbe bella cosa ampliare LibreNet6 che sarebbe un tunnel broker IPv6 per community networks fatto da gente di Guifi.net/LibreMesh
+<a name="l-123"></a><span class="tm">20:24:14</span><span class="nk"> &lt;zioproto&gt;</span> ottimo, vado a vedere anche cosa ha fatto LibreMesh
+<a name="l-124"></a><span class="tm">20:24:15</span><span class="nk"> &lt;gabriel_shatana&gt;</span> perchè non lo mettete tra le idee di GSoC ?
+<a name="l-125"></a><span class="tm">20:24:25</span><span class="nk"> &lt;zioproto&gt;</span> non credo che ci sta da prgorammare
+<a name="l-126"></a><span class="tm">20:24:26</span><span class="nk"> &lt;ilario&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://docs.altermundi.net/LibreNet6/</span>
+<a name="l-127"></a><span class="tm">20:24:29</span><span class="nk"> &lt;gabriel_shatana&gt;</span> ah ok
+<a name="l-128"></a><span class="tm">20:24:30</span><span class="nk"> &lt;zioproto&gt;</span> solo da deployare
+<a name="l-129"></a><span class="tm">20:24:38</span><span class="nk"> &lt;zioproto&gt;</span> ma fare playbook ansible vale come programmare per GSoC ?
+<a name="l-130"></a><span class="tm">20:24:55</span><span class="nk"> &lt;gabriel_shatana&gt;</span> devi scrivere codice...
+<a name="l-131"></a><span class="tm">20:24:55</span><span class="nk"> &lt;stefanauss&gt;</span> una cosa che non ho capito, da dove verrebbe lo spazio IPv6 da delegare alle isole?
+<a name="l-132"></a><span class="tm">20:25:21</span><span class="nk"> &lt;zioproto&gt;</span> lo abbiamo
+<a name="l-133"></a><span class="tm">20:25:26</span><span class="nk"> &lt;zioproto&gt;</span> ce lo da Nino
+<a name="l-134"></a><span class="tm">20:25:31</span><span class="nk"> &lt;zioproto&gt;</span> sono andato a Roma in cantina da Nino
+<a name="l-135"></a><span class="tm">20:25:40</span><span class="nk"> &lt;zioproto&gt;</span> e lo ho fatto muovere per avere una /48
+<a name="l-136"></a><span class="tm">20:25:51</span><span class="nk"> &lt;gabriel_shatana&gt;</span> ah la seconda? finalmente
+<a name="l-137"></a><span class="tm">20:25:56</span><span class="nk"> &lt;FaByS_RM&gt;</span> ce ne era una scatola piena in cantina da nino
+<a name="l-138"></a><span class="tm">20:26:04</span><span class="nk"> &lt;clauz&gt;</span> LOL
+<a name="l-139"></a><span class="tm">20:26:04</span><span class="nk"> &lt;zioproto&gt;</span> se nino venisse ai meeting
+<a name="l-140"></a><span class="tm">20:26:10</span><span class="nk"> &lt;nemesis-ninux&gt;</span> limortacci
+<a name="l-141"></a><span class="tm">20:26:11</span><span class="nk"> &lt;valhalla&gt;</span> ecco, LOL IRL
+<a name="l-142"></a><span class="tm">20:26:13</span><span class="nk"> &lt;zioproto&gt;</span> tutti in coro
+<a name="l-143"></a><span class="tm">20:26:16</span><span class="nk"> &lt;zioproto&gt;</span> un mortacci tuaaaaa
+<a name="l-144"></a><span class="tm">20:26:18</span><span class="nk"> &lt;zioproto&gt;</span> per nino
+<a name="l-145"></a><span class="tm">20:26:20</span><span class="nk"> &lt;nemesis-ninux&gt;</span> NINO LI MORTACCI!!
+<a name="l-146"></a><span class="tm">20:26:23</span><span class="nk"> &lt;zioproto&gt;</span> cosi poi gli facciamo leggere i log !
+<a name="l-147"></a><span class="tm">20:26:30</span><span class="nk"> &lt;Caterpillar2&gt;</span> nino ci tua!
+<a name="l-148"></a><span class="tm">20:26:33</span><span class="nk"> &lt;diego71&gt;</span> TUA!!!
+<a name="l-149"></a><span class="tm">20:26:47 </span><span class="nka">* valhalla</span> <span class="ac">si astiene perché non sa scrivere con l'accento giusto</span>
+<a name="l-150"></a><span class="tm">20:27:01</span><span class="nk"> &lt;fabio70mi&gt;</span> Nino, te ponno
+<a name="l-151"></a><span class="tm">20:27:35</span><span class="nk"> &lt;nemesis-ninux&gt;</span> votiamo per cappottone a nino
+<a name="l-152"></a><span class="tm">20:27:45</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">li moratcci per Nino che non viene ai IRC meeting</span>
+<a name="l-153"></a><span class="tm">20:27:52</span><span class="nk"> &lt;BornAgain&gt;</span> a Nino ho chiesto na delega dns un mese fa e ancora a staiu spettandu
+<a name="l-154"></a><span class="tm">20:27:57</span><span class="nk"> &lt;clauz&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://docs.altermundi.net/LibreNet6/</span>
+<a name="l-155"></a><span class="tm">20:28:07</span><span class="nk"> &lt;gabriel_shatana&gt;</span> e come facciamo routing v6 tra le isole ?
+<a name="l-156"></a><span class="tm">20:28:14</span><span class="nk"> &lt;clauz&gt;</span> ops l'aveva gia' postato Ilario
+<a name="l-157"></a><span class="tm">20:28:50</span><span class="nk"> &lt;zioproto&gt;</span> devo perfezionare il meetbot: http://paste.openstack.org/show/596508/
+<a name="l-158"></a><span class="tm">20:28:52</span><span class="nk"> &lt;ilario_&gt;</span> stefanauss, ho controllato, LibreNet6 ha a disposizione una /40
+<a name="l-159"></a><span class="tm">20:29:12</span><span class="nk"> &lt;zioproto&gt;</span> diciamo anche a Nino di rimediare la /40
+<a name="l-160"></a><span class="tm">20:29:52</span><span class="nk"> &lt;fabio70mi&gt;</span> Scuss, ma chi è Nino ? Dove trovo una biografia autorizzata ?
+<a name="l-161"></a><span class="tm">20:29:56</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">ilario_:</span> ok
+<a name="l-162"></a><span class="tm">20:30:12</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">zioproto:</span> il tuo #vote senza argomenti dopo l'ha rotto?
+<a name="l-163"></a><span class="tm">20:30:43</span><span class="nk"> &lt;stefanauss&gt;</span> sapete se sti spazi librenet6/nino sono provider-independent? ho solo una vaga nozione che è un provider romano che li assegnava a nino, non ricordo bene
+<a name="l-164"></a><span class="tm">20:31:04</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">fabio70mi:</span> whois ninux.org
+<a name="l-165"></a><span class="tm">20:31:34</span><span class="nk"> &lt;Caterpillar2&gt;</span> sono IP oggetto di mercimonio
+<a name="l-166"></a><span class="tm">20:32:24</span><span class="nk"> &lt;zioproto&gt;</span> passiamo al prossimo topic ?
+<a name="l-167"></a><span class="tm">20:32:25</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">stefanauss:</span> AFAIK non sono PI
+<a name="l-168"></a><span class="tm">20:32:34</span><span class="nk"> &lt;zioproto&gt;</span> @clauz boh !
+<a name="l-169"></a><span class="tm">20:32:38</span><span class="nk"> &lt;clauz&gt;</span> sono formalmente di E4A
+<a name="l-170"></a><span class="tm">20:32:44</span><span class="nk"> &lt;valhalla&gt;</span> <span class="topic">#topic </span><span class="topicline">armonizzare le chat [ stefanauss ]</span>
+<a name="l-171"></a><span class="tm">20:33:09</span><span class="nk"> &lt;valhalla&gt;</span> ci son due link nel pad:
+<a name="l-172"></a><span class="tm">20:33:16</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#link </span><span class="cmdline">https://docs.google.com/document/d/1zAm-822slu7cOTXNQHDqMh78EKOI62cCowl9RkBV8eY/edit?pli=1#</span>
+<a name="l-173"></a><span class="tm">20:33:20</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#link </span><span class="cmdline">https://docs.google.com/spreadsheets/d/1Lcu2oj38ZKREi8lsMXtXJFz8IrMpdGVheUB30bWHj50/edit#gid=0</span>
+<a name="l-174"></a><span class="tm">20:33:22</span><span class="nk"> &lt;nemesis-ninux&gt;</span> io sono d'accordo
+<a name="l-175"></a><span class="tm">20:33:33</span><span class="nk"> &lt;valhalla&gt;</span> riguardo a xmpp, io vorrei segnalare
+<a name="l-176"></a><span class="tm">20:33:36</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://www.enricozini.org/blog/2017/debian/modern-and-secure-instant-messaging/</span>
+<a name="l-177"></a><span class="tm">20:33:50</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">clauz:</span> grazie. mi chiedo che succede se perdi l'assegnamento, ma poi ne parliamo meglio in presenza del paper
+<a name="l-178"></a><span class="tm">20:33:53</span><span class="nk"> &lt;valhalla&gt;</span> che quanto detto nel documento non è vero, che xmpp è vivo e funziona
+<a name="l-179"></a><span class="tm">20:35:27</span><span class="nk"> &lt;stefanauss&gt;</span> mai detto ne l'una nè l'altra cosa, però
+<a name="l-180"></a><span class="tm">20:35:27</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> intendo, è tenuto aggiornato, le feature per il supporto dei cellulari ci sono, deployabili con facilità
+<a name="l-181"></a><span class="tm">20:35:27</span><span class="nk"> &lt;valhalla&gt;</span> (=debian stable + backports per prosody, a quanto ho sentito stable e basta per ejabberd, ma non son sicura)
+<a name="l-182"></a><span class="tm">20:35:39</span><span class="nk"> &lt;stefanauss&gt;</span> il problema è che aggiornato lo standard, ma poiché sono estensioni opzionali, le implementazioni sono frammentate
+<a name="l-183"></a><span class="tm">20:35:52</span><span class="nk"> &lt;FaByS_RM&gt;</span> ma fare una app Ninux che si aggancia a irc/xmpp/mapserver ? per abbattere la barriera?
+<a name="l-184"></a><span class="tm">20:36:01</span><span class="nk"> &lt;nemesis-ninux&gt;</span> io sono per matrix + bridge IRC e bridge telegram
+<a name="l-185"></a><span class="tm">20:36:23</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">FaByS_RM:</span> al momento basterebbe mettere dei link in giro per wiki e blog e sarebbe sufficiente
+<a name="l-186"></a><span class="tm">20:36:34</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> lato server è vero, non tutti i server son stati aggiornati ad una versione che le implementa, bisogna avere l'account su un server che lo faccia
+<a name="l-187"></a><span class="tm">20:36:37</span><span class="nk"> &lt;stefanauss&gt;</span> basta che nemesis-ninux ci presta i programmatori che gli escono dalle orecchie :-D
+<a name="l-188"></a><span class="tm">20:36:44</span><span class="nk"> &lt;nemesis-ninux&gt;</span> lolz
+<a name="l-189"></a><span class="tm">20:37:09</span><span class="nk"> &lt;clauz&gt;</span> anche a me piace jabber
+<a name="l-190"></a><span class="tm">20:37:13</span><span class="nk"> &lt;nemesis-ninux&gt;</span> mo ve mando un pò de indiani che stanno a scrive sulla ML di OpenWISP https://groups.google.com/d/forum/openwisp
+<a name="l-191"></a><span class="tm">20:37:23</span><span class="nk"> &lt;valhalla&gt;</span> lato client, beh, se uno non ha bisogno di quelle feature può usare un client che non le supporta e parla con la gente che invece usa i server che le hanno
+<a name="l-192"></a><span class="tm">20:37:37</span><span class="nk"> &lt;valhalla&gt;</span> (salvo omemo, che richiede supporto di tutti, e lo stanno implementando adesso)
+<a name="l-193"></a><span class="tm">20:38:15</span><span class="nk"> &lt;mikytux[m]&gt;</span> <span class="hi">FaByS_RM:</span> sono concordo con te sull'App Ninux, ma forse è meglio trovare una soluzione unica opensource per tutto che realizzarne una da zero
+<a name="l-194"></a><span class="tm">20:38:40</span><span class="nk"> &lt;FaByS_RM&gt;</span> <span class="hi">mikytux[m]:</span> un bel wrappone web
+<a name="l-195"></a><span class="tm">20:39:01</span><span class="nk"> &lt;valhalla&gt;</span> con xmpp c'è il problema che afaik c'era un server di ninux, ma non c'è più chi lo mantiene, giusto?
+<a name="l-196"></a><span class="tm">20:39:07</span><span class="nk"> &lt;mikytux[m]&gt;</span> :)
+<a name="l-197"></a><span class="tm">20:39:19</span><span class="nk"> &lt;zioproto&gt;</span> abbiamo mattermost che praticamente e' come avere l'app ninux
+<a name="l-198"></a><span class="tm">20:39:22</span><span class="nk"> &lt;FaByS_RM&gt;</span> niente di nativo ma da il senso di insieme e se cambi qualcosa sono tutti allineati ...
+<a name="l-199"></a><span class="tm">20:39:24</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">valhalla:</span> giusto
+<a name="l-200"></a><span class="tm">20:39:48</span><span class="nk"> &lt;zioproto&gt;</span> penso che il mattermost esistente a cambiare colori e logo non siamo super complicato
+<a name="l-201"></a><span class="tm">20:39:49</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">valhalla:</span> esatto
+<a name="l-202"></a><span class="tm">20:39:49</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> già, solo che mattermost non è federato
+<a name="l-203"></a><span class="tm">20:40:06</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">valhalla:</span> si ma regge il carico delle nostre attuali necessita'
+<a name="l-204"></a><span class="tm">20:40:17</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">valhalla:</span> ma soprattutto non abbiamo più quella macchina che era dentro ninux-roma
+<a name="l-205"></a><span class="tm">20:40:26</span><span class="nk"> &lt;valhalla&gt;</span> ma è l'ennesima chat diversa in cui uno deve entrare
+<a name="l-206"></a><span class="tm">20:40:34</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">nemesis-ninux:</span> uops (macchina)
+<a name="l-207"></a><span class="tm">20:40:38</span><span class="nk"> &lt;mikytux[m]&gt;</span> se vogliamo una vm la metto su con accesso multiplo in modo che se uno non può intervenire c'è qualcun'altro
+<a name="l-208"></a><span class="tm">20:40:38</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">valhalla:</span> la cosa carina era che era hostata dentro la rete
+<a name="l-209"></a><span class="tm">20:40:49</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">mikytux[m]:</span> non è un problema di avere VM, le abbiamo le VM!
+<a name="l-210"></a><span class="tm">20:40:54</span><span class="nk"> &lt;clauz&gt;</span> Se c'e' intenzione di rimettere in piedi jabber mi posso adoperare per farlo. Immanuel ha un backup della macchina dentro ninux-roma che ospitava ejabberd
+<a name="l-211"></a><span class="tm">20:41:05</span><span class="nk"> &lt;Massimiliano-IPV&gt;</span> Utilizziamo qualcosa di esistente e nel frattempo contiamoci quanti programmatori abbiamo per scrivere qualcosa da zero
+<a name="l-212"></a><span class="tm">20:41:13</span><span class="nk"> &lt;zioproto&gt;</span> io uso adium come client IRC, quindi per me jabber va bene e' ben integrato
+<a name="l-213"></a><span class="tm">20:41:24</span><span class="nk"> &lt;nemesis-ninux&gt;</span> a regà ma che state a dì, scrivere? Che cosa bisogna scrivere?
+<a name="l-214"></a><span class="tm">20:41:31</span><span class="nk"> &lt;mikytux[m]&gt;</span> <span class="hi">clauz:</span> jabber era bellissimo
+<a name="l-215"></a><span class="tm">20:41:43</span><span class="nk"> &lt;ilario_&gt;</span> Massimiliano-IPV, da zero? anche no, almeno io...
+<a name="l-216"></a><span class="tm">20:41:48</span><span class="nk"> &lt;valhalla&gt;</span> se si vuole fare qualcosa di "nostro", secondo me è xmpp è la soluzione giusta, sennò oh, irc funziona, eh
+<a name="l-217"></a><span class="tm">20:41:57</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">valhalla:</span> chat xmpp ninux nazionale, arriva il nuovo che fa mille domande, ciao raga devo scappare ci si sente dall'altro pc, salvo poi arrivare e non avere la history perché il server non implementa i carbon. è il genere di cose che xmpp ti forza a considerare
+<a name="l-218"></a><span class="tm">20:41:59</span><span class="nk"> &lt;nemesis-ninux&gt;</span> a regà
+<a name="l-219"></a><span class="tm">20:42:08</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">Massimiliano-IPV:</span> non serve scrivere codice !
+<a name="l-220"></a><span class="tm">20:42:11</span><span class="nk"> &lt;nemesis-ninux&gt;</span> non si riesce a scrive na riga de codice in croce
+<a name="l-221"></a><span class="tm">20:42:16</span><span class="nk"> &lt;nemesis-ninux&gt;</span> cerchiamo di essere realistici
+<a name="l-222"></a><span class="tm">20:42:16</span><span class="nk"> &lt;stefanauss&gt;</span> problematiche che con altre piattaforme non sarebbero proprio nell'equazione
+<a name="l-223"></a><span class="tm">20:42:31</span><span class="nk"> &lt;zioproto&gt;</span> mattermost tiene la history
+<a name="l-224"></a><span class="tm">20:42:32</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> e si risolve avendo il server che implementa i carbon, no?
+<a name="l-225"></a><span class="tm">20:42:37</span><span class="nk"> &lt;zioproto&gt;</span> Hispanico loha gia messo su
+<a name="l-226"></a><span class="tm">20:42:37</span><span class="nk"> &lt;nemesis-ninux&gt;</span> attivi siamo pochi, io esorto tutti a fare outsourcing di cazzi da cacare e focalizzarci sulla rete
+<a name="l-227"></a><span class="tm">20:43:29</span><span class="nk"> &lt;nemesis-ninux&gt;</span> sì ma che cambia usare mattermost hostato da hispanico e un altro servizio centralizzato hostato da altri e stabile? Fatemi capire
+<a name="l-228"></a><span class="tm">20:43:41</span><span class="nk"> &lt;nemesis-ninux&gt;</span> il vantaggio
+<a name="l-229"></a><span class="tm">20:43:44</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="hi">nemesis-ninux:</span> esatto .. vi ricordo che stiamo con la rete che sta piangendo
+<a name="l-230"></a><span class="tm">20:43:47</span><span class="nk"> &lt;zioproto&gt;</span> mattermost ha la history
+<a name="l-231"></a><span class="tm">20:43:57</span><span class="nk"> &lt;zioproto&gt;</span> e ci sta la app del cell
+<a name="l-232"></a><span class="tm">20:43:59</span><span class="nk"> &lt;zioproto&gt;</span> ed il client
+<a name="l-233"></a><span class="tm">20:44:04</span><span class="nk"> &lt;zioproto&gt;</span> e tutte le cose fiche di slack
+<a name="l-234"></a><span class="tm">20:44:10</span><span class="nk"> &lt;zioproto&gt;</span> tutto open source
+<a name="l-235"></a><span class="tm">20:44:19</span><span class="nk"> &lt;zioproto&gt;</span> penso che va bene anche a valhalla che e' molto esigente
+<a name="l-236"></a><span class="tm">20:44:22</span><span class="nk"> &lt;ilario_&gt;</span> nemesis-ninux, se abbiamo il nostro servizio poi lo possiamo spostare dentro la rete
+<a name="l-237"></a><span class="tm">20:44:24</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">valhalla:</span> giusto ?
+<a name="l-238"></a><span class="tm">20:44:26</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">valhalla:</span> quindi tu diresti al nuovo interessato: implementati i carbon sul server tuo (visto che quello che stai usando non li implementa) per chattare decentemente? A me non sembra un'esortazione praticabile
+<a name="l-239"></a><span class="tm">20:44:27</span><span class="nk"> &lt;gabriel_shatana&gt;</span> si possono creare stanze open o è solo su invito come slack ?
+<a name="l-240"></a><span class="tm">20:44:41</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">ilario_:</span> poi, ma sei sicuro che Hispanico avrà sempre tempo per gestirlo?
+<a name="l-241"></a><span class="tm">20:44:45</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">valhalla:</span> confermi che mattermosto per te e' praticabile ?
+<a name="l-242"></a><span class="tm">20:44:46</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> se uno si gestisce il suo server, sì, vuol dire chene è in grado
+<a name="l-243"></a><span class="tm">20:44:50</span><span class="nk"> &lt;nemesis-ninux&gt;</span> a me ste feature fiche non mi cambiano la vita
+<a name="l-244"></a><span class="tm">20:44:58</span><span class="nk"> &lt;diego71&gt;</span> <span class="hi">stefanauss:</span> non e' che ogni utente deve avere il suo server per forza
+<a name="l-245"></a><span class="tm">20:45:08</span><span class="nk"> &lt;nemesis-ninux&gt;</span> se poi hispanico c'ha problemi chi lo aiuta a gestirlo il servizio?
+<a name="l-246"></a><span class="tm">20:45:11</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> per me mattermost è una rottura, perché è l'ennesima chat diversa non federata a cui dimenticarsi di collegarsi
+<a name="l-247"></a><span class="tm">20:45:32</span><span class="nk"> &lt;Caterpillar&gt;</span> +1
+<a name="l-248"></a><span class="tm">20:45:53</span><span class="nk"> &lt;ilario_&gt;</span> nemesis-ninux, gestire 'sta cosa non sembra difficile, posso aiutare
+<a name="l-249"></a><span class="tm">20:45:57</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="hi">nemesis-ninux:</span> io sto imparando docker e ne devo installare uno mio per fare delle cose .. appena imparo potrei dare na mano
+<a name="l-250"></a><span class="tm">20:46:04</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> sennò, che vada a lamentarsi con chi gestisce il suo server per farglieli aggiungere
+<a name="l-251"></a><span class="tm">20:46:06</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">valhalla:</span> appunto: se sta usando un server terzo che si suppone possa federarsi, non ha controllo su queste cose, quindi praticamente per chattare decentemente di ninux deve farsene uno. è una bella barriera d'ingresso
+<a name="l-252"></a><span class="tm">20:46:08</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">ilario_:</span> si diceva anche per jabber, il backup sta ancora lì
+<a name="l-253"></a><span class="tm">20:46:31</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">stefanauss:</span> no, di server che implementano carbon e quant'altro ce ne sono
+<a name="l-254"></a><span class="tm">20:46:47</span><span class="nk"> &lt;valhalla&gt;</span> (uno tra tutti quello di conversations, che però da gli account a pagamento)
+<a name="l-255"></a><span class="tm">20:46:59</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">stefanauss:</span> si puo' fare un account sul nostro server
+<a name="l-256"></a><span class="tm">20:47:08</span><span class="nk"> &lt;ilario_&gt;</span> nemesis-ninux, perche` ci siam sparsi su altri servizi, ora possiamo decidere di ri-concentrarci
+<a name="l-257"></a><span class="tm">20:47:57</span><span class="nk"> &lt;nemesis-ninux&gt;</span> a me vanno bene sia XMPP che Matrix, ma spingerei per un bridge sia con IRC che con Telegram
+<a name="l-258"></a><span class="tm">20:48:12</span><span class="nk"> &lt;nemesis-ninux&gt;</span> se fattibile...
+<a name="l-259"></a><span class="tm">20:48:20</span><span class="nk"> &lt;nemesis-ninux&gt;</span> cioè a me telegram risulta DAVVERO comodo
+<a name="l-260"></a><span class="tm">20:48:23</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">nemesis-ninux:</span> mi pare che matrix già lo faccia, giusto?
+<a name="l-261"></a><span class="tm">20:48:34</span><span class="nk"> &lt;valhalla&gt;</span> vedo un paio di nick che iniziano per M- qui dentro
+<a name="l-262"></a><span class="tm">20:48:45</span><span class="nk"> &lt;valhalla&gt;</span> (per IRC, non ho idea per quell'altra roba)
+<a name="l-263"></a><span class="tm">20:48:45</span><span class="nk"> &lt;stefanauss&gt;</span> Matrix-IRC si, Matrix-Telegram meh
+<a name="l-264"></a><span class="tm">20:49:17</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">stefanauss:</span> Ninux-Telegram meh == ?
+<a name="l-265"></a><span class="tm">20:49:26</span><span class="nk"> &lt;nemesis-ninux&gt;</span> fa cagare l'integrazione, non ti piace l'idea, o che?
+<a name="l-266"></a><span class="tm">20:49:44</span><span class="nk"> &lt;stefanauss&gt;</span> il bridge è nuovo e non è generico, configurabile
+<a name="l-267"></a><span class="tm">20:49:50</span><span class="nk"> &lt;ilario_&gt;</span> (qualcuno mi spiega poi che e` 'sto "carbon"?)
+<a name="l-268"></a><span class="tm">20:50:00</span><span class="nk"> &lt;mikytux[m]&gt;</span> domanda da ebete: a che serve avere 10 canali dispersivi e non uno unico?
+<a name="l-269"></a><span class="tm">20:50:00</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">ilario_:</span> +1
+<a name="l-270"></a><span class="tm">20:50:11</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="hi">zioproto:</span>  ma su mattermost si possono integrare diverse? voglio dire .. posso tenere un settore mio privato e uno per ninux ? se riesco a integrare queste cose posso tenerlo su io il server insieme a qualcun altro
+<a name="l-271"></a><span class="tm">20:50:16</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">ilario_:</span> un'estensione di xmpp che fa salvare i messaggi sul server per poi riceverli quando ci si collega
+<a name="l-272"></a><span class="tm">20:50:18</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">mikytux[m]:</span> la discussione è proprio questa, stiamo cercando di unificare
+<a name="l-273"></a><span class="tm">20:50:31</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">BornAgain:</span> nn lo so
+<a name="l-274"></a><span class="tm">20:50:45</span><span class="nk"> &lt;stefanauss&gt;</span> XMPP di default non ti replica i messaggi su tutti i device in cui sei collegato, ti considera collegato permanentemente dal tuo client più recente. Carbon serve per ricevere copie di messaggi già inviati altrove
+<a name="l-275"></a><span class="tm">20:51:13</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">all:</span> carbon era un esempio. xmpp ha tanti after-thought così
+<a name="l-276"></a><span class="tm">20:51:40</span><span class="nk"> &lt;valhalla&gt;</span> mica tanto after-thought quanto "protocollo che è stato pensato per cambiare nel tempo
+<a name="l-277"></a><span class="tm">20:51:52</span><span class="nk"> &lt;clauz&gt;</span> LOL
+<a name="l-278"></a><span class="tm">20:51:55</span><span class="nk"> &lt;valhalla&gt;</span> (mantenendo però interoperabilità)
+<a name="l-279"></a><span class="tm">20:52:02</span><span class="nk"> &lt;ilario_&gt;</span> valhalla, grazie :D effettivamente e` indispensabile...
+<a name="l-280"></a><span class="tm">20:52:31</span><span class="nk"> &lt;zioproto&gt;</span> mi pare di capire che e' un bel casino
+<a name="l-281"></a><span class="tm">20:52:43</span><span class="nk"> &lt;zioproto&gt;</span> cmq l'unica chat attiva dove c'e' gente che scrive e' telegram
+<a name="l-282"></a><span class="tm">20:52:46</span><span class="nk"> &lt;zioproto&gt;</span> le altre chat sono mute
+<a name="l-283"></a><span class="tm">20:52:54</span><span class="nk"> &lt;zioproto&gt;</span> prendiamone atto
+<a name="l-284"></a><span class="tm">20:53:09</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">zioproto:</span> anfatti purtroppo
+<a name="l-285"></a><span class="tm">20:53:22</span><span class="nk"> &lt;nemesis-ninux&gt;</span> jabber era fico ma quando abbiamo messo telegram ciao
+<a name="l-286"></a><span class="tm">20:54:06</span><span class="nk"> &lt;nemesis-ninux&gt;</span> cmq.. riassumendo.. le scelte quali sono e chi se ne occuperebbe?
+<a name="l-287"></a><span class="tm">20:54:30</span><span class="nk"> &lt;nemesis-ninux&gt;</span> (cerchiamo di essere realistici! abbiamo poco tempo e poche risorse)
+<a name="l-288"></a><span class="tm">20:55:29</span><span class="nk"> &lt;valhalla&gt;</span> scelte mi paredirei: status quo: telegram + IRC per i meeting
+<a name="l-289"></a><span class="tm">20:55:43</span><span class="nk"> &lt;valhalla&gt;</span> * mattermost
+<a name="l-290"></a><span class="tm">20:55:47</span><span class="nk"> &lt;valhalla&gt;</span> * matrix
+<a name="l-291"></a><span class="tm">20:55:53</span><span class="nk"> &lt;valhalla&gt;</span> * xmpp
+<a name="l-292"></a><span class="tm">20:56:06</span><span class="nk"> &lt;zioproto&gt;</span> guarda il problema di telegram per me e' il meetbot
+<a name="l-293"></a><span class="tm">20:56:09</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ma queste scelte escludono un bridging con telegram o no?
+<a name="l-294"></a><span class="tm">20:56:10</span><span class="nk"> &lt;zioproto&gt;</span> che non so se c'e'
+<a name="l-295"></a><span class="tm">20:56:19</span><span class="nk"> &lt;nemesis-ninux&gt;</span> masticazzi del meetboot zioproto
+<a name="l-296"></a><span class="tm">20:56:25</span><span class="nk"> &lt;nemesis-ninux&gt;</span> usiamo telegram solo come cosa così
+<a name="l-297"></a><span class="tm">20:56:25</span><span class="nk"> &lt;valhalla&gt;</span> per me il problema di telegram è che io non ci entro :)
+<a name="l-298"></a><span class="tm">20:56:38</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#link </span><span class="cmdline">https://github.com/FruitieX/teleirc</span>
+<a name="l-299"></a><span class="tm">20:56:50</span><span class="nk"> &lt;diego71&gt;</span> idem
+<a name="l-300"></a><span class="tm">20:57:00</span><span class="nk"> &lt;nemesis-ninux&gt;</span> continuiamo a fare questi meeting qui o dove meetbot è supportato, io userei telegram solo per parlare con chi non si trova con IRC/Mattermost/matrix
+<a name="l-301"></a><span class="tm">20:57:36</span><span class="nk"> &lt;nemesis-ninux&gt;</span> mi sono espresso male scusate
+<a name="l-302"></a><span class="tm">20:57:54</span><span class="nk"> &lt;nemesis-ninux&gt;</span> volevo dire, chissenefrega che telegram ha dei limiti, non dovrebbe essere il nostro canale principale come invece è ora
+<a name="l-303"></a><span class="tm">20:57:58</span><span class="nk"> &lt;nemesis-ninux&gt;</span> dovrebbe essere una cosa in più
+<a name="l-304"></a><span class="tm">20:58:09</span><span class="nk"> &lt;nemesis-ninux&gt;</span> a mio avviso*
+<a name="l-305"></a><span class="tm">20:58:25</span><span class="nk"> &lt;nemesis-ninux&gt;</span> al momento è diventato principale solo a causa della sua facilità
+<a name="l-306"></a><span class="tm">20:58:28</span><span class="nk"> &lt;stefanauss&gt;</span> sono abbastanza sicuro che avessimo già deciso al meeting scorso di mantenere i meeting irc a prescindere dal resto, e quindi gioveremmo del meetbot
+<a name="l-307"></a><span class="tm">20:58:30</span><span class="nk"> &lt;ugone[m]&gt;</span> Telegram ha per lo meno un grosso problema . che io sappia  non si riesce ad esportare ad es in txt le conversazioni
+<a name="l-308"></a><span class="tm">20:59:10</span><span class="nk"> &lt;claud43&gt;</span> ma di openwisp ne avete parlato?
+<a name="l-309"></a><span class="tm">20:59:16</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">ugone[m]:</span> è sufficiente un bot nel canale per farlo
+<a name="l-310"></a><span class="tm">20:59:18</span><span class="nk"> &lt;valhalla&gt;</span> gente, stiamo arrivando alla fine del meeting e ancora mancano due punti
+<a name="l-311"></a><span class="tm">20:59:19</span><span class="nk"> &lt;nemesis-ninux&gt;</span> <span class="hi">claud43:</span> no
+<a name="l-312"></a><span class="tm">20:59:27</span><span class="nk"> &lt;zioproto&gt;</span> andiamo ai prossimi topic
+<a name="l-313"></a><span class="tm">20:59:40</span><span class="nk"> &lt;valhalla&gt;</span> agreed to disagree? :D
+<a name="l-314"></a><span class="tm">21:00:01</span><span class="nk"> &lt;valhalla&gt;</span> <span class="topic">#topic </span><span class="topicline">ninuxDay2017, dove (Bologna?) e quando</span>
+<a name="l-315"></a><span class="tm">21:00:33</span><span class="nk"> &lt;valhalla&gt;</span> c'è qualche bolognese qui?
+<a name="l-316"></a><span class="tm">21:00:45</span><span class="nk"> &lt;nemesis-ninux&gt;</span> BRB
+<a name="l-317"></a><span class="tm">21:01:06</span><span class="nk"> &lt;clauz&gt;</span> tra i nick non mi pare di riconoscere nessuno di ninux BO
+<a name="l-318"></a><span class="tm">21:01:14</span><span class="nk"> &lt;zioproto&gt;</span> ma facciamolo a Como ! ;)
+<a name="l-319"></a><span class="tm">21:01:27</span><span class="nk"> &lt;fabio70mi&gt;</span> agree
+<a name="l-320"></a><span class="tm">21:01:34</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> abbiamo un budget di qualche millino per noleggiare delle aule dell'università?
+<a name="l-321"></a><span class="tm">21:01:43</span><span class="nk"> &lt;valhalla&gt;</span> se ce l'abbiamo, noi organizziamo :D
+<a name="l-322"></a><span class="tm">21:01:44</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="hi">zioproto:</span> perchè non in Calabrifornia?
+<a name="l-323"></a><span class="tm">21:01:58</span><span class="nk"> &lt;zioproto&gt;</span> <span class="hi">BornAgain:</span> chi lo organizza ?
+<a name="l-324"></a><span class="tm">21:02:09</span><span class="nk"> &lt;zioproto&gt;</span> qua non ci vuole scegliere il posto
+<a name="l-325"></a><span class="tm">21:02:19</span><span class="nk"> &lt;BornAgain&gt;</span> <span class="hi">zioproto:</span> e a Como? :)
+<a name="l-326"></a><span class="tm">21:02:35</span><span class="nk"> &lt;zioproto&gt;</span> a como ci sta valhalla
+<a name="l-327"></a><span class="tm">21:02:36</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">BornAgain:</span> a Como non abbiamo appoggi per avere posti gratis dove farlo
+<a name="l-328"></a><span class="tm">21:02:44</span><span class="nk"> &lt;zioproto&gt;</span> ComoLug
+<a name="l-329"></a><span class="tm">21:02:58</span><span class="nk"> &lt;valhalla&gt;</span> (in realtà potremmo trovare dei posti più economici, quello sì)
+<a name="l-330"></a><span class="tm">21:03:26</span><span class="nk"> &lt;diego71&gt;</span> <span class="hi">zioproto:</span> il gl-como ha problemi a trovarsi la sede al momento ...
+<a name="l-331"></a><span class="tm">21:03:33</span><span class="nk"> &lt;clauz&gt;</span> AFAIK non abbiamo un budget/finanziamento
+<a name="l-332"></a><span class="tm">21:03:33</span><span class="nk"> &lt;zioproto&gt;</span> non sapevo
+<a name="l-333"></a><span class="tm">21:03:59</span><span class="nk"> &lt;nemesis-ninux&gt;</span> back
+<a name="l-334"></a><span class="tm">21:04:09</span><span class="nk"> &lt;zioproto&gt;</span> qualcuno sta lavorando su cose IoT come LoraWan ?
+<a name="l-335"></a><span class="tm">21:04:40</span><span class="nk"> &lt;valhalla&gt;</span> io propongo di rimandare al prossimo meeting sperando che ci sia anche qualcuno di bologna, oppure fare una call for places in mailing list?
+<a name="l-336"></a><span class="tm">21:04:45</span><span class="nk"> &lt;zioproto&gt;</span> io e claudio parteciperemo a makezurich.ch con hardware IoT Lora
+<a name="l-337"></a><span class="tm">21:05:01</span><span class="nk"> &lt;zioproto&gt;</span> se qualcuno e' interessato (se ne era parlato a ninux day firenze) ci mandi un email
+<a name="l-338"></a><span class="tm">21:05:04</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">valhalla:</span> forse meglio la seconda?
+<a name="l-339"></a><span class="tm">21:05:19</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">clauz:</span> mi pare un buon piano
+<a name="l-340"></a><span class="tm">21:05:24</span><span class="nk"> &lt;zioproto&gt;</span> call for places e' un buon piano
+<a name="l-341"></a><span class="tm">21:05:31</span><span class="nk"> &lt;clauz&gt;</span> :)
+<a name="l-342"></a><span class="tm">21:05:38</span><span class="nk"> &lt;stefanauss&gt;</span> agreed
+<a name="l-343"></a><span class="tm">21:05:42</span><span class="nk"> &lt;valhalla&gt;</span> qualcuno che era nell'orga a firenze riesce a mettere giù la mail dando indicazioni su quanta gente ci si aspetta ecc.?
+<a name="l-344"></a><span class="tm">21:05:51</span><span class="nk"> &lt;zioproto&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">call for places in ML per Ninux Day</span>
+<a name="l-345"></a><span class="tm">21:05:57</span><span class="nk"> &lt;gabriel_shatana&gt;</span> <span class="hi">valhalla:</span> ok!
+<a name="l-346"></a><span class="tm">21:06:02</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">gabriel_shatana:</span> fai tu quindi?
+<a name="l-347"></a><span class="tm">21:06:39</span><span class="nk"> &lt;valhalla&gt;</span> <span class="topic">#topic </span><span class="topicline">Speech su Infrastructure Automation a cadenza mensile in zona Regina Margherita</span>
+<a name="l-348"></a><span class="tm">21:06:59</span><span class="nk"> &lt;valhalla&gt;</span> di cui sul pad non c'`e scritto chi doveva parlarne però
+<a name="l-349"></a><span class="tm">21:07:11</span><span class="nk"> &lt;gabriel_shatana&gt;</span> <span class="hi">valhalla:</span> si, per quando serve?
+<a name="l-350"></a><span class="tm">21:07:18</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">gabriel_shatana:</span> il prima possibile?
+<a name="l-351"></a><span class="tm">21:07:51</span><span class="nk"> &lt;gabriel_shatana&gt;</span> va bene
+<a name="l-352"></a><span class="tm">21:08:30</span><span class="nk"> &lt;clauz&gt;</span> zona Regina Margherita di quale citta'?
+<a name="l-353"></a><span class="tm">21:08:38</span><span class="nk"> &lt;nemesis-ninux&gt;</span> sì ma infatti che è
+<a name="l-354"></a><span class="tm">21:08:41</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">gabriel_shatana:</span> (credo che sia utile dare tempo ai gruppi di scrivere proposte in modo che tra due settimane se ne possa parlare
+<a name="l-355"></a><span class="tm">21:08:46</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">clauz:</span> noidea
+<a name="l-356"></a><span class="tm">21:09:23</span><span class="nk"> &lt;valhalla&gt;</span> se nessuno si fa avanti come referente...
+<a name="l-357"></a><span class="tm">21:09:25</span><span class="nk"> &lt;valhalla&gt;</span> 3
+<a name="l-358"></a><span class="tm">21:09:29</span><span class="nk"> &lt;valhalla&gt;</span> 2
+<a name="l-359"></a><span class="tm">21:09:37</span><span class="nk"> &lt;nemesis-ninux&gt;</span> posso parlare io a sorpresa?
+<a name="l-360"></a><span class="tm">21:09:38</span><span class="nk"> &lt;valhalla&gt;</span> 1
+<a name="l-361"></a><span class="tm">21:09:48</span><span class="nk"> &lt;valhalla&gt;</span> ok, non endmitingo ancora
+<a name="l-362"></a><span class="tm">21:10:00</span><span class="nk"> &lt;diego71&gt;</span> (dopo la suspence, il colpo di scena)
+<a name="l-363"></a><span class="tm">21:10:03</span><span class="nk"> &lt;nemesis-ninux&gt;</span> mi interessava questo argomento, speravo che qualcuno ne parlasse
+<a name="l-364"></a><span class="tm">21:10:21</span><span class="nk"> &lt;nemesis-ninux&gt;</span> è praticamente quello che stiamo facendo con mikytux[m] (Basilicata) e claud43 (Palermo)
+<a name="l-365"></a><span class="tm">21:10:23</span><span class="nk"> &lt;gabriel_shatana&gt;</span> <span class="hi">valhalla:</span> quando vedo la call for places rispondo con un resoconto
+<a name="l-366"></a><span class="tm">21:10:31</span><span class="nk"> &lt;zioproto&gt;</span> ragazzi io devo staccare
+<a name="l-367"></a><span class="tm">21:10:35</span><span class="nk"> &lt;zioproto&gt;</span> saluti !
+<a name="l-368"></a><span class="tm">21:10:37</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">gabriel_shatana:</span> ah, ok
+<a name="l-369"></a><span class="tm">21:10:37</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ovvero fare un lavoro di automazione
+<a name="l-370"></a><span class="tm">21:10:40</span><span class="nk"> &lt;nemesis-ninux&gt;</span> ciao zioproto
+<a name="l-371"></a><span class="tm">21:10:41</span><span class="nk"> &lt;clauz&gt;</span> <span class="hi">zioproto:</span> bella
+<a name="l-372"></a><span class="tm">21:10:44</span><span class="nk"> &lt;zioproto&gt;</span> ricordatevi di far chiudere il meeting al bot
+<a name="l-373"></a><span class="tm">21:10:47</span><span class="nk"> &lt;zioproto&gt;</span> quando finite
+<a name="l-374"></a><span class="tm">21:10:48</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">zioproto:</span> sisi
+<a name="l-375"></a><span class="tm">21:10:50</span><span class="nk"> &lt;zioproto&gt;</span> peri log
+<a name="l-376"></a><span class="tm">21:10:51</span><span class="nk"> &lt;zioproto&gt;</span> ciaooo
+<a name="l-377"></a><span class="tm">21:11:07</span><span class="nk"> &lt;nemesis-ninux&gt;</span> vorrei dire che siamo ad un punto interessante, abbiamo un firmware che si scarica automaticamente una conf e si collega a una VPN senza interventi manuali
+<a name="l-378"></a><span class="tm">21:11:30</span><span class="nk"> &lt;nemesis-ninux&gt;</span> che ci aiuterebbe moltissimo avere un pochino più di persone attive che partecipano e contribuiscno come possno
+<a name="l-379"></a><span class="tm">21:11:37</span><span class="nk"> &lt;nemesis-ninux&gt;</span> e se volete la prossima volta vi spiego meglio
+<a name="l-380"></a><span class="tm">21:11:51</span><span class="nk"> &lt;diego71&gt;</span> <span class="hi">nemesis-ninux:</span> volentieri
+<a name="l-381"></a><span class="tm">21:11:59</span><span class="nk"> &lt;nemesis-ninux&gt;</span> al momento trovate info qui: http://ninux.org/nnxx
+<a name="l-382"></a><span class="tm">21:12:30</span><span class="nk"> &lt;nemesis-ninux&gt;</span> lì sono spiegati gli obiettivi
+<a name="l-383"></a><span class="tm">21:12:32</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://pad.ninux.org/p/IRC-agenda-2017-02-08</span>
+<a name="l-384"></a><span class="tm">21:12:50</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">nemesis-ninux:</span> allora magari lo mettiamo a meeting per la prossima volta e ci spieghi nei dettagli?
+<a name="l-385"></a><span class="tm">21:12:57</span><span class="nk"> &lt;nemesis-ninux&gt;</span> sintetizzando cmq si tratta di abbassare la barriera di ingresso e permettere l'entrata via VPN anche a chi non vede altri nodi in wireless
+<a name="l-386"></a><span class="tm">21:13:07</span><span class="nk"> &lt;nemesis-ninux&gt;</span> sì ok valhalla
+<a name="l-387"></a><span class="tm">21:13:13</span><span class="nk"> &lt;stefanauss&gt;</span> sisi
+<a name="l-388"></a><span class="tm">21:13:32</span><span class="nk"> &lt;valhalla&gt;</span> <span class="hi">nemesis-ninux:</span> il link è lì sopra (sto iniziando a riempirlo)
+<a name="l-389"></a><span class="tm">21:14:30</span><span class="nk"> &lt;valhalla&gt;</span> così con giusto quel quartod'ora di ritardo posso endmeetingare?
+<a name="l-390"></a><span class="tm">21:14:31</span><span class="nk"> &lt;valhalla&gt;</span> 3
+<a name="l-391"></a><span class="tm">21:14:38</span><span class="nk"> &lt;BornAgain&gt;</span> ragà devo staccare .. alla prox
+<a name="l-392"></a><span class="tm">21:14:49</span><span class="nk"> &lt;valhalla&gt;</span> 2
+<a name="l-393"></a><span class="tm">21:14:51</span><span class="nk"> &lt;stefanauss&gt;</span> endmeringa
+<a name="l-394"></a><span class="tm">21:14:56</span><span class="nk"> &lt;valhalla&gt;</span> 1
+<a name="l-395"></a><span class="tm">21:15:01</span><span class="nk"> &lt;FaByS_RM&gt;</span> ciso
+<a name="l-396"></a><span class="tm">21:15:02</span><span class="nk"> &lt;valhalla&gt;</span> <span class="cmd">#endmeeting</span><span class="cmdline"></span></pre>
+</body></html>

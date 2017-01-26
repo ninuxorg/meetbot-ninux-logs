@@ -1,0 +1,396 @@
+20:07:23 <valhalla> #startmeeting ninux.org irc meeting
+20:07:23 <meetbot-ninux`> Meeting started Wed Jan 25 20:07:23 2017 UTC and is due to finish in 60 minutes.  The chair is valhalla. Information about MeetBot at http://86.119.33.5.
+20:07:23 <meetbot-ninux`> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+20:07:23 <meetbot-ninux`> The meeting name has been set to 'ninux_org_irc_meeting'
+20:07:47 <nemesis-ninux> cmq incredibilmente trovo la UI di pigdin più leggibile
+20:08:00 <nemesis-ninux> sto grigio chiaro della web app non aiuta
+20:08:23 <stefanauss> la paletta è customizzabile
+20:08:33 <nemesis-ninux> ok non sapevo
+20:08:52 <valhalla> zioproto: tu alla fine confermi di non aver fatto in tempo a scrivere il papero su SixXS?
+20:09:00 <stefanauss> #link http://pad.ninux.org/p/IRC-agenda-2017-01-25
+20:09:05 <zioproto> valhalla: pero' qualcosa ho fatto
+20:09:27 <valhalla> allora partiamo con
+20:09:28 <zioproto> #link https://github.com/zioproto/ansible-cubieboard-sixxs-gw
+20:09:50 <valhalla> #topic scelta data prossimo IRC meeting
+20:09:57 <valhalla> (che è il punto zero, mi pare)
+20:10:38 <zioproto> allora sempre mensile ?
+20:10:45 <zioproto> oppure vogliamo fare bisettimanale ?
+20:11:01 <zioproto> mensile non mi ha motivato molto a lavorare con l'obiettivo di far vedere qualcosa un mese dopo :)
+20:11:21 <BornAgain> secondo me se 'ngrana si può fare bisettimanale
+20:11:40 <Gigabit> sera a tutti
+20:11:48 <stefanauss> e se fosse la bisettimanalità che può farlo ingranare? :-D
+20:12:01 <zioproto> stefanauss: +1
+20:12:05 <FaByS_RM> per il momento facciamola mensile a meno di non avere qualcosa pronto da fare tra due settimane
+20:12:21 <BornAgain> @stefanauss +1
+20:12:22 <nemesis-ninux> io qualcosa di cui parlare ogni 2 settimane ce l'avrei
+20:12:41 <Massimiliano-IPV> E' da votare o direttamente iniziamo a provare coi 15 gg e poi si vede ?
+20:12:48 <nemesis-ninux> il lavoro che stiamo facendo con l'isola di Palermo e Matera (nnxx) è arrivato a un punto interessante
+20:13:06 <gabriel_shatana> bella
+20:13:08 <valhalla> secondo me si può provare un meeting tra 15 giorni e poi decidere, cheddite?
+20:13:15 <nemesis-ninux> valhalla: +1
+20:13:19 <BornAgain> yes
+20:13:25 <stefanauss> per me questi meeting non hanno necessariamente una finalità decisionale, pratica. sono un raduno fisso per tutti. si risolvesse anche a cazzeggio sarebbe comunque obbiettivo raggiunto, anche se prevedo che ci sarà sempre qualcosa di cui parlare
+20:14:05 <FaByS_RM> per me ok
+20:14:10 <valhalla> today + 2 settimane = 8 febbraio, va bene?
+20:14:40 <fabio70mi> yes
+20:14:42 <stefanauss> #startvote?
+20:14:42 <meetbot-ninux`> Only the meeting chair may start a vote.
+20:15:07 <nemesis-ninux> aspèè
+20:15:10 <Massimiliano-IPV> qual e' la sintassi per votare
+20:15:33 <nemesis-ninux> ok 8 febbraio ok per me
+20:15:35 <zioproto> valhalla: puoi fare altri chair scrivendo #chair nickname
+20:15:44 <valhalla> ecco, io stavo cercando la sintassi per far partire il voto, invece, vado a fare due chiacchiere con meetbot-ninux
+20:15:48 <nemesis-ninux> un reminder per come si vota?
+20:15:55 <stefanauss> quando valhalla fa partire il sondaggio, compare un reminder su come si vota
+20:15:56 <zioproto> #startvote
+20:15:56 <meetbot-ninux`> Only the meeting chair may start a vote.
+20:16:00 <nemesis-ninux> ok
+20:16:04 <valhalla> #chair zioproto
+20:16:04 <meetbot-ninux`> Current chairs: valhalla zioproto
+20:16:09 <clauz> sempre alle 21?
+20:16:14 <BornAgain> no un reminder su tutto che la sintassi di irc chi se la ricorda più
+20:16:39 <zioproto> #startvote Meeting 8 febbraio alle 21:00 va bene ?
+20:16:39 <meetbot-ninux`> Begin voting on: Meeting 8 febbraio alle 21:00 va bene ? Valid vote options are Yes, No.
+20:16:39 <meetbot-ninux`> Vote using '#vote OPTION'. Only your last vote counts.
+20:16:40 <stefanauss> clauz: non saprei, ma diciamo che non cambierei troppe cose per volta, sia cadenza che orario assieme
+20:16:55 <clauz> si' era giusto per chiarezza
+20:16:59 <stefanauss> #vote Yes
+20:17:01 <BornAgain> #vote yes
+20:17:05 <nemesis-ninux> #vote Yes
+20:17:05 <clauz> #vote yes
+20:17:06 <zioproto> #vote yes
+20:17:09 <Massimiliano-IPV> #vote yes
+20:17:10 <stefanauss> (case sensitive?)
+20:17:11 <fabio70mi> #vote yes
+20:17:11 <valhalla> #vote yes
+20:17:14 <FaByS_RM> #vote yes
+20:17:18 <gabriel_shatana> #vote yes
+20:17:28 <zioproto> #votestatus
+20:17:32 <zioproto> #showvote
+20:17:36 <zioproto> come cazzo era :)
+20:17:39 <zioproto> #status
+20:17:39 <clauz> LOL
+20:17:46 <FaByS_RM> #banana
+20:17:48 <zioproto> #help
+20:17:56 <zioproto> meetbot-ninux`: help
+20:17:56 <meetbot-ninux`> zioproto: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
+20:18:08 <Caterpillar2> #vote status
+20:18:23 <zioproto> #showvote
+20:18:37 <zioproto> #vote
+20:18:40 <valhalla> (ma ce li ha gli help meetbot?)
+20:18:42 <stefanauss> forse endvote?
+20:18:45 <diego71> #vote yes
+20:18:59 <zioproto> #endvote
+20:18:59 <meetbot-ninux`> Voted on "Meeting 8 febbraio alle 21:00 va bene ?" Results are
+20:19:33 <zioproto> results are ?
+20:19:42 <diego71> suspence!
+20:19:42 <fabio70mi> #suspance off
+20:19:52 <nemesis-ninux> lol
+20:19:59 <zioproto> mi sta che si e' impallato
+20:19:59 <valhalla> oh, io direi
+20:20:02 <ilario> #vote sticazzi mensile o bisettimanale...
+20:20:11 <zioproto> cmq mi pare che siamo d'accordo 8 febbraio
+20:20:21 <valhalla> #agreed tutti a favore per il meeting l'8 febbraio alle 21
+20:20:28 <clauz> tutti i votanti hanno votato yes
+20:20:34 <BornAgain> minchia il conto l'ho fatto prima a mano che con sto bot .. ma che è sta ciofega? :D
+20:20:47 <valhalla> zioproto: riesci a vedere se meetbot è vivo? o andiamo avanti e via?
+20:21:00 <mikytux[m]> c'è qualcuno?? :)
+20:21:10 <nemesis-ninux> mikytux[m]: guarda quanti siamo :-D
+20:21:10 <valhalla> #topic Uso di SixXS [ zioproto ]
+20:21:49 <zioproto> sto debuggando il meetbot
+20:21:50 <zioproto> allora
+20:21:55 <zioproto> Sixxs
+20:21:58 <BornAgain> breve sintesi di cosa sia Sixxs
+20:22:01 <BornAgain> tnx
+20:22:02 <zioproto> lasciamo perdere il software aiccu
+20:22:12 <zioproto> un ipv6 tunnel broker
+20:22:17 <zioproto> non accetta piu nuovi account
+20:22:20 <zioproto> progetto in declino
+20:22:26 <zioproto> parte server side open source ma in Perl
+20:22:44 <zioproto> sarebbe meglio rifare un tunnel broker da zero con IPv6 prefix delegation
+20:22:46 <zioproto> con dibbler
+20:22:51 <zioproto> mi sono andato a guardare qualcosa
+20:22:55 <zioproto> ma non abbastanza da scrivere niente
+20:22:57 <nemesis[m]> mi ricordate qual'era l'argomento reale? Tunnel sixis per fare cosa esattamente?
+20:23:02 <zioproto> rinviato a tra due settimane
+20:23:12 <zioproto> tunnel ipv6 per fare la connessione ipv6 tra le varie isole
+20:23:15 <zioproto> e fare la rete overlay
+20:23:18 <zioproto> dove tutti si possonocollegare
+20:23:26 <nemesis[m]> ok
+20:23:30 <clauz> #link http://klub.com.pl/dhcpv6/
+20:23:40 <zioproto> fico, me lo vado a vedere
+20:23:55 <ilario> sarebbe bella cosa ampliare LibreNet6 che sarebbe un tunnel broker IPv6 per community networks fatto da gente di Guifi.net/LibreMesh
+20:24:14 <zioproto> ottimo, vado a vedere anche cosa ha fatto LibreMesh
+20:24:15 <gabriel_shatana> perchè non lo mettete tra le idee di GSoC ?
+20:24:25 <zioproto> non credo che ci sta da prgorammare
+20:24:26 <ilario> #link http://docs.altermundi.net/LibreNet6/
+20:24:29 <gabriel_shatana> ah ok
+20:24:30 <zioproto> solo da deployare
+20:24:38 <zioproto> ma fare playbook ansible vale come programmare per GSoC ?
+20:24:55 <gabriel_shatana> devi scrivere codice...
+20:24:55 <stefanauss> una cosa che non ho capito, da dove verrebbe lo spazio IPv6 da delegare alle isole?
+20:25:21 <zioproto> lo abbiamo
+20:25:26 <zioproto> ce lo da Nino
+20:25:31 <zioproto> sono andato a Roma in cantina da Nino
+20:25:40 <zioproto> e lo ho fatto muovere per avere una /48
+20:25:51 <gabriel_shatana> ah la seconda? finalmente
+20:25:56 <FaByS_RM> ce ne era una scatola piena in cantina da nino
+20:26:04 <clauz> LOL
+20:26:04 <zioproto> se nino venisse ai meeting
+20:26:10 <nemesis-ninux> limortacci
+20:26:11 <valhalla> ecco, LOL IRL
+20:26:13 <zioproto> tutti in coro
+20:26:16 <zioproto> un mortacci tuaaaaa
+20:26:18 <zioproto> per nino
+20:26:20 <nemesis-ninux> NINO LI MORTACCI!!
+20:26:23 <zioproto> cosi poi gli facciamo leggere i log !
+20:26:30 <Caterpillar2> nino ci tua!
+20:26:33 <diego71> TUA!!!
+20:26:47 * valhalla si astiene perché non sa scrivere con l'accento giusto
+20:27:01 <fabio70mi> Nino, te ponno
+20:27:35 <nemesis-ninux> votiamo per cappottone a nino
+20:27:45 <zioproto> #agreed li moratcci per Nino che non viene ai IRC meeting
+20:27:52 <BornAgain> a Nino ho chiesto na delega dns un mese fa e ancora a staiu spettandu
+20:27:57 <clauz> #link http://docs.altermundi.net/LibreNet6/
+20:28:07 <gabriel_shatana> e come facciamo routing v6 tra le isole ?
+20:28:14 <clauz> ops l'aveva gia' postato Ilario
+20:28:50 <zioproto> devo perfezionare il meetbot: http://paste.openstack.org/show/596508/
+20:28:52 <ilario_> stefanauss, ho controllato, LibreNet6 ha a disposizione una /40
+20:29:12 <zioproto> diciamo anche a Nino di rimediare la /40
+20:29:52 <fabio70mi> Scuss, ma chi è Nino ? Dove trovo una biografia autorizzata ?
+20:29:56 <stefanauss> ilario_: ok
+20:30:12 <clauz> zioproto: il tuo #vote senza argomenti dopo l'ha rotto?
+20:30:43 <stefanauss> sapete se sti spazi librenet6/nino sono provider-independent? ho solo una vaga nozione che è un provider romano che li assegnava a nino, non ricordo bene
+20:31:04 <clauz> fabio70mi: whois ninux.org
+20:31:34 <Caterpillar2> sono IP oggetto di mercimonio
+20:32:24 <zioproto> passiamo al prossimo topic ?
+20:32:25 <clauz> stefanauss: AFAIK non sono PI
+20:32:34 <zioproto> @clauz boh !
+20:32:38 <clauz> sono formalmente di E4A
+20:32:44 <valhalla> #topic armonizzare le chat [ stefanauss ]
+20:33:09 <valhalla> ci son due link nel pad:
+20:33:16 <valhalla> #link https://docs.google.com/document/d/1zAm-822slu7cOTXNQHDqMh78EKOI62cCowl9RkBV8eY/edit?pli=1#
+20:33:20 <valhalla> #link https://docs.google.com/spreadsheets/d/1Lcu2oj38ZKREi8lsMXtXJFz8IrMpdGVheUB30bWHj50/edit#gid=0
+20:33:22 <nemesis-ninux> io sono d'accordo
+20:33:33 <valhalla> riguardo a xmpp, io vorrei segnalare
+20:33:36 <valhalla> #link http://www.enricozini.org/blog/2017/debian/modern-and-secure-instant-messaging/
+20:33:50 <stefanauss> clauz: grazie. mi chiedo che succede se perdi l'assegnamento, ma poi ne parliamo meglio in presenza del paper
+20:33:53 <valhalla> che quanto detto nel documento non è vero, che xmpp è vivo e funziona
+20:35:27 <stefanauss> mai detto ne l'una nè l'altra cosa, però
+20:35:27 <valhalla> stefanauss: intendo, è tenuto aggiornato, le feature per il supporto dei cellulari ci sono, deployabili con facilità
+20:35:27 <valhalla> (=debian stable + backports per prosody, a quanto ho sentito stable e basta per ejabberd, ma non son sicura)
+20:35:39 <stefanauss> il problema è che aggiornato lo standard, ma poiché sono estensioni opzionali, le implementazioni sono frammentate
+20:35:52 <FaByS_RM> ma fare una app Ninux che si aggancia a irc/xmpp/mapserver ? per abbattere la barriera?
+20:36:01 <nemesis-ninux> io sono per matrix + bridge IRC e bridge telegram
+20:36:23 <nemesis-ninux> FaByS_RM: al momento basterebbe mettere dei link in giro per wiki e blog e sarebbe sufficiente
+20:36:34 <valhalla> stefanauss: lato server è vero, non tutti i server son stati aggiornati ad una versione che le implementa, bisogna avere l'account su un server che lo faccia
+20:36:37 <stefanauss> basta che nemesis-ninux ci presta i programmatori che gli escono dalle orecchie :-D
+20:36:44 <nemesis-ninux> lolz
+20:37:09 <clauz> anche a me piace jabber
+20:37:13 <nemesis-ninux> mo ve mando un pò de indiani che stanno a scrive sulla ML di OpenWISP https://groups.google.com/d/forum/openwisp
+20:37:23 <valhalla> lato client, beh, se uno non ha bisogno di quelle feature può usare un client che non le supporta e parla con la gente che invece usa i server che le hanno
+20:37:37 <valhalla> (salvo omemo, che richiede supporto di tutti, e lo stanno implementando adesso)
+20:38:15 <mikytux[m]> FaByS_RM: sono concordo con te sull'App Ninux, ma forse è meglio trovare una soluzione unica opensource per tutto che realizzarne una da zero
+20:38:40 <FaByS_RM> mikytux[m]: un bel wrappone web
+20:39:01 <valhalla> con xmpp c'è il problema che afaik c'era un server di ninux, ma non c'è più chi lo mantiene, giusto?
+20:39:07 <mikytux[m]> :)
+20:39:19 <zioproto> abbiamo mattermost che praticamente e' come avere l'app ninux
+20:39:22 <FaByS_RM> niente di nativo ma da il senso di insieme e se cambi qualcosa sono tutti allineati ...
+20:39:24 <clauz> valhalla: giusto
+20:39:48 <zioproto> penso che il mattermost esistente a cambiare colori e logo non siamo super complicato
+20:39:49 <nemesis-ninux> valhalla: esatto
+20:39:49 <valhalla> zioproto: già, solo che mattermost non è federato
+20:40:06 <zioproto> valhalla: si ma regge il carico delle nostre attuali necessita'
+20:40:17 <nemesis-ninux> valhalla: ma soprattutto non abbiamo più quella macchina che era dentro ninux-roma
+20:40:26 <valhalla> ma è l'ennesima chat diversa in cui uno deve entrare
+20:40:34 <valhalla> nemesis-ninux: uops (macchina)
+20:40:38 <mikytux[m]> se vogliamo una vm la metto su con accesso multiplo in modo che se uno non può intervenire c'è qualcun'altro
+20:40:38 <nemesis-ninux> valhalla: la cosa carina era che era hostata dentro la rete
+20:40:49 <nemesis-ninux> mikytux[m]: non è un problema di avere VM, le abbiamo le VM!
+20:40:54 <clauz> Se c'e' intenzione di rimettere in piedi jabber mi posso adoperare per farlo. Immanuel ha un backup della macchina dentro ninux-roma che ospitava ejabberd
+20:41:05 <Massimiliano-IPV> Utilizziamo qualcosa di esistente e nel frattempo contiamoci quanti programmatori abbiamo per scrivere qualcosa da zero
+20:41:13 <zioproto> io uso adium come client IRC, quindi per me jabber va bene e' ben integrato
+20:41:24 <nemesis-ninux> a regà ma che state a dì, scrivere? Che cosa bisogna scrivere?
+20:41:31 <mikytux[m]> clauz: jabber era bellissimo
+20:41:43 <ilario_> Massimiliano-IPV, da zero? anche no, almeno io...
+20:41:48 <valhalla> se si vuole fare qualcosa di "nostro", secondo me è xmpp è la soluzione giusta, sennò oh, irc funziona, eh
+20:41:57 <stefanauss> valhalla: chat xmpp ninux nazionale, arriva il nuovo che fa mille domande, ciao raga devo scappare ci si sente dall'altro pc, salvo poi arrivare e non avere la history perché il server non implementa i carbon. è il genere di cose che xmpp ti forza a considerare
+20:41:59 <nemesis-ninux> a regà
+20:42:08 <zioproto> Massimiliano-IPV: non serve scrivere codice !
+20:42:11 <nemesis-ninux> non si riesce a scrive na riga de codice in croce
+20:42:16 <nemesis-ninux> cerchiamo di essere realistici
+20:42:16 <stefanauss> problematiche che con altre piattaforme non sarebbero proprio nell'equazione
+20:42:31 <zioproto> mattermost tiene la history
+20:42:32 <valhalla> stefanauss: e si risolve avendo il server che implementa i carbon, no?
+20:42:37 <zioproto> Hispanico loha gia messo su
+20:42:37 <nemesis-ninux> attivi siamo pochi, io esorto tutti a fare outsourcing di cazzi da cacare e focalizzarci sulla rete
+20:43:29 <nemesis-ninux> sì ma che cambia usare mattermost hostato da hispanico e un altro servizio centralizzato hostato da altri e stabile? Fatemi capire
+20:43:41 <nemesis-ninux> il vantaggio
+20:43:44 <BornAgain> nemesis-ninux: esatto .. vi ricordo che stiamo con la rete che sta piangendo
+20:43:47 <zioproto> mattermost ha la history
+20:43:57 <zioproto> e ci sta la app del cell
+20:43:59 <zioproto> ed il client
+20:44:04 <zioproto> e tutte le cose fiche di slack
+20:44:10 <zioproto> tutto open source
+20:44:19 <zioproto> penso che va bene anche a valhalla che e' molto esigente
+20:44:22 <ilario_> nemesis-ninux, se abbiamo il nostro servizio poi lo possiamo spostare dentro la rete
+20:44:24 <zioproto> valhalla: giusto ?
+20:44:26 <stefanauss> valhalla: quindi tu diresti al nuovo interessato: implementati i carbon sul server tuo (visto che quello che stai usando non li implementa) per chattare decentemente? A me non sembra un'esortazione praticabile
+20:44:27 <gabriel_shatana> si possono creare stanze open o è solo su invito come slack ?
+20:44:41 <nemesis-ninux> ilario_: poi, ma sei sicuro che Hispanico avrà sempre tempo per gestirlo?
+20:44:45 <zioproto> valhalla: confermi che mattermosto per te e' praticabile ?
+20:44:46 <valhalla> stefanauss: se uno si gestisce il suo server, sì, vuol dire chene è in grado
+20:44:50 <nemesis-ninux> a me ste feature fiche non mi cambiano la vita
+20:44:58 <diego71> stefanauss: non e' che ogni utente deve avere il suo server per forza
+20:45:08 <nemesis-ninux> se poi hispanico c'ha problemi chi lo aiuta a gestirlo il servizio?
+20:45:11 <valhalla> zioproto: per me mattermost è una rottura, perché è l'ennesima chat diversa non federata a cui dimenticarsi di collegarsi
+20:45:32 <Caterpillar> +1
+20:45:53 <ilario_> nemesis-ninux, gestire 'sta cosa non sembra difficile, posso aiutare
+20:45:57 <BornAgain> nemesis-ninux: io sto imparando docker e ne devo installare uno mio per fare delle cose .. appena imparo potrei dare na mano
+20:46:04 <valhalla> stefanauss: sennò, che vada a lamentarsi con chi gestisce il suo server per farglieli aggiungere
+20:46:06 <stefanauss> valhalla: appunto: se sta usando un server terzo che si suppone possa federarsi, non ha controllo su queste cose, quindi praticamente per chattare decentemente di ninux deve farsene uno. è una bella barriera d'ingresso
+20:46:08 <nemesis-ninux> ilario_: si diceva anche per jabber, il backup sta ancora lì
+20:46:31 <valhalla> stefanauss: no, di server che implementano carbon e quant'altro ce ne sono
+20:46:47 <valhalla> (uno tra tutti quello di conversations, che però da gli account a pagamento)
+20:46:59 <clauz> stefanauss: si puo' fare un account sul nostro server
+20:47:08 <ilario_> nemesis-ninux, perche` ci siam sparsi su altri servizi, ora possiamo decidere di ri-concentrarci
+20:47:57 <nemesis-ninux> a me vanno bene sia XMPP che Matrix, ma spingerei per un bridge sia con IRC che con Telegram
+20:48:12 <nemesis-ninux> se fattibile...
+20:48:20 <nemesis-ninux> cioè a me telegram risulta DAVVERO comodo
+20:48:23 <valhalla> nemesis-ninux: mi pare che matrix già lo faccia, giusto?
+20:48:34 <valhalla> vedo un paio di nick che iniziano per M- qui dentro
+20:48:45 <valhalla> (per IRC, non ho idea per quell'altra roba)
+20:48:45 <stefanauss> Matrix-IRC si, Matrix-Telegram meh
+20:49:17 <nemesis-ninux> stefanauss: Ninux-Telegram meh == ?
+20:49:26 <nemesis-ninux> fa cagare l'integrazione, non ti piace l'idea, o che?
+20:49:44 <stefanauss> il bridge è nuovo e non è generico, configurabile
+20:49:50 <ilario_> (qualcuno mi spiega poi che e` 'sto "carbon"?)
+20:50:00 <mikytux[m]> domanda da ebete: a che serve avere 10 canali dispersivi e non uno unico?
+20:50:00 <nemesis-ninux> ilario_: +1
+20:50:11 <BornAgain> zioproto:  ma su mattermost si possono integrare diverse? voglio dire .. posso tenere un settore mio privato e uno per ninux ? se riesco a integrare queste cose posso tenerlo su io il server insieme a qualcun altro
+20:50:16 <valhalla> ilario_: un'estensione di xmpp che fa salvare i messaggi sul server per poi riceverli quando ci si collega
+20:50:18 <nemesis-ninux> mikytux[m]: la discussione è proprio questa, stiamo cercando di unificare
+20:50:31 <zioproto> BornAgain: nn lo so
+20:50:45 <stefanauss> XMPP di default non ti replica i messaggi su tutti i device in cui sei collegato, ti considera collegato permanentemente dal tuo client più recente. Carbon serve per ricevere copie di messaggi già inviati altrove
+20:51:13 <stefanauss> all: carbon era un esempio. xmpp ha tanti after-thought così
+20:51:40 <valhalla> mica tanto after-thought quanto "protocollo che è stato pensato per cambiare nel tempo
+20:51:52 <clauz> LOL
+20:51:55 <valhalla> (mantenendo però interoperabilità)
+20:52:02 <ilario_> valhalla, grazie :D effettivamente e` indispensabile...
+20:52:31 <zioproto> mi pare di capire che e' un bel casino
+20:52:43 <zioproto> cmq l'unica chat attiva dove c'e' gente che scrive e' telegram
+20:52:46 <zioproto> le altre chat sono mute
+20:52:54 <zioproto> prendiamone atto
+20:53:09 <nemesis-ninux> zioproto: anfatti purtroppo
+20:53:22 <nemesis-ninux> jabber era fico ma quando abbiamo messo telegram ciao
+20:54:06 <nemesis-ninux> cmq.. riassumendo.. le scelte quali sono e chi se ne occuperebbe?
+20:54:30 <nemesis-ninux> (cerchiamo di essere realistici! abbiamo poco tempo e poche risorse)
+20:55:29 <valhalla> scelte mi paredirei: status quo: telegram + IRC per i meeting
+20:55:43 <valhalla> * mattermost
+20:55:47 <valhalla> * matrix
+20:55:53 <valhalla> * xmpp
+20:56:06 <zioproto> guarda il problema di telegram per me e' il meetbot
+20:56:09 <nemesis-ninux> ma queste scelte escludono un bridging con telegram o no?
+20:56:10 <zioproto> che non so se c'e'
+20:56:19 <nemesis-ninux> masticazzi del meetboot zioproto
+20:56:25 <nemesis-ninux> usiamo telegram solo come cosa così
+20:56:25 <valhalla> per me il problema di telegram è che io non ci entro :)
+20:56:38 <zioproto> #link https://github.com/FruitieX/teleirc
+20:56:50 <diego71> idem
+20:57:00 <nemesis-ninux> continuiamo a fare questi meeting qui o dove meetbot è supportato, io userei telegram solo per parlare con chi non si trova con IRC/Mattermost/matrix
+20:57:36 <nemesis-ninux> mi sono espresso male scusate
+20:57:54 <nemesis-ninux> volevo dire, chissenefrega che telegram ha dei limiti, non dovrebbe essere il nostro canale principale come invece è ora
+20:57:58 <nemesis-ninux> dovrebbe essere una cosa in più
+20:58:09 <nemesis-ninux> a mio avviso*
+20:58:25 <nemesis-ninux> al momento è diventato principale solo a causa della sua facilità
+20:58:28 <stefanauss> sono abbastanza sicuro che avessimo già deciso al meeting scorso di mantenere i meeting irc a prescindere dal resto, e quindi gioveremmo del meetbot
+20:58:30 <ugone[m]> Telegram ha per lo meno un grosso problema . che io sappia  non si riesce ad esportare ad es in txt le conversazioni
+20:59:10 <claud43> ma di openwisp ne avete parlato?
+20:59:16 <stefanauss> ugone[m]: è sufficiente un bot nel canale per farlo
+20:59:18 <valhalla> gente, stiamo arrivando alla fine del meeting e ancora mancano due punti
+20:59:19 <nemesis-ninux> claud43: no
+20:59:27 <zioproto> andiamo ai prossimi topic
+20:59:40 <valhalla> agreed to disagree? :D
+21:00:01 <valhalla> #topic ninuxDay2017, dove (Bologna?) e quando
+21:00:33 <valhalla> c'è qualche bolognese qui?
+21:00:45 <nemesis-ninux> BRB
+21:01:06 <clauz> tra i nick non mi pare di riconoscere nessuno di ninux BO
+21:01:14 <zioproto> ma facciamolo a Como ! ;)
+21:01:27 <fabio70mi> agree
+21:01:34 <valhalla> zioproto: abbiamo un budget di qualche millino per noleggiare delle aule dell'università?
+21:01:43 <valhalla> se ce l'abbiamo, noi organizziamo :D
+21:01:44 <BornAgain> zioproto: perchè non in Calabrifornia?
+21:01:58 <zioproto> BornAgain: chi lo organizza ?
+21:02:09 <zioproto> qua non ci vuole scegliere il posto
+21:02:19 <BornAgain> zioproto: e a Como? :)
+21:02:35 <zioproto> a como ci sta valhalla
+21:02:36 <valhalla> BornAgain: a Como non abbiamo appoggi per avere posti gratis dove farlo
+21:02:44 <zioproto> ComoLug
+21:02:58 <valhalla> (in realtà potremmo trovare dei posti più economici, quello sì)
+21:03:26 <diego71> zioproto: il gl-como ha problemi a trovarsi la sede al momento ...
+21:03:33 <clauz> AFAIK non abbiamo un budget/finanziamento
+21:03:33 <zioproto> non sapevo
+21:03:59 <nemesis-ninux> back
+21:04:09 <zioproto> qualcuno sta lavorando su cose IoT come LoraWan ?
+21:04:40 <valhalla> io propongo di rimandare al prossimo meeting sperando che ci sia anche qualcuno di bologna, oppure fare una call for places in mailing list?
+21:04:45 <zioproto> io e claudio parteciperemo a makezurich.ch con hardware IoT Lora
+21:05:01 <zioproto> se qualcuno e' interessato (se ne era parlato a ninux day firenze) ci mandi un email
+21:05:04 <clauz> valhalla: forse meglio la seconda?
+21:05:19 <valhalla> clauz: mi pare un buon piano
+21:05:24 <zioproto> call for places e' un buon piano
+21:05:31 <clauz> :)
+21:05:38 <stefanauss> agreed
+21:05:42 <valhalla> qualcuno che era nell'orga a firenze riesce a mettere giù la mail dando indicazioni su quanta gente ci si aspetta ecc.?
+21:05:51 <zioproto> #agreed call for places in ML per Ninux Day
+21:05:57 <gabriel_shatana> valhalla: ok!
+21:06:02 <valhalla> gabriel_shatana: fai tu quindi?
+21:06:39 <valhalla> #topic Speech su Infrastructure Automation a cadenza mensile in zona Regina Margherita
+21:06:59 <valhalla> di cui sul pad non c'`e scritto chi doveva parlarne però
+21:07:11 <gabriel_shatana> valhalla: si, per quando serve?
+21:07:18 <valhalla> gabriel_shatana: il prima possibile?
+21:07:51 <gabriel_shatana> va bene
+21:08:30 <clauz> zona Regina Margherita di quale citta'?
+21:08:38 <nemesis-ninux> sì ma infatti che è
+21:08:41 <valhalla> gabriel_shatana: (credo che sia utile dare tempo ai gruppi di scrivere proposte in modo che tra due settimane se ne possa parlare
+21:08:46 <valhalla> clauz: noidea
+21:09:23 <valhalla> se nessuno si fa avanti come referente...
+21:09:25 <valhalla> 3
+21:09:29 <valhalla> 2
+21:09:37 <nemesis-ninux> posso parlare io a sorpresa?
+21:09:38 <valhalla> 1
+21:09:48 <valhalla> ok, non endmitingo ancora
+21:10:00 <diego71> (dopo la suspence, il colpo di scena)
+21:10:03 <nemesis-ninux> mi interessava questo argomento, speravo che qualcuno ne parlasse
+21:10:21 <nemesis-ninux> è praticamente quello che stiamo facendo con mikytux[m] (Basilicata) e claud43 (Palermo)
+21:10:23 <gabriel_shatana> valhalla: quando vedo la call for places rispondo con un resoconto
+21:10:31 <zioproto> ragazzi io devo staccare
+21:10:35 <zioproto> saluti !
+21:10:37 <valhalla> gabriel_shatana: ah, ok
+21:10:37 <nemesis-ninux> ovvero fare un lavoro di automazione
+21:10:40 <nemesis-ninux> ciao zioproto
+21:10:41 <clauz> zioproto: bella
+21:10:44 <zioproto> ricordatevi di far chiudere il meeting al bot
+21:10:47 <zioproto> quando finite
+21:10:48 <valhalla> zioproto: sisi
+21:10:50 <zioproto> peri log
+21:10:51 <zioproto> ciaooo
+21:11:07 <nemesis-ninux> vorrei dire che siamo ad un punto interessante, abbiamo un firmware che si scarica automaticamente una conf e si collega a una VPN senza interventi manuali
+21:11:30 <nemesis-ninux> che ci aiuterebbe moltissimo avere un pochino più di persone attive che partecipano e contribuiscno come possno
+21:11:37 <nemesis-ninux> e se volete la prossima volta vi spiego meglio
+21:11:51 <diego71> nemesis-ninux: volentieri
+21:11:59 <nemesis-ninux> al momento trovate info qui: http://ninux.org/nnxx
+21:12:30 <nemesis-ninux> lì sono spiegati gli obiettivi
+21:12:32 <valhalla> #link http://pad.ninux.org/p/IRC-agenda-2017-02-08
+21:12:50 <valhalla> nemesis-ninux: allora magari lo mettiamo a meeting per la prossima volta e ci spieghi nei dettagli?
+21:12:57 <nemesis-ninux> sintetizzando cmq si tratta di abbassare la barriera di ingresso e permettere l'entrata via VPN anche a chi non vede altri nodi in wireless
+21:13:07 <nemesis-ninux> sì ok valhalla
+21:13:13 <stefanauss> sisi
+21:13:32 <valhalla> nemesis-ninux: il link è lì sopra (sto iniziando a riempirlo)
+21:14:30 <valhalla> così con giusto quel quartod'ora di ritardo posso endmeetingare?
+21:14:31 <valhalla> 3
+21:14:38 <BornAgain> ragà devo staccare .. alla prox
+21:14:49 <valhalla> 2
+21:14:51 <stefanauss> endmeringa
+21:14:56 <valhalla> 1
+21:15:01 <FaByS_RM> ciso
+21:15:02 <valhalla> #endmeeting
