@@ -1,0 +1,268 @@
+20:10:24 <stefanauss> #startmeeting IRC Meeting Ninux 2017-02-08
+20:10:24 <meetbot-ninux> Meeting started Wed Feb  8 20:10:24 2017 UTC and is due to finish in 60 minutes.  The chair is stefanauss. Information about MeetBot at http://86.119.33.5.
+20:10:24 <meetbot-ninux> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+20:10:24 <meetbot-ninux> The meeting name has been set to 'irc_meeting_ninux_2017_02_08'
+20:10:43 <stefanauss> #topic appello delle isole rappresentate (valhalla)
+20:11:25 <stefanauss> non sono sicuro di aver capito il topic però :-)
+20:11:32 <valhalla> ok, pensavo semplicemente: chi c'è per la riunione può dire "ci sono - isola tal dei tali" (a meno che meetbot non abbia un comando per le presenze
+20:12:08 <stefanauss> sembrerebbe di no
+20:12:15 <valhalla> idem
+20:12:17 <stefanauss> però le logga in automatico
+20:12:22 <stefanauss> e le riporta nel report
+20:12:28 <valhalla> ok, ci sono, isola lombardia
+20:12:34 <stefanauss> isola cosenza
+20:12:44 <clauz> forse possiamo dare un comando #info ?
+20:12:45 <albertux1> ci sono isola lombarda
+20:12:53 <diego71_> ci sono, isola lombarda
+20:12:56 <clauz> ci sono, isola Roma
+20:13:05 <stefanauss> clauz: si, right
+20:13:14 <stefanauss> #info presente isola cosenza, stefanauss
+20:13:31 <stefanauss> #info isola romanza: clauz (so far)
+20:13:48 <fabio70mi> ci sono, isolato del tutto a Milano
+20:13:49 <stefanauss> #info isola lombarda: valhalla e diego71_ (so far)
+20:14:09 <albertux1> #info ecchimeqqà isola comasca
+20:14:15 <stefanauss> #info fabio70mi nodo potenziale milano
+20:14:19 <valhalla> albertux1: separatista!
+20:14:26 <albertux1> valhalla: :)
+20:15:02 <stefanauss> ok, prendeteci tutti la mano con info, non ha senso che riassumo io xD
+20:15:04 <waki> salve ragazzi, #info isola torino (anche se non c'è nessun nodo xD)
+20:15:15 <valhalla> anyway, l'idea è che molti di noi si conoscono e sanno di dove siamo, altri no, quindi se diciamo di che isola siamo non finiamo come la volta scorsa che volevamo organizzare cose a bologna, ma non sapevamo se i bolognesi ci fossero :D
+20:15:32 <stefanauss> waki: ciao, è meglio se cominci proprio la riga con #info, non sono sicuro funzioni altrimenti
+20:15:49 <stefanauss> valhalla: right
+20:15:55 <waki> #info isola torino
+20:16:02 <stefanauss> oltretutto credo che probabilmente manchino anche oggi
+20:16:46 <stefanauss> #info (so far) oggi non c'è firenze
+20:17:04 <stefanauss> (rispetto agli altri meeting)
+20:17:31 <clauz> sulla mailing list bologna c'e' stato un thread sulla "call for places"
+20:17:33 <clauz> http://ml.ninux.org/pipermail/bologna/2017-February/thread.html
+20:17:43 <stefanauss> tra 1 minuto consideriamo concluso l'appello
+20:17:47 <clauz> ma non so se si e' arrivati a qualcosa
+20:18:24 <stefanauss> nessuna risposta alla CfPlaces finora
+20:19:06 <valhalla> quindi agreed i bolognesi sono condannati in contumacia ad organizzare il prossimo ninux day? >:-)
+20:19:27 <stefanauss> il cetriolo definitivo
+20:19:45 <clauz> io sono d'accordo ;)
+20:19:45 <fabio70mi> il mio amministratore di condominio ci mette meno di noi a contare tutti i millesimi dei condomini :-)
+20:20:09 <albertux1> fabio70mi: vero vero
+20:20:31 <stefanauss> #topic ingresso in rete via VPN facile via NNXX (nemesis)
+20:21:07 <Immanuel> ciao o.o/
+20:21:14 <stefanauss> ciao Immanuel
+20:21:29 <stefanauss> #chair valhalla
+20:21:29 <meetbot-ninux> Current chairs: stefanauss valhalla
+20:21:57 <clauz> ho scritto su telegram a Nemesis non ha risposto
+20:22:30 <clauz> nemesis[m]: ci sei per caso?
+20:22:54 <clauz> o c'e' qualcun'altro che sta lavorando/sperimentando NNXX?
+20:23:25 <stefanauss> sui generis: il progetto NNXX ha fatto qualcosa di giusto in quanto a catalizzatore di attività/interesse per i nuovi/seminuovi di ninux
+20:23:33 <stefanauss> se capiamo cosa, magari possiamo replicare su scala xD
+20:23:47 <gabrieI> ciao!
+20:23:50 <clauz> suggerisco #link http://wiki.ninux.org/nnxx
+20:24:25 <stefanauss> #info finché non confermiamo che meetbot va anche con i comandi nel mezzo del testo, cominciate la riga con hashtag ;-)
+20:24:50 <clauz> :) penso che meetbot-ninux dia retta solo ai chair
+20:25:02 <clauz> #link http://wiki.ninux.org/nnxx
+20:25:02 <valhalla> dipende dai comandi
+20:25:10 <clauz> ah ok!
+20:25:12 <stefanauss> si, info e link andavano a tutti nei previous
+20:25:14 <valhalla> iirc link funziona per tutti
+20:25:37 <clauz> ah perfetto
+20:26:51 <valhalla> nell'attesa di nemesis o altri, intramezziamo un topic "prossimo meeting"?
+20:27:41 <stefanauss> per me va bene, tanto una ripuntatina qui la vorrei fare perchè c'ho na domanda, ma ha senso quando ci sono i nnx-isti
+20:28:05 <stefanauss> #topic prossimo meeting (relatori: all)
+20:28:25 <valhalla> oggi + 2 settimane = 22 febbraio
+20:28:32 <clauz> nemesis[m] sta arrivando
+20:29:14 <clauz> per me 22 febbraio e' ok
+20:29:21 <stefanauss> ok per me
+20:29:47 * valhalla non ci sarà, ma mi pare sensato il 22 febbraio per mantenere il ritmo
+20:30:04 <stefanauss> l'alternativa sarebbe +1m, quindi 8 marzo
+20:30:16 <stefanauss> ma meglio evitare, methink?
+20:30:38 <valhalla> +1 (meglio evitare)
+20:30:52 <nemesis-ninux> Solo mezz'ora di ritardo.scusate
+20:30:54 <valhalla> vado di agreed 22 febbraio e torniamo a nnxx?
+20:31:05 <albertux1> ok x me
+20:31:08 <stefanauss> diciamo che con la scusa che +1m cade di festa, teniamo per ora la cadenza bi-week
+20:31:13 <valhalla> #agreed prossimo meeting 22 febbraio ore 21:00
+20:31:14 <nemesis-ninux> A che punto siamo con la discussione?
+20:31:20 <stefanauss> vai di agreed, il voto mi pare superfluo
+20:31:44 <valhalla> #topic ingresso in rete via VPN facile via NNXX (nemesis)
+20:31:50 <valhalla> nemesis-ninux: tutta tua :)
+20:31:59 <stefanauss> nemesis-ninux: solo fatto un appello delle isole e decisa data meeting-next
+20:32:12 <nemesis-ninux> Ok grazie
+20:32:17 <lipos[m]> buonasera a tutti
+20:32:30 <nemesis-ninux> La sperimentazione nnxx sta andando bene
+20:32:34 <stefanauss> buonasera lipos
+20:32:42 <nemesis-ninux> Cn hispanco a foadem abbiamo parlato un pò
+20:33:09 <nemesis-ninux> Prossimi step sono setup vpn separate per palermo e basilicata
+20:33:17 <noccio> buonasera, sono Leandro di Firenze
+20:33:28 <nemesis-ninux> Poi automazione bgp isole tra queste isole nnxx
+20:33:51 <nemesis-ninux> E poi ci piacerebbe automare gli indirizzi ip dei nuovi nodi
+20:33:56 <nemesis-ninux> Sto semplificando
+20:34:22 <nemesis-ninux> La nostra proposta è di allargare il pool di sperimentazione
+20:34:41 * clauz saluta i fiorentini
+20:35:06 <noccio> clauz: ciao
+20:35:15 <stefanauss> a cosenza qualcuno mi aveva detto di voler provare il fw nnx
+20:35:16 <nemesis-ninux> Ciao :-)
+20:35:34 <MikySal78f> va bu...ha creato un nuovo utente...sono arruginito da 15 anni su irc :P
+20:35:47 <nemesis-ninux> Eheh
+20:36:08 <MikySal78f> non scherzo...era l'epoca dei 56k
+20:36:16 <nemesis-ninux> Non credo si possa fare votazione su sta cosa, il messaggio è:
+20:36:16 <MikySal78f> da allora non ho pi� usato
+20:36:35 <MikySal78f> cmq buonasera a tutti, arogomento del giorno?
+20:36:41 <nemesis-ninux> Noi ci stiamo lavorando un pò alla volta e sta venendo fuori qualcosa di interessante
+20:36:56 <clauz> MikySal78f: ciao, vedi http://pad.ninux.org/p/IRC-agenda-2017-02-08
+20:37:03 <valhalla> nemesis-ninux: per partecipare alle sperimentazioni cosa si deve fare?
+20:37:17 <lipos[m]> io ho un wdr3600 sul quale volevo provare il fw nnx
+20:37:20 <nemesis-ninux> Se più persone di ninux partecipano con il loro punto di vista riusciremo a fare qualcosa che piace a più isole
+20:37:41 <nemesis-ninux> Per partecipare c'è una pagina sul wiki che si può leggere
+20:37:53 <nemesis-ninux> Per cominciare a muovere i primi passi
+20:37:56 <valhalla> link che così lo mettiamo a link?
+20:38:17 <nemesis-ninux> Si può contribuire con feedback, testing, documentazione, codice, ansible
+20:38:30 <Immanuel> interessante, non sono più collegato..ecco perchè no andava pad
+20:38:42 <nemesis-ninux> http://ninux.org/nnxx
+20:38:51 <valhalla> #link http://ninux.org/nnxx
+20:39:19 <MikySal78f> o http://nnxx.ninux.org ...� un redirect
+20:39:24 <nemesis-ninux> Okey grazie
+20:39:27 <valhalla> #link http://nnxx.ninux.org
+20:39:42 <nemesis-ninux> Grande miky
+20:39:48 <MikySal78f> :)
+20:40:16 <nemesis-ninux> Se ci sono domande rispondiamo
+20:40:23 <nemesis-ninux> Altrimenti andiamo avNti
+20:40:50 <MikySal78f> aggiungo cosa importante da non dimenticare Trello.
+20:40:55 <MikySal78f> il link � https://trello.com/b/YTyT16e9/nnxx-ninux-experimental
+20:41:02 <diego71_> nemesis-ninux: ci e' un repository?
+20:41:48 <nemesis-ninux> Sì sono linkati sulla pagina del wiki
+20:42:20 <gabrieI> come si fa a richiedere l'accesso in scrittura?
+20:42:28 <nemesis-ninux> Uno è pubblico e uno è ancora privato purtroppo perchè contiene dati sensibili che dobbiamo cifrare
+20:42:42 <nemesis-ninux> gabriel che intendi?
+20:43:22 <gabrieI> mi sono loggato, ma non posso aggiungere schede ne commentare
+20:43:28 <diego71_> se uno volesse le istruzioni su come compilarsi il firmware?
+20:44:01 <albertux1> diego71_: stai pensando ai nostri tplink? :)
+20:44:04 <nemesis-ninux> C'è il repo con le istruzioni, se non è chiaro dal wiki perfavore suggeriteci come renderlo più esplicito
+20:44:16 <MikySal78f> https://github.com/ninuxorg/ansible-nnxx
+20:44:41 <nemesis-ninux> Gabriel ora controllo le impostazioni della board
+20:44:55 <stefanauss> nemesis-ninux: ma per chi ha già un nodo con altri fw, può dare valore al progetto un router distinto con sopra nnxx, anche se non è connesso all'isola? può servire?
+20:45:03 <diego71_> nemesis-ninux: e' che leggo: come flashare il firmware
+20:45:24 <diego71_> metti che uno vuole fare delle modifiche poi da proporre...
+20:45:45 <diego71_> magari vuole compilare una sua versione del firmware
+20:46:19 <nemesis-ninux> Certo, la conf è tutta su ansible-nnxx
+20:46:26 <diego71_> ok, trovato
+20:46:54 <nemesis-ninux> Il firmware è basato su OpenWRT, è opensource, le configurazioni e le istruzioni di compilazione sono disponibili su github.com/ninuxorg/ansible-nnxx.
+20:47:21 <diego71_> ansible per compilare programmi, devo dire che non me lo sarei mai aspettato
+20:48:05 <nemesis-ninux> Serve per tenere traccia delle configurazioni dei firmware
+20:49:11 <nemesis-ninux> Si possono fare flavour diversi cn pacchetti diversi
+20:49:56 <diego71_> sto clonando il repository, poi prossimamente ci guardo con calma
+20:50:00 <nemesis-ninux> Nn riesco a vedere l'agenda
+20:50:08 <valhalla> nemesis-ninux: http://pad.ninux.org/p/IRC-agenda-2017-02-08
+20:50:15 <nemesis-ninux> Mi crasha
+20:50:49 <nemesis-ninux> Cmq
+20:50:52 <nemesis-ninux> Per concludere
+20:51:10 <nemesis-ninux> Per le discussioni su nnxx possiamo usare la lista ninux-dev
+20:51:39 <nemesis-ninux> http://ml.ninux.org/mailman/listinfo/ninux-dev
+20:52:19 <nemesis-ninux> Andiamo avanti?
+20:52:39 <stefanauss> ok, ma i topic in agenda sono conclusi
+20:53:28 <nemesis-ninux> Okey lol
+20:53:51 <nemesis-ninux> Infatti per quello volevo vedere l'agenda
+20:54:25 <stefanauss> qualcuno ha qualche topic dell'ultimo secondo da aggiungere?
+20:54:31 <nemesis-ninux> Ahah anche Hispanico è arrivato in orario
+20:55:01 <Hispanico> ho l'orologio dettato su UTC :D
+20:55:10 <nemesis-ninux> Eheh
+20:55:13 <mibofra> Buon salve bella gente :)
+20:55:20 <nemesis-ninux> Heylà
+20:55:26 <clauz> LOL
+20:55:33 <Hispanico> scherzi a parte mi ero proprio dimenticato
+20:55:56 <nemesis-ninux> Cmq si parlava di nnxx
+20:55:57 <stefanauss> #idea non dovremmo fare mancare il reminder la mattina del meeting :-/
+20:56:08 <stefanauss> su ml, telegram, ecc
+20:56:09 <nemesis-ninux> Approved
+20:56:12 <valhalla> +1
+20:56:15 <valhalla> chi lo fa?
+20:56:16 <Hispanico> servirebbe un reminder 10min prima
+20:56:26 <nemesis-ninux> 2 ore prima
+20:56:28 <noccio> Hispanico: anche un'ora prima
+20:56:35 <noccio> nemesis-ninux: !
+20:56:37 <Hispanico> il problema è che le mie chat su telegram sono mutate
+20:56:42 <nemesis-ninux> Ma come li automatizziamo
+20:56:44 <stefanauss> imo ci vuole proprio scritto
+20:56:50 <nemesis-ninux> Usiamo il google calendar..
+20:56:55 <valhalla> se lo si fa alla mattina poi uno può leggere la mail e puntarsi una sveglia o simili
+20:57:06 <valhalla> nemesis-ninux: abbiamo un google calendar?
+20:57:10 <nemesis-ninux> Sì
+20:57:14 <stefanauss> #topic reminder del meeting la mattina stessa
+20:57:15 <Hispanico> io proporrei anche di spostarlo di 30 min
+20:57:19 <Hispanico> tipo 21e30
+20:57:28 <nemesis-ninux> Si potrebbe
+20:57:37 <valhalla> qui al nord è tarderrimo a quell'ora :)
+20:58:07 <nemesis-ninux> Lol
+20:58:07 <stefanauss> hispanico: va bene se proponiamo slash discutiamo lo spostamento nel next meeting?
+20:58:42 <Hispanico> ok
+20:58:45 <valhalla> stefanauss: posso lasciare il voto contrario a spostare in avanti in anticipo, visto che al prossimo meeting non ci sarò?
+20:58:46 <nemesis-ninux> stefanauss puoi dare il link del gcalendar a valhalla?
+20:58:57 <valhalla> meglio ancora, con #link
+20:59:09 <valhalla> (che io tanto su un gcalendar non ci vado)
+20:59:25 <stefanauss> nemesis-ninux: non ce l'ho a portata di mano, è complicato da ritrovare, dovrei loggarmi
+20:59:49 <stefanauss> valhalla, ok, ma a sto punto votiamo veloci
+20:59:54 <stefanauss> solo un sec che leggo la ref
+20:59:55 <clauz> lo sto cercando il link al calendar
+21:00:14 <stefanauss> #help
+21:00:25 <clauz> E' in homepage del wiki
+21:00:42 <stefanauss> #startvote
+21:00:42 <meetbot-ninux> Unable to parse vote topic and options.
+21:00:59 <stefanauss> #startvote prossimo meeting alle 21?
+21:00:59 <meetbot-ninux> Begin voting on: prossimo meeting alle 21? Valid vote options are Yes, No.
+21:00:59 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+21:01:05 <nemesis-ninux> Si dovrebbe poter importare il feed di gcalendar in altri sistemi
+21:01:12 <stefanauss> aah, sorry
+21:01:12 <Hispanico> https://calendar.google.com/calendar/embed?src=d574l6l5237798ij2e1d3751to%40group.calendar.google.com&ctz=Europe/Amsterdam
+21:01:20 <stefanauss> #endvote
+21:01:20 <meetbot-ninux> Voted on "prossimo meeting alle 21?" Results are
+21:01:28 <nemesis-ninux> Lol
+21:01:32 <stefanauss> #startvote prossimo meeting ore 21.30?
+21:01:32 <meetbot-ninux> Begin voting on: prossimo meeting ore 21.30? Valid vote options are Yes, No.
+21:01:32 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+21:01:34 <valhalla> #link https://calendar.google.com/calendar/embed?src=d574l6l5237798ij2e1d3751to%40group.calendar.google.com&ctz=Europe/Amsterdam
+21:01:42 <valhalla> #vote no
+21:01:47 <clauz> #vote yes
+21:01:47 <nemesis-ninux> #vote Yes
+21:01:49 <albertux1> #vote No
+21:01:54 <stefanauss> #vote Yes
+21:01:56 <Hispanico> #vote yes
+21:01:59 <noccio> #vote no
+21:01:59 <nemesis-ninux> Nord vs Sud
+21:02:05 <Hispanico> LoL
+21:02:06 <diego71_> #vote no
+21:02:08 <waki> #vote yes
+21:02:14 <fabio70mi> #vote yes
+21:02:29 <lipos[m]> #vote yes
+21:02:36 <nemesis-ninux> Sud sorpassa
+21:02:38 <albertux1> qui all 21.30 siamo in fase REM... ;)
+21:02:44 <Immanuel> #vote yes
+21:02:45 <nemesis-ninux> Beati voi
+21:02:58 <stefanauss> 1 minutino scarso ancora
+21:03:00 <diego71_> ci svegliamo con le galline
+21:03:02 <valhalla> nemesis-ninux: più che altro, quando la sveglia alla mattina suona presto...
+21:03:14 <nemesis-ninux> Ma presto tipo??
+21:03:21 <valhalla> 6
+21:03:25 <albertux1> 6.30
+21:03:30 <nemesis-ninux> Eminkia
+21:03:37 <stefanauss> #endvote
+21:03:37 <meetbot-ninux> Voted on "prossimo meeting ore 21.30?" Results are
+21:03:46 <stefanauss> stesso bug dell'altra volta
+21:04:00 <nemesis-ninux> Results are: ntuculu
+21:04:07 <stefanauss> 7 yes 4 no mi pare, però
+21:04:23 <valhalla> se non è giusto, di sicuro la differenza non cambia il risultato
+21:04:26 <diego71_> nemesis-ninux: avevo letto chtulu ...
+21:04:27 <clauz> aggiungiamolo come #info
+21:04:38 <stefanauss> #agreed next-meeting 22/02 ore 21:30 Europe/Rome
+21:04:52 <clauz> agreed e' meglio in effetti
+21:05:00 <nemesis-ninux> diego_71 ntuculu pure a chtulu
+21:05:17 <stefanauss> chiudo il meeting? sennò zio proto ci rimprovera che abbiam fatto tardi
+21:05:26 <Hispanico> ok
+21:05:30 <nemesis-ninux> Ok
+21:05:34 <valhalla> stefanauss: poi mandi tu la mail? io intanto ho preparato http://pad.ninux.org/p/IRC-agenda-2017-02-22
+21:05:34 <clauz> ok lol
+21:05:36 <nemesis-ninux> Cosi andiamo a dormire
+21:05:39 <diego71_> ormai stefanauss e' ormai espertissimo, riproponiamolo come prossimo presidente del meeting :)
+21:05:41 <valhalla> #link http://pad.ninux.org/p/IRC-agenda-2017-02-22
+21:05:48 <valhalla> diego71_ ++ :D
+21:05:55 <nemesis-ninux> Ste for president
+21:05:57 <mibofra> Bella gente, scusate l'interruzione
+21:06:03 <stefanauss> sono solo un culo su una #chair
+21:06:06 <stefanauss> :-D
+21:06:12 <stefanauss> #endmeeting
