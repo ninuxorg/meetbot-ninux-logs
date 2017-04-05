@@ -1,0 +1,338 @@
+20:17:48 <stefanauss> #startmeeting Ninux.org IRC Meeting 2017-03-16
+20:17:48 <meetbot-ninux> Meeting started Thu Mar 16 20:17:48 2017 UTC and is due to finish in 60 minutes.  The chair is stefanauss. Information about MeetBot at http://86.119.33.5.
+20:17:48 <meetbot-ninux> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+20:17:48 <meetbot-ninux> The meeting name has been set to 'ninux_org_irc_meeting_2017_03_16'
+20:18:15 <stefanauss> #topic appello dei presenti, isole o individuals
+20:18:28 <stefanauss> me, cosenza
+20:18:47 <albertux> io como
+20:18:57 <leobowski> io, firenze
+20:19:17 <hispanico> io, Roma
+20:19:42 <gabriel_sh> io, Firenze
+20:19:42 <stefanauss> (altri 30 sec di appello, ma poi potrete continuare anche in altri topic a segnalarvi)
+20:20:38 <stefanauss> #topic condivisione assemblea ninux day firenze con sociologo di Parigi
+20:21:00 <leobowski> spiego
+20:21:08 <stefanauss> #info relatore leobowski
+20:21:23 <leobowski> al ninuxday a firenze abbiamo streammato live l'assemblea
+20:21:28 <leobowski> e l'abbiamo anche registrata
+20:21:35 <leobowski> ma non l'abbiamo messa pubblica su youtube
+20:21:52 <leobowski> perche' la gente arrivava un po' per volta e non sempre capiva di essere registrata
+20:22:15 <leobowski> poi abbiamo catturato coi microfoni un po' di conversazioni a caso di gente che chiacchierava
+20:22:28 <leobowski> e abbiamo deciso che era meglio non pubblicarla
+20:22:43 <leobowski> oggi un ricercatore che lavora con me nel progetto netcommon.eu
+20:22:58 <leobowski> mi ha chiesto se poteva accedere alla registrazione
+20:23:07 <leobowski> per capire cosa facciamo
+20:23:33 <leobowski> e' un ragazzo che ha gia' fatto delle interviste in passato (un sociologo) a gente di ninux, circa 3 anni fa
+20:23:45 <leobowski> e vorrebbe sapere come sono evolute le cose
+20:24:00 <leobowski> ok
+20:24:07 <leobowski> come si vota? :-)
+20:24:30 <stefanauss> esiste una lista di chi ha partecipato al ND2016 con dei contatti?
+20:24:50 <leobowski> fammi vedere
+20:25:28 <leobowski> io ho i nomi di tutti quelli che c'erano, ma non tutti i contatti
+20:25:35 <gabriel_sh> per cosa si vota? per rendere pubblica l'assemblea?
+20:25:50 <leobowski> comunque, per chiarire, l'assemblea era gia' in streaming live
+20:26:12 <leobowski> non voglio renderla pubblica, voglio solo lasciare che questo ricercatore se la possa vedere
+20:26:29 <albertux> ack
+20:26:44 <gabriel_sh> io propongo di renderla privata, ma con un link pubblico
+20:26:52 <gabriel_sh> così che possiamo diffonderla ma non venga indicizzata
+20:27:23 <stefanauss> io vedo questa soluzione per arrivare ad una risposta in tempi brevi: scrivi in lista quest'intenzione di questa ricondivisione mirata per scopi di ricerca; se non arriva opt-out entro (1 settimana?) si assume accettata
+20:27:41 <stefanauss> ancora meglio se scrivi questa cosa anche alla lista di contatti che avete dall'evento
+20:28:08 <leobowski> ok, facciamo 3 giorni.
+20:28:37 <stefanauss> qualcuno vuole votare su una variante di questo opt-out? se no, lancio il voto così com'è
+20:29:08 <gabriel_sh> non sono chiari i termini di condivisione
+20:29:25 <gabriel_sh> inviamo il file al ricercatore? la rendiamo pubblica? la rendiamo privata con link? inseriamo il ricercatore nel canale?
+20:29:48 <leobowski> inseriamo il ricercatore nel canale, mi sembra la cosa che allarga meno la condivisione
+20:30:06 <leobowski> pubblica con link e' come pubblicarla
+20:30:08 <gabriel_sh> ok
+20:30:10 <gabriel_sh> votiamo allora
+20:30:21 <stefanauss> si può fare video privato e invitarlo al video
+20:30:42 <albertux> ricercetore nel canale +1
+20:31:29 <stefanauss> #startvote Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni? Si, No
+20:31:29 <meetbot-ninux> Begin voting on: Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni? Valid vote options are Si, No.
+20:31:29 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+20:31:47 <stefanauss> #vote Si
+20:32:04 <leobowski> #vote Si
+20:32:17 <albertux> # vote si
+20:32:32 <stefanauss> albertux: senza spazi, altrimenti non lo conta
+20:32:33 <gabriel_sh> #vote Si
+20:32:44 <hispanico> #vote si
+20:33:01 <albertux> #vote si
+20:33:12 <stefanauss> #endvote
+20:33:12 <meetbot-ninux> Voted on "Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni?" Results are
+20:33:12 <meetbot-ninux> Si (5): albertux, stefanauss, gabriel_sh, leobowski, hispanico
+20:33:44 <stefanauss> #agreed video assemblea sarà condiviso dopo opt-out period di 3 giorni comunicato in lista ninux e gruppo telegram, condivisione tramite accesso al canale
+20:34:11 <stefanauss> #topic come rendere più fruibili i log IRC, relatore leobowski
+20:34:19 <leobowski> rieccomi
+20:34:38 <leobowski> sempre parlando con il ricercatore, oggi, gli spiegavo dei meeting IRC
+20:34:54 <leobowski> lui e' iscritto alla mailing list wireless
+20:35:00 <leobowski> e quindi vede passare i resoconti
+20:35:35 <leobowski> mi faceva notare che i resoconti servono sostanzialmente a chi gia' c'era, e che per gli altri e' un po' difficile capirci qualcosa
+20:35:48 <leobowski> in effetti, non e' che siano proprio fruibili cosi' come sono
+20:36:06 <leobowski> secondo me dobbiamo aumentare la visibilita' del meeting IRC
+20:36:13 <stefanauss> però se uno ha il livello di interesse che ha lui, gli servono manco i resoconti, proprio il log completo
+20:36:23 <leobowski> sia prima che dopo, per far capire alla gente che e' una cosa utile
+20:36:53 <leobowski> si, ma quello c'e'
+20:37:00 <leobowski> solo che nessuno se lo guarda immagino
+20:37:07 <stefanauss> vero
+20:37:20 <leobowski> ovviamente lui e' un caso particolare, ma il ninuxaro medio non credo lo faccia
+20:37:58 <leobowski> quindi la mia proposta e' che all'inizio del meeting si sceglie qualcuno che si prende all'anima di fare un resoconto scritto in italiano...
+20:38:15 <stefanauss> ok, ma se nessuno è pio?
+20:38:15 <leobowski> a partire dai log e ci mette le decisioni prese e le cose piu' significative
+20:38:23 <leobowski> votiamo qualcuno
+20:38:57 <clauz> Ragazzi non riesco a seguire stasera
+20:39:10 <stefanauss> ad accollo? :-D
+20:39:20 <clauz> Orario e giorno veramente infelici e controproducenti
+20:39:34 <leobowski> clauz ma per via della riunione?
+20:40:16 <clauz> Se c'è gente nuova non mi posso mettere a chattare
+20:40:20 <clauz> Sì
+20:40:25 <albertux> faccio presente. che qui sia giorno che orario sono infelici...
+20:40:29 <clauz> Bella!
+20:40:32 <leobowski> ciao
+20:40:37 <stefanauss> ciao clauz
+20:41:01 <stefanauss> (nuovo topic sul conflict riunione romana poi)
+20:41:02 <albertux> giovedi sera e' giorno di LUG
+20:41:10 <leobowski> ok nuovo topic
+20:41:24 <stefanauss> e questo?
+20:41:39 <stefanauss> drop?
+20:41:49 <leobowski> no aspe'
+20:42:02 <leobowski> quanta gente c'era al primo meeting?
+20:42:14 <stefanauss> ~20
+20:42:19 <leobowski> al secondo?
+20:42:28 <stefanauss> eh, spè
+20:43:36 <stefanauss> #info presenti meeting: 18 primo, 16 secondo
+20:43:56 <gabriel_sh> oggi siamo 5?
+20:44:04 <stefanauss> #info presenti meeting: 8 terzo
+20:44:04 <leobowski> yes
+20:44:13 <leobowski> abbiamo un problema
+20:44:30 <leobowski> se non lo pubblicizziamo bene e facciamo vedere che serve la gente non viene
+20:45:23 <stefanauss> imo la cosa più importante è rendere banalissimo partecipare. se anche uno come te ha trovato matrix complesso, è chiaro che non va
+20:45:30 <leobowski> quindi dobbiamo mandare un resoconto decente, e ricordare che c'e' il meeting
+20:45:46 <stefanauss> esistono script IRC con tanto di autologin sul canale, devi solo scegliere il nick
+20:46:00 <stefanauss> l'avevo proposto, ma è un po' caduto nel vuoto, non so se per rumore o disinteresse
+20:46:21 <gabriel_sh> ma telegram non l'abbiamo collegato a sto canale?
+20:46:22 <stefanauss> *script = web app
+20:46:46 <leobowski> si puo' fare? (collegare telegram al canale?)
+20:46:50 <gabriel_sh> yes
+20:46:51 <stefanauss> si, leobowski
+20:46:57 <gabriel_sh> https://github.com/FruitieX/teleirc
+20:47:16 <stefanauss> se volete provo a mettere su entrambe per il prossimo meeting
+20:47:26 <stefanauss> con prio a irc web però
+20:47:32 <gabriel_sh> se ti prendi l'accollo volentieri
+20:47:38 <gabriel_sh> è che su telegram abbiamo 100 e passa iscritti
+20:47:40 <matteopedani[m]> Ma dovete parlare solo di metalinguaggio? Cioè parlate solo di come parlare?  Non avevate già dato da settimane?
+20:47:49 <gabriel_sh> qua siamo 20
+20:48:10 <gabriel_sh> se siamo in 5 parlare serve a poco
+20:48:14 <stefanauss> gabriel_sh: è che va testato per bene: ad esempio se hai latenze rischi di fare un supercasino di conversazione
+20:48:33 <lerrigatto> Internet mi ha abbandonato, scusate
+20:48:38 <stefanauss> quindi opterei per lavorare prima alla roba più facile
+20:48:42 <stefanauss> (sulla carta)
+20:48:47 <leobowski> ma irc web lo devi tirare su te? https://webchat.freenode.net/?
+20:49:16 <stefanauss> no! era per prevenire il fronte "ma dobbiamo avere tutto self-hosted!"
+20:49:34 <gabriel_prova> direi che funziona
+20:49:34 <stefanauss> (e per avere l'autologin)
+20:50:09 <leobowski> vabbe' meglio perdere tempo su teleirc, l'altro gia' c'e' basta cercare
+20:50:30 <stefanauss> ok, bene così, pubblicizziamo webchat su wiki e ovunque
+20:50:41 <leobowski> io sono per spammare sul canale telegram ninux.org con teleirc
+20:50:51 <gabriel_sh> io pure
+20:51:01 <stefanauss> ok, allora ci perdo tempo sopra
+20:51:10 <matteopedani[m]> io pure
+20:51:29 <leobowski> ok
+20:51:31 <stefanauss> #agreed implementazione bridge telegram-irc
+20:51:43 <stefanauss> #link  https://webchat.freenode.net/
+20:51:58 <stefanauss> #agreed inserimento info per accesso irc da web
+20:52:05 <leobowski> agreed anche  di spammare sul canale telegram i meeting ?
+20:52:14 <lerrigatto> Si
+20:52:33 <albertux> vabbuo'..
+20:52:39 <stefanauss> ahah, aspettate
+20:52:43 <stefanauss> #link http://webchat.freenode.net/?channels=%23ninux.org
+20:52:46 <stefanauss> lol
+20:53:03 <stefanauss> fatto, implementato
+20:53:24 <leobowski> :-)
+20:53:27 <stefanauss> sisi spam
+20:53:38 <stefanauss> #agree spamming sul canale telegram dei meeting
+20:54:07 <stefanauss> #topic data next meeting
+20:54:13 <leobowski> aspe'
+20:54:19 <leobowski> dobbiamo decidere dei resoconti
+20:54:41 <stefanauss> ok, sorry per il bump
+20:54:48 <lerrigatto> Wiki?
+20:55:08 <stefanauss> ti dirò, per me possiamo pure decidere di votare un accolo a inizio meeting, ma non credo raggiungerà l'obbiettivo
+20:55:21 <leobowski> bastano 10 righe, io metterei tutto in lista, e poi qualcuno lo porta sul blog
+20:55:29 <lerrigatto> Imho è il posto più facile e comodo.
+20:55:49 <stefanauss> però scusa, nei primi incontri c'era una sorta di report e sintesi in diretta
+20:55:52 <stefanauss> su etherpad
+20:56:05 <stefanauss> tu vuoi qualcosa di ancora diverso, verboso e in prosa?
+20:56:31 <lerrigatto> Su eterpad c'era l'agenda al massimo il link ai log e al prossimo meeting.
+20:56:34 <leobowski> Voglio che qualcuno che non c'era capisce cosa abbiamo fatto e gli viene voglia di partecipare la prossima volta
+20:56:54 <leobowski> un sacco di faccine e punti esclamativi :-) :-) :-) !!!!!!!
+20:57:08 <stefanauss> lerrigatto: no, c'era proprio un resoconto scritto a mano, fatto in diretta
+20:57:13 <lerrigatto> Imho se mettiamo su wiki e spammiamo in lista + eventuale blog è meglio di un link sperduto su etherpad
+20:57:18 <stefanauss> non su tutti gli etherpad, ma almeno 2
+20:57:46 <leobowski> va bene su etherpad, ma qualcuno si deve prendere la bega di scriverlo e farlo girare in lista
+20:58:01 <leobowski> con uno stile che possa andare anche sul blog
+20:58:11 <gferraiolo> ueueeeee
+20:58:30 <leobowski> magari non c'e' bisogno di metterlo in prima pagina, magari va in una colonna laterale
+20:58:30 <stefanauss> io declino ufficialmente l'accollo
+20:58:43 <leobowski> mica sempre lo stesso...
+20:59:05 <lerrigatto> A sto giro posso farlo io. Domani mi prendo i log, faccio una pagina sul wiki non so come e spammo in lista. Se qualcuno si accolla di ragguagliarmi sull'usp del wiki
+20:59:26 <leobowski> va bene etherpad, non deve rimanere li per sempre
+20:59:30 <stefanauss> certo, ma è per dire: anche se mi votate non li fo', specie se ho moderato nella session :-)
+21:00:10 <albertux> io non puo'.
+21:00:13 <leobowski> mi pare OK che se uno modera non sia anche quello che fa il verbale
+21:00:39 <stefanauss> lerrigatto: si, anche su etherpad, in realtà qualsiasi strumento preferisci, purché poi lo possiamo trasferire sul blog
+21:00:49 <stefanauss> lerrigatto: grazie!
+21:00:51 <lerrigatto> Visto che in teoria è una riunione interplanetaria dovrebbe essere menzionata dal wiki
+21:00:59 <lerrigatto> #accollo mio
+21:01:19 <leobowski> ottimo, se mi condividi il pad ti aiuto
+21:01:29 <stefanauss> #action lerrigatto effettuerà il resoconto blog-ready di questo meeting
+21:01:34 <leobowski> anzi usa quello con l'odg, poi vediamo
+21:01:41 <stefanauss> considero agreed il fatto di votare un accollatore a fine meeting?
+21:01:50 <leobowski> a inizio meeting
+21:01:50 <stefanauss> *inizio
+21:01:53 <leobowski> ok
+21:01:58 <leobowski> per me si
+21:02:14 <lerrigatto> @stefanauss tu comunque a fine sessione manda la mail con il link ai log, io poi domani rispondo con il wiki/blog/blablayadayada
+21:02:36 <stefanauss> lerrigatto: il link comparirà qui a fine meeting :-)
+21:03:03 <lerrigatto> Eh ok ma su irc si perde
+21:03:04 <stefanauss> #agreed a inizio prossimi meeting verrà votato il reporter
+21:03:19 <stefanauss> lerrigatto: manderò link, no te preocupe
+21:03:31 <lerrigatto> :*
+21:03:37 <stefanauss> #topic data next meeting?
+21:04:02 <stefanauss> manterrei +3 week
+21:04:12 <lerrigatto> 5 aprile?
+21:04:23 <leobowski> avete sotto mano il doodle che abbiamo fatto per il giorno?
+21:04:29 <lerrigatto> Per il giorno mercoledì o giovedì?
+21:04:33 <leobowski> * per decidere il giorno
+21:04:35 <leobowski> si
+21:04:44 <stefanauss> no, non ho il doodle
+21:04:57 <leobowski> ha senso spostarlo di mercoledi'?
+21:05:03 <leobowski> o un altro giorno?
+21:05:11 <lerrigatto> Giovedì cozza con roma
+21:05:25 <lerrigatto> Che alla fine ok, tanto non riesco mai ad andsre al fusolab
+21:05:40 <lerrigatto> Vedi stasera... Sto per strada connesso dal cellulare
+21:05:57 <albertux> ack mercoledi
+21:06:09 <stefanauss> leobowski: ha senso (per qualcuno) non ne avrà (per altri), è sempre così, ne discutiamo più o meno sempre
+21:06:33 <stefanauss> si sta verificando che spesso quelli del meeting prima decidono date che non vanno bene a chi ci parteciperò
+21:06:40 <stefanauss> *rà
+21:06:48 <leobowski> si pero' abbiamo 5 persone oggi, tanto vale alternare e farne uno merc e uno giov
+21:07:20 <stefanauss> vero
+21:07:21 <lerrigatto> #daje
+21:07:52 <stefanauss> #info se data sarà mercoledì predisponente un accollo di moderazione, non posso moderare efficacemente il mercoledì
+21:08:10 <leobowski> come si fa a decidere chi modera?
+21:08:19 <lerrigatto> Si segna sul pad
+21:08:37 <leobowski> si ma operativamente? come si diventa moderatore?
+21:08:43 <albertux> generalmente qui van bene tutti i gg tranne giove
+21:08:54 <stefanauss> #info chi comincia il meeting è automaticamente chair (mod)
+21:09:10 <leobowski> ah ok
+21:09:11 <stefanauss> per assegnare/deassegnarne altri: #chair (nick) o #unchair (nick)
+21:09:21 <albertux> giove  = LUG
+21:09:30 <lerrigatto> Chi sta hostando il bot?
+21:09:47 <stefanauss> #info bot ostato su un container realizzato da zio proto
+21:11:10 <leobowski> abbiamo
+21:11:18 <leobowski> * niente :-)
+21:11:22 <stefanauss> #startvote Next Meeting 05/04/2017 ore 21? Si, No
+21:11:22 <meetbot-ninux> Begin voting on: Next Meeting 05/04/2017 ore 21? Valid vote options are Si, No.
+21:11:22 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+21:11:37 <lerrigatto> #vote Si
+21:11:39 <gabriel_sh> #vode si
+21:11:43 <gabriel_sh> #vote Si
+21:11:54 <leobowski> #vote Si
+21:12:04 <hispanico> #vote si
+21:12:04 <stefanauss> #vote No
+21:12:07 <matteopedani[m]> si
+21:12:15 <matteopedani[m]> #vote si
+21:12:24 <stefanauss> #endvote
+21:12:24 <meetbot-ninux> Voted on "Next Meeting 05/04/2017 ore 21?" Results are
+21:12:24 <meetbot-ninux> Si (5): matteopedani[m], lerrigatto, leobowski, gabriel_sh, hispanico
+21:12:24 <meetbot-ninux> No (1): stefanauss
+21:12:44 <stefanauss> #agreed Prossimo Meeting mercoledì 5 Aprile ore 21
+21:12:58 <albertux> #vote no
+21:13:09 <stefanauss> #action proposta di alternarli da adesso tra Mer e Gio, by leoboski
+21:14:01 <stefanauss> i topic ufficiali sono finiti, continuiamo o volete closing?
+21:14:26 <leobowski> una cosa al volo
+21:14:31 <stefanauss> siamo nella canonica ora considerato il ritardo di start
+21:14:36 <leobowski> OK
+21:14:52 <leobowski> io metterei all'odg del prossimo il voto sull'alternanza di giorno
+21:15:01 <stefanauss> sono d'accordo
+21:15:01 <leobowski> ma
+21:15:11 <leobowski> secondo voi perche' siamo cosi' pochi?
+21:15:13 <albertux> vediamo di non tardare #start.....
+21:15:32 <stefanauss> 1) pessima pubblicità
+21:15:50 <stefanauss> 2) difficile partecipare
+21:15:55 <lerrigatto> A sto giro noj c'era nemmeno odg
+21:15:59 <mikytux[m]> io ho fatto ritardo...pardon
+21:16:54 <leobowski> quindi: migliorare pubblicita', costruire l'odg, facilitare la partecipazione.
+21:16:58 <matteopedani[m]> perchè state a parlare sempre di come parlare
+21:16:59 <albertux> la puntualita'e'l'anima del caxx... :)
+21:17:29 <leobowski> facilitare lo stiamo facendo, col teleirc
+21:17:36 <leobowski> (grazie Stefanauss)
+21:17:37 <lerrigatto> Nonostante tutto io insisterei con i meeting irc. Migliorando un po' di cose come odg e pubblicità.
+21:18:06 <leobowski> l'odg per mailing list non ha funzionato granche'
+21:18:19 <lerrigatto> No, etherpad va benone
+21:18:28 <stefanauss> lerrigatto: agreed. oltretutto io non sono sorpreso siamo 5, mi aspettavo che ci sarebbe stato un lungo periodo di rodaggio, serve insistere
+21:18:39 <stefanauss> che sti meeting ufficiali e periodici servono, ho 0 dubbi
+21:18:39 <albertux> anche un IRC al mese fatto bene basterebbe...
+21:18:45 <lerrigatto> Servirebbe un reminder in ml settimanalr automatico
+21:19:27 <lerrigatto> Poi imho è scialla se qualche volta c'è poco di cui parlare
+21:19:47 <stefanauss> qualcuno si può guardare come lanciare un reminder automatico in ML?
+21:20:23 <leobowski> un calendar?
+21:20:23 <dardo82_> Io sono a letto con l'iPad, più facile di così...
+21:21:04 <lerrigatto> Serve un mailserver con cron, chi cel'ha?
+21:21:24 <dardo82_> Oltretutto uso lo stesso programma che sul Mac, per maggiore facilità...
+21:21:38 <stefanauss> Aspè... ma ho il send later su thunderbird...
+21:21:56 <stefanauss> ok. lo setto da adesso per mandare na mail il giorno del meeting
+21:22:05 <stefanauss> tanto ho SEMPRE thunderbird aperto
+21:22:12 <stefanauss> non è che lo posso chiudere :-)
+21:22:34 <leobowski> beh a parte quando ripiena la memoria...
+21:22:37 <leobowski> :-)
+21:22:52 <lerrigatto> Fai ogni mercoledì, nel testo il link al pad con odg e alla pagina wiki in cui ficcheremo tuyti i resoconti
+21:23:24 <leobowski> io metterei all'odg del prossimo proposte per fare a meno del thunderbid di stefanauss
+21:23:31 <leobowski> e magari cerchiamo di parlarne in lista
+21:23:40 <stefanauss> se sono pronti già da ora questi link posso scriverli, altrimenti dovrò fare reminder generico
+21:23:46 <stefanauss> #link https://addons.mozilla.org/it/thunderbird/addon/send-later-3/
+21:24:17 <lerrigatto> Si, ottima idea. Domani avrai i link, te li manderò in risposta alla tua mail con i log si stasera in ml :D
+21:24:29 <lerrigatto> Sempre se riesco ad usare il wiki
+21:24:45 <dardo82_> Quindi ci restano pubblicità e odg, che sono la stessa cosa.
+21:24:56 <albertux> bye..
+21:25:04 <stefanauss> non ti invidio, vorrei mettere all'odg di droppare sto wiki
+21:25:11 <stefanauss> ma è complesso
+21:25:13 <leobowski> una cosa per volta
+21:25:22 <dardo82_> Se non annunci odg nella pubblicità che dici?
+21:25:31 <leobowski> cominaiciamo a spammare, mandare resoconti e mettere su il telegram
+21:25:39 <leobowski> e vediamo come va ok?
+21:25:47 <lerrigatto> Imho aiuta parecchio, io lo scorso meeting l'ho perso poiché non me lo ero segnato sul calendario e ho visto il reminder troppo tardi
+21:26:03 <lerrigatto> Lebowski: si, ok
+21:26:03 <leobowski> spammi un link ad un etherpad che possiamo fare anche ora
+21:26:45 <dardo82_> Certo che se non li cacate di striscio è inutili che la gente partecipi...
+21:27:03 <mikytux[m]> concordo un reminder almeno 1 giorno prima e magari anche in mattinata e pomeriggio
+21:27:11 <stefanauss> #action next odg: proposte di reminder automatico
+21:27:15 <lerrigatto> http://pad.ninux.org/p/IRC-agenda-2017-04-05
+21:27:24 <dardo82_> Se siete troppo occupati ad organizzare per dare ascolto a quello che vi si dice...
+21:27:26 <stefanauss> #link http://pad.ninux.org/p/IRC-agenda-2017-04-05
+21:28:03 <lerrigatto> Dardo cosa intendi?
+21:28:10 <dardo82_> Allora forse fate bene a continuare a fare da soli, ma poi non lamentatevi della scarsa partecipazione.
+21:29:03 <stefanauss> dardo82_: non cerchiamo di far nulla da soli, ma non è chiara la tua preoccupazione/idea
+21:29:09 <leobowski> dardo82: ? proponi di fare qualcosa, non ho capito cosa dici
+21:29:11 <stefanauss> spiegati meglio se puoi
+21:29:46 <dardo82_> Non credo che ci sia molto da dire perché non è un problema vostro...
+21:30:04 <lerrigatto> Credo si posaa tranquillamente discutere il testo del messaggio di reminder in ml. Imho deve contenere il pad di odg e i log del/dei precedenti. Creando una pagia su wiki con tutti i log è pure più facile
+21:31:28 <leobowski> dardo82: non ti si capisce, cosa vuoi risolvere? pensi che il messaggio vada migliorato?
+21:31:38 <dardo82_> Ma la gente che viene e vi trova impegnati a confabulare tra voi non si integra facilmente.
+21:31:59 <leobowski> ok, andiamo avanti, come pensi che si possa fare meglio?
+21:32:43 <leobowski> dardo siamo a fine meeting...
+21:32:54 <lipos[m]> salve a tutti, scusate il ritardo
+21:33:22 <leobowski> ciao lipsos
+21:33:28 <lerrigatto> Ciao!
+21:33:31 <dardo82_> Eh, aspetta che ora salvo il mondo dalla indifferenza e poi vado a cena...
+21:33:35 <leobowski> siamo agli sgoccioli
+21:33:43 <leobowski> vabbe'
+21:33:48 <stefanauss> dardo82_: può essere spiazzante, però tieni presente che IRC funziona un po' così, con tante conversazioni incrociate. non significa che si stiano ignorando
+21:34:20 <stefanauss> vabbhé dardo, non stai scrivendo nulla di costruttivo, e non è che non ti si stia dando ascolto. quando ne vuoi parlare, noi saremo qui :-)
+21:34:39 <stefanauss> sono rimaste cose in sospeso ragazzi?
+21:34:44 <leobowski> non per me
+21:34:51 <stefanauss> solo un
+21:34:56 <dardo82_> IRC lo conosco e la realtà l'ho provata, ma visto che per voi non è costruttivo...
+21:35:10 <stefanauss> #action link e testo del reminder passeranno in lista
+21:35:27 <stefanauss> chiudo il meeting ragazzi
+21:35:36 <leobowski> dardo vuoi suggerire qualcosa per il prossimo meeting
+21:35:39 <leobowski> fallo in ml.
+21:35:45 <leobowski> ciao a tutti
+21:35:47 <stefanauss> #endmeeting

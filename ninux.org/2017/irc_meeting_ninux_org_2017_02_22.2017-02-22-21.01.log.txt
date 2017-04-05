@@ -1,0 +1,170 @@
+21:01:42 <stefanauss> #startmeeting IRC Meeting Ninux.org 2017-02-22
+21:01:42 <meetbot-ninux> Meeting started Wed Feb 22 21:01:42 2017 UTC and is due to finish in 60 minutes.  The chair is stefanauss. Information about MeetBot at http://86.119.33.5.
+21:01:42 <meetbot-ninux> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+21:01:42 <meetbot-ninux> The meeting name has been set to 'irc_meeting_ninux_org_2017_02_22'
+21:01:59 <stefanauss> #topic data prossimo irc meeting
+21:02:13 <hispanico> \list
+21:02:22 <stefanauss> Qualcuno si ricorda la decisione iniziale di giorno e ora?
+21:02:31 <stefanauss> per il primo intendo
+21:02:54 <ignifugo> nhu
+21:02:59 <hispanico> era il giov alla 21
+21:03:14 <stefanauss> proporrei di fare un passo indietro a quella allora, back to basics
+21:03:53 <nemesis[m]> per me è uguale
+21:04:17 <hispanico> proviamo il prossimo nuovamente alle 21
+21:04:36 <hispanico> anche se penso che 30min cambino poco
+21:04:36 <nemesis[m]> #info il pad è giù e non abbiamo potuto vedere l'ordine del giorno, no bueno
+21:05:09 <ilario> facciamo una votazione su cambio di giorno e ora?
+21:05:21 <stefanauss> #idea usare la ML per l'agenda, in questo modo ogni update all'agenda diventa un reminder del meeting
+21:05:27 <hispanico> se serve un pad abbiamo anche questo https://meet.ninux.org/etherpad/
+21:05:45 <hispanico> #link https://meet.ninux.org/etherpad/
+21:05:47 <nemesis[m]> ottima idea stefanauss
+21:06:26 <MikyTux> concordo con stefanauss, l'idea della ML � ottima...la leggiamo tutti costantemente la mail
+21:07:03 <stefanauss> aveva senso anche il pad, ma in questo modo attacchiamo due problemi con una soluzione
+21:07:38 <stefanauss> #vote Prossimo meeting: Giovedì 16/03 ore 21:00?
+21:07:54 <stefanauss> #startvote Prossimo meeting: Giovedì 16/03 ore 21:00
+21:07:54 <meetbot-ninux> Unable to parse vote topic and options.
+21:08:03 <MikyTux> wee, non siamo tutti del nord che ceniamo alle 7
+21:08:16 <MikyTux> :P
+21:08:38 <MikyTux> io ho fatto tardi stasera perch� ho appena finito di cenare
+21:08:55 <nemesis[m]> mazza cena prima
+21:08:57 <nemesis[m]> :-D
+21:09:24 <nemesis[m]> stefanauss: sta funzioando bene la votazione?
+21:09:30 <stefanauss> #startvote Prossimo meeting: Giovedì 16/03 ore 21:00 Si,No,Fa lo stesso
+21:09:30 <meetbot-ninux> Unable to parse vote topic and options.
+21:09:42 <nemesis[m]> #help
+21:09:42 <nemesis[m]> help
+21:09:48 <MikyTux> fede, mi vuoi far magna' da solo?
+21:10:01 <hispanico> #help
+21:10:05 <nemesis[m]> come si votava
+21:10:10 <nemesis[m]> diobono
+21:10:13 <ilario> lol
+21:10:16 <stefanauss> #startvote "Prossimo meeting: Giovedì 16/03 ore 21:00" Si, No
+21:10:16 <meetbot-ninux> Unable to parse vote topic and options.
+21:10:17 <nemesis[m]> :-D
+21:10:27 <hispanico> lol
+21:10:36 <MikyTux> 21:30?
+21:10:38 <hispanico> oggi irc sta facendo capricci :D
+21:10:41 <nemesis[m]> niente non gli piace
+21:10:45 <hispanico> tutti ci litigano
+21:10:58 <stefanauss> #startvote ProssimoMeeting 16/03 21:00? Yes, No
+21:10:58 <meetbot-ninux> Begin voting on: ProssimoMeeting 16/03 21:00? Valid vote options are Yes, No.
+21:10:58 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+21:11:10 <stefanauss> hallefuckingluja
+21:11:17 <stefanauss> #vote yes
+21:11:35 <fabio70mi> #vote yes
+21:11:59 <stefanauss> #showvote
+21:11:59 <meetbot-ninux> Yes (2): stefanauss, fabio70mi
+21:12:08 <MikyTux> #vote yes (option ritardo)
+21:12:08 <meetbot-ninux> MikyTux: yes (option ritardo) is not a valid option. Valid options are Yes, No.
+21:12:33 <hispanico> #vote yes
+21:12:36 <stefanauss> Miky, senti il bot (che lagga di brutto)
+21:12:45 <ilario> #vote mah
+21:12:45 <meetbot-ninux> ilario: mah is not a valid option. Valid options are Yes, No.
+21:13:03 <MikyTux> #vote yes
+21:13:39 <stefanauss> 1 minuto e chiudiamo
+21:13:49 <MikyTux> ma il mio voto ha come opzione il ritardo (a pranzo sto con la scodella, la cena non si tocca)
+21:14:28 <nemesis[m]> #vote yes
+21:14:40 <nemesis[m]> e ritardo sia, MikyTux
+21:14:43 <stefanauss> #endvote
+21:14:43 <meetbot-ninux> Voted on "ProssimoMeeting 16/03 21:00?" Results are
+21:14:43 <meetbot-ninux> Yes (5): nemesis[m], stefanauss, fabio70mi, MikyTux, hispanico
+21:15:07 <stefanauss> #startvote agenda in ML per il prossimo meeting? Si, No
+21:15:07 <meetbot-ninux> Begin voting on: agenda in ML per il prossimo meeting? Valid vote options are Si, No.
+21:15:07 <meetbot-ninux> Vote using '#vote OPTION'. Only your last vote counts.
+21:15:08 <hispanico> vittoria schiacciante del yes
+21:15:14 <MikyTux> 5 su quanti?
+21:15:21 <stefanauss> dai che ne semo imparati come funziona il vote
+21:15:29 <ilario> #vote Sì
+21:15:29 <meetbot-ninux> ilario: Sì is not a valid option. Valid options are Si, No.
+21:15:37 <ilario> #vote Si
+21:15:42 <hispanico> #vote si
+21:15:48 <stefanauss> #vote si
+21:15:48 <ignifugo> 5 su 26
+21:17:08 <stefanauss> 1 minuto e chiudo il voto
+21:18:13 <stefanauss> #endvote
+21:18:13 <meetbot-ninux> Voted on "agenda in ML per il prossimo meeting?" Results are
+21:18:13 <meetbot-ninux> Si (3): ilario, stefanauss, hispanico
+21:18:28 <stefanauss> anche se c'erano pure altri agreed precedenti
+21:18:31 <stefanauss> quindi:
+21:18:43 <MikyTux> #vote si
+21:18:51 <stefanauss> #agreed prossimo meeting, giovedì 16/03 @ 21:00
+21:19:09 <stefanauss> #agreed l'agenda del prossimo meeting si costruirà in ML, in modo da avere anche reminder del meeting progressivi
+21:19:21 <stefanauss> #topic migrazione meetbot
+21:19:44 <stefanauss> Chi è interessato a manutenere il meetbot ninux?
+21:20:01 <stefanauss> (mi offro, eventualmente)
+21:20:09 <MikyTux> vai in ferie? :)
+21:20:15 <nemesis[m]> #vote si
+21:21:50 <stefanauss> MikyTux: non moderare, hostare :)
+21:22:04 <MikyTux> vuoi una vm?
+21:22:12 <MikyTux> nessun problema
+21:22:18 <hispanico> io propongo un lxc sul bgp del namx
+21:22:36 <ignifugo> domanda. alla precedente assemblea chemi son saltata c'era molta più gente?
+21:22:36 <hispanico> basta spreco di risorse con le VM :D
+21:23:01 <nemesis[m]> ignifugo: mi pare di sì
+21:23:11 <ignifugo> cmq in 26 non si è mica pochi,no?
+21:23:30 <MikyTux> ho ancora 3-4 IP liberi, al massimo posso prendere un'altra subnet se serve
+21:23:34 <stefanauss> decidiamo chi se ne occupa, la soluzione tecnica può essere qualunque e cambiare col tempo
+21:24:06 <stefanauss> comunque, importantissimo: chiunque hosti, magari prevediamo group maintainership a 'sto giro
+21:24:15 <stefanauss> aka almeno 2?
+21:24:18 <hispanico> il problema é che non si capisce l'effort necessario
+21:24:47 <hispanico> e soprattutto la guida che ha postato zioproto é con docker
+21:24:54 <hispanico> e sinceramente non mi piace
+21:24:59 <hispanico> docker
+21:25:09 <ignifugo> nel senso che mi chiedevo che punti ci sono in assemblea oggi, così mi distraevo se l'ultimo punto è sul meetbot :P
+21:25:16 <ilario> ignifugo, stando al log l'ultima volta hanno scritto in 15 (non c'è scritto quanti stavano lurkando)
+21:25:47 <ignifugo> senza offesa al meetbot chiaro
+21:26:20 <stefanauss> hispanico: se vuoi più tempo per capirne l'effort, possiamo trasferire questo topic alla ML nei prossimi giorni, visto che comunque zio proto ne ha scritto lì
+21:26:28 <nemesis[m]> sarebbe meglio almeno 2
+21:27:19 <stefanauss> hispanico: ma mantieni altri servizi/utility ninux atm?
+21:27:55 <hispanico> al momento c'é mattermost e jistimeet
+21:28:03 <hispanico> che stiamo utilizzando poco
+21:28:44 <ignifugo> jitsi?
+21:29:23 <stefanauss> ignifugo: una piattaforma di videoconferenza open source
+21:29:47 <ignifugo> grazie, conosco, volevo conferma.
+21:29:59 <hispanico> #link meet.ninux.org
+21:31:04 <ilario> uh! l'indirizzo del mattermost pare non sia mai passato in ML!
+21:31:11 <ilario> #link mattermost.ninux.org
+21:31:22 <stefanauss> hispanico: dove sono hostate per curiosità?
+21:31:52 <hispanico> al momento sono lxc su un mio server di test su hetzner
+21:32:37 <hispanico> l'intezione é migrare tutto a casa mia su un server che ho comprato
+21:32:50 <hispanico> e sfruttare la fibra olandese
+21:32:51 <hispanico> :D
+21:33:07 <MikyTux> con tutta quella banda....ti credo che puoi mettere servizi! :)
+21:35:26 <stefanauss> ok, a questo punto trasferiamo questo topic alla ML e coordiniamo li la maintership del nuovo meetbot
+21:35:56 <nemesis[m]> sì dai
+21:36:02 <stefanauss> ci sono varie ed eventuali dell'ultimo minuto?
+21:36:20 <stefanauss> in particolare, se qualcuno ha già topics per il prossimo meeting, sfruttiamo questi ultimi minuti
+21:36:35 <ignifugo> a noi a Bo è passata in lista la proposta di ospitare il prossimo ninux day e siam presi bene
+21:36:48 <stefanauss> #agreed maintership next-meetboot, discutiamone in ML
+21:37:06 <stefanauss> #topic ninuxday-next a bo
+21:37:10 <stefanauss> racconta|
+21:37:12 <stefanauss> !
+21:37:19 <stefanauss> stato della discussione finora?
+21:37:40 <MikyTux> Ste, cmq io ho proxmox su hetzner ed ho ancora 3-4 IP pubblici liberi...se serve una VM o una CT sono a disposizione...unica cosa, la domenica a mezzanotte parte un backup generale e vengono sospese per il backuo
+21:38:02 <stefanauss> #info A Bologna in ML è passata la proposta di hosting del prossimo ninux day
+21:38:30 <ignifugo> abbiam fatto una ssemblea, ma eravamo in 3 + 5 curiosi quasi coatti ma in ML se ne discute in 3 o 4 in più
+21:38:36 <stefanauss> #link http://ml.ninux.org/pipermail/bologna/2017-January/001354.html
+21:38:52 <ignifugo> non grandi numeri ma buona spinta
+21:38:53 <stefanauss> #link http://ml.ninux.org/pipermail/bologna/2017-February/001358.html
+21:40:04 <ignifugo> poi abbiamo l'hacklab sotto sgombero
+21:40:12 <ilario> che cheee argh
+21:40:44 <ilario> (ah già, l'hacklab sta in XM24)
+21:40:48 <ignifugo> quindi stassera gli altri sono in assemblea ad xm24
+21:42:31 <stefanauss> che tu sappia si parlerà di nnxday?
+21:44:01 <ignifugo> no
+21:44:57 <ignifugo> si sta organizzando la giornata del 4 marzo in città sulle varie forme di autogestione
+21:45:39 <ignifugo> domenica scorsa era la festa dei 15 anni di XM ed avevamo l'hacklab aperto
+21:45:56 <stefanauss> #info (da ML-BO) "accettiamo la proposta del ninux day nazionale a novembre a bologna(c'era entusiasmo ma poche persone per deciderlo, anche se i 5 passanti erano gasate/i all'idea :)"
+21:46:23 <ignifugo> ed al mattino ci siam trovati a testare due ubiquiti per attivare i nodi in valsamoggia
+21:47:09 <stefanauss> insomma, siete stati distratti :-)
+21:47:25 <stefanauss> comunque, che sappiamo che se ne è parlato a bo è una grossa cosa
+21:48:25 <stefanauss> se possibile provate a stimolare un meeting dove il punto è all'odg
+21:48:58 <stefanauss> più che altro per "raggiungere un buon numero di persone per decidere"
+21:49:10 <ignifugo> si dobbiam fissare un giorno per un meeting,  in ML si diceva di farlo in IRC
+21:50:10 <stefanauss> ho letto. ma il via libera a organizzare un nnx-day valutate l'opportunità di farlo fisicamente. serve max chiarezza sull'impegno necessario
+21:50:25 <stefanauss> </fine citazione leon>
+21:50:56 <stefanauss> (o che si fa, si chiude il meeting?)
+21:52:00 <ignifugo> qua abbiamo il calendario di quel che facciamo suppergiù tra gruppi bolognesi https://hackordie.gattini.ninja/nebbia/index.php/apps/calendar/public/28GBXY2H8QUC0E50
+21:52:53 <stefanauss> #link https://hackordie.gattini.ninja/nebbia/index.php/apps/calendar/public/28GBXY2H8QUC0E50 (calendario attività gruppi BO)
+21:53:16 <stefanauss> non male
+21:53:57 <stefanauss> #endmeeting

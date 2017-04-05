@@ -1,0 +1,365 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>#ninux.org log</title>
+<style type="text/css">
+/* For the .log.html */
+pre { /*line-height: 125%;*/
+      white-space: pre-wrap; }
+body { background: #f0f0f0; }
+
+body .tm  { color: #007020 }                      /* time */
+body .nk  { color: #062873; font-weight: bold }   /* nick, regular */
+body .nka { color: #007020; font-weight: bold }  /* action nick */
+body .ac  { color: #00A000 }                      /* action line */
+body .hi  { color: #4070a0 }                 /* hilights */
+/* Things to make particular MeetBot commands stick out */
+body .topic     { color: #007020; font-weight: bold }
+body .topicline { color: #000080; font-weight: bold }
+body .cmd       { color: #007020; font-weight: bold }
+body .cmdline  { font-weight: bold }
+
+</style>
+</head>
+
+<body>
+<pre><a name="l-1"></a><span class="tm">20:17:48</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#startmeeting </span><span class="cmdline">Ninux.org IRC Meeting 2017-03-16</span>
+<a name="l-2"></a><span class="tm">20:17:48</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Meeting started Thu Mar 16 20:17:48 2017 UTC and is due to finish in 60 minutes.  The chair is stefanauss. Information about MeetBot at http://86.119.33.5.
+<a name="l-3"></a><span class="tm">20:17:48</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Useful Commands: #action #agreed #help #info #idea #link #topic #startvote.
+<a name="l-4"></a><span class="tm">20:17:48</span><span class="nk"> &lt;meetbot-ninux&gt;</span> The meeting name has been set to 'ninux_org_irc_meeting_2017_03_16'
+<a name="l-5"></a><span class="tm">20:18:15</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="topic">#topic </span><span class="topicline">appello dei presenti, isole o individuals</span>
+<a name="l-6"></a><span class="tm">20:18:28</span><span class="nk"> &lt;stefanauss&gt;</span> me, cosenza
+<a name="l-7"></a><span class="tm">20:18:47</span><span class="nk"> &lt;albertux&gt;</span> io como
+<a name="l-8"></a><span class="tm">20:18:57</span><span class="nk"> &lt;leobowski&gt;</span> io, firenze
+<a name="l-9"></a><span class="tm">20:19:17</span><span class="nk"> &lt;hispanico&gt;</span> io, Roma
+<a name="l-10"></a><span class="tm">20:19:42</span><span class="nk"> &lt;gabriel_sh&gt;</span> io, Firenze
+<a name="l-11"></a><span class="tm">20:19:42</span><span class="nk"> &lt;stefanauss&gt;</span> (altri 30 sec di appello, ma poi potrete continuare anche in altri topic a segnalarvi)
+<a name="l-12"></a><span class="tm">20:20:38</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="topic">#topic </span><span class="topicline">condivisione assemblea ninux day firenze con sociologo di Parigi</span>
+<a name="l-13"></a><span class="tm">20:21:00</span><span class="nk"> &lt;leobowski&gt;</span> spiego
+<a name="l-14"></a><span class="tm">20:21:08</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">relatore leobowski</span>
+<a name="l-15"></a><span class="tm">20:21:23</span><span class="nk"> &lt;leobowski&gt;</span> al ninuxday a firenze abbiamo streammato live l'assemblea
+<a name="l-16"></a><span class="tm">20:21:28</span><span class="nk"> &lt;leobowski&gt;</span> e l'abbiamo anche registrata
+<a name="l-17"></a><span class="tm">20:21:35</span><span class="nk"> &lt;leobowski&gt;</span> ma non l'abbiamo messa pubblica su youtube
+<a name="l-18"></a><span class="tm">20:21:52</span><span class="nk"> &lt;leobowski&gt;</span> perche' la gente arrivava un po' per volta e non sempre capiva di essere registrata
+<a name="l-19"></a><span class="tm">20:22:15</span><span class="nk"> &lt;leobowski&gt;</span> poi abbiamo catturato coi microfoni un po' di conversazioni a caso di gente che chiacchierava
+<a name="l-20"></a><span class="tm">20:22:28</span><span class="nk"> &lt;leobowski&gt;</span> e abbiamo deciso che era meglio non pubblicarla
+<a name="l-21"></a><span class="tm">20:22:43</span><span class="nk"> &lt;leobowski&gt;</span> oggi un ricercatore che lavora con me nel progetto netcommon.eu
+<a name="l-22"></a><span class="tm">20:22:58</span><span class="nk"> &lt;leobowski&gt;</span> mi ha chiesto se poteva accedere alla registrazione
+<a name="l-23"></a><span class="tm">20:23:07</span><span class="nk"> &lt;leobowski&gt;</span> per capire cosa facciamo
+<a name="l-24"></a><span class="tm">20:23:33</span><span class="nk"> &lt;leobowski&gt;</span> e' un ragazzo che ha gia' fatto delle interviste in passato (un sociologo) a gente di ninux, circa 3 anni fa
+<a name="l-25"></a><span class="tm">20:23:45</span><span class="nk"> &lt;leobowski&gt;</span> e vorrebbe sapere come sono evolute le cose
+<a name="l-26"></a><span class="tm">20:24:00</span><span class="nk"> &lt;leobowski&gt;</span> ok
+<a name="l-27"></a><span class="tm">20:24:07</span><span class="nk"> &lt;leobowski&gt;</span> come si vota? :-)
+<a name="l-28"></a><span class="tm">20:24:30</span><span class="nk"> &lt;stefanauss&gt;</span> esiste una lista di chi ha partecipato al ND2016 con dei contatti?
+<a name="l-29"></a><span class="tm">20:24:50</span><span class="nk"> &lt;leobowski&gt;</span> fammi vedere
+<a name="l-30"></a><span class="tm">20:25:28</span><span class="nk"> &lt;leobowski&gt;</span> io ho i nomi di tutti quelli che c'erano, ma non tutti i contatti
+<a name="l-31"></a><span class="tm">20:25:35</span><span class="nk"> &lt;gabriel_sh&gt;</span> per cosa si vota? per rendere pubblica l'assemblea?
+<a name="l-32"></a><span class="tm">20:25:50</span><span class="nk"> &lt;leobowski&gt;</span> comunque, per chiarire, l'assemblea era gia' in streaming live
+<a name="l-33"></a><span class="tm">20:26:12</span><span class="nk"> &lt;leobowski&gt;</span> non voglio renderla pubblica, voglio solo lasciare che questo ricercatore se la possa vedere
+<a name="l-34"></a><span class="tm">20:26:29</span><span class="nk"> &lt;albertux&gt;</span> ack
+<a name="l-35"></a><span class="tm">20:26:44</span><span class="nk"> &lt;gabriel_sh&gt;</span> io propongo di renderla privata, ma con un link pubblico
+<a name="l-36"></a><span class="tm">20:26:52</span><span class="nk"> &lt;gabriel_sh&gt;</span> così che possiamo diffonderla ma non venga indicizzata
+<a name="l-37"></a><span class="tm">20:27:23</span><span class="nk"> &lt;stefanauss&gt;</span> io vedo questa soluzione per arrivare ad una risposta in tempi brevi: scrivi in lista quest'intenzione di questa ricondivisione mirata per scopi di ricerca; se non arriva opt-out entro (1 settimana?) si assume accettata
+<a name="l-38"></a><span class="tm">20:27:41</span><span class="nk"> &lt;stefanauss&gt;</span> ancora meglio se scrivi questa cosa anche alla lista di contatti che avete dall'evento
+<a name="l-39"></a><span class="tm">20:28:08</span><span class="nk"> &lt;leobowski&gt;</span> ok, facciamo 3 giorni.
+<a name="l-40"></a><span class="tm">20:28:37</span><span class="nk"> &lt;stefanauss&gt;</span> qualcuno vuole votare su una variante di questo opt-out? se no, lancio il voto così com'è
+<a name="l-41"></a><span class="tm">20:29:08</span><span class="nk"> &lt;gabriel_sh&gt;</span> non sono chiari i termini di condivisione
+<a name="l-42"></a><span class="tm">20:29:25</span><span class="nk"> &lt;gabriel_sh&gt;</span> inviamo il file al ricercatore? la rendiamo pubblica? la rendiamo privata con link? inseriamo il ricercatore nel canale?
+<a name="l-43"></a><span class="tm">20:29:48</span><span class="nk"> &lt;leobowski&gt;</span> inseriamo il ricercatore nel canale, mi sembra la cosa che allarga meno la condivisione
+<a name="l-44"></a><span class="tm">20:30:06</span><span class="nk"> &lt;leobowski&gt;</span> pubblica con link e' come pubblicarla
+<a name="l-45"></a><span class="tm">20:30:08</span><span class="nk"> &lt;gabriel_sh&gt;</span> ok
+<a name="l-46"></a><span class="tm">20:30:10</span><span class="nk"> &lt;gabriel_sh&gt;</span> votiamo allora
+<a name="l-47"></a><span class="tm">20:30:21</span><span class="nk"> &lt;stefanauss&gt;</span> si può fare video privato e invitarlo al video
+<a name="l-48"></a><span class="tm">20:30:42</span><span class="nk"> &lt;albertux&gt;</span> ricercetore nel canale +1
+<a name="l-49"></a><span class="tm">20:31:29</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#startvote </span><span class="cmdline">Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni? Si, No</span>
+<a name="l-50"></a><span class="tm">20:31:29</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Begin voting on: Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni? Valid vote options are Si, No.
+<a name="l-51"></a><span class="tm">20:31:29</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Vote using '#vote OPTION'. Only your last vote counts.
+<a name="l-52"></a><span class="tm">20:31:47</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-53"></a><span class="tm">20:32:04</span><span class="nk"> &lt;leobowski&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-54"></a><span class="tm">20:32:17</span><span class="nk"> &lt;albertux&gt;</span> # vote si
+<a name="l-55"></a><span class="tm">20:32:32</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">albertux:</span> senza spazi, altrimenti non lo conta
+<a name="l-56"></a><span class="tm">20:32:33</span><span class="nk"> &lt;gabriel_sh&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-57"></a><span class="tm">20:32:44</span><span class="nk"> &lt;hispanico&gt;</span> <span class="cmd">#vote </span><span class="cmdline">si</span>
+<a name="l-58"></a><span class="tm">20:33:01</span><span class="nk"> &lt;albertux&gt;</span> <span class="cmd">#vote </span><span class="cmdline">si</span>
+<a name="l-59"></a><span class="tm">20:33:12</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#endvote</span><span class="cmdline"></span>
+<a name="l-60"></a><span class="tm">20:33:12</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Voted on "Condividere assemblea ND2016 con ricercatore Parigi con metodo opt-out su 3 giorni?" Results are
+<a name="l-61"></a><span class="tm">20:33:12</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Si (5): albertux, stefanauss, gabriel_sh, leobowski, hispanico
+<a name="l-62"></a><span class="tm">20:33:44</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">video assemblea sarà condiviso dopo opt-out period di 3 giorni comunicato in lista ninux e gruppo telegram, condivisione tramite accesso al canale</span>
+<a name="l-63"></a><span class="tm">20:34:11</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="topic">#topic </span><span class="topicline">come rendere più fruibili i log IRC, relatore leobowski</span>
+<a name="l-64"></a><span class="tm">20:34:19</span><span class="nk"> &lt;leobowski&gt;</span> rieccomi
+<a name="l-65"></a><span class="tm">20:34:38</span><span class="nk"> &lt;leobowski&gt;</span> sempre parlando con il ricercatore, oggi, gli spiegavo dei meeting IRC
+<a name="l-66"></a><span class="tm">20:34:54</span><span class="nk"> &lt;leobowski&gt;</span> lui e' iscritto alla mailing list wireless
+<a name="l-67"></a><span class="tm">20:35:00</span><span class="nk"> &lt;leobowski&gt;</span> e quindi vede passare i resoconti
+<a name="l-68"></a><span class="tm">20:35:35</span><span class="nk"> &lt;leobowski&gt;</span> mi faceva notare che i resoconti servono sostanzialmente a chi gia' c'era, e che per gli altri e' un po' difficile capirci qualcosa
+<a name="l-69"></a><span class="tm">20:35:48</span><span class="nk"> &lt;leobowski&gt;</span> in effetti, non e' che siano proprio fruibili cosi' come sono
+<a name="l-70"></a><span class="tm">20:36:06</span><span class="nk"> &lt;leobowski&gt;</span> secondo me dobbiamo aumentare la visibilita' del meeting IRC
+<a name="l-71"></a><span class="tm">20:36:13</span><span class="nk"> &lt;stefanauss&gt;</span> però se uno ha il livello di interesse che ha lui, gli servono manco i resoconti, proprio il log completo
+<a name="l-72"></a><span class="tm">20:36:23</span><span class="nk"> &lt;leobowski&gt;</span> sia prima che dopo, per far capire alla gente che e' una cosa utile
+<a name="l-73"></a><span class="tm">20:36:53</span><span class="nk"> &lt;leobowski&gt;</span> si, ma quello c'e'
+<a name="l-74"></a><span class="tm">20:37:00</span><span class="nk"> &lt;leobowski&gt;</span> solo che nessuno se lo guarda immagino
+<a name="l-75"></a><span class="tm">20:37:07</span><span class="nk"> &lt;stefanauss&gt;</span> vero
+<a name="l-76"></a><span class="tm">20:37:20</span><span class="nk"> &lt;leobowski&gt;</span> ovviamente lui e' un caso particolare, ma il ninuxaro medio non credo lo faccia
+<a name="l-77"></a><span class="tm">20:37:58</span><span class="nk"> &lt;leobowski&gt;</span> quindi la mia proposta e' che all'inizio del meeting si sceglie qualcuno che si prende all'anima di fare un resoconto scritto in italiano...
+<a name="l-78"></a><span class="tm">20:38:15</span><span class="nk"> &lt;stefanauss&gt;</span> ok, ma se nessuno è pio?
+<a name="l-79"></a><span class="tm">20:38:15</span><span class="nk"> &lt;leobowski&gt;</span> a partire dai log e ci mette le decisioni prese e le cose piu' significative
+<a name="l-80"></a><span class="tm">20:38:23</span><span class="nk"> &lt;leobowski&gt;</span> votiamo qualcuno
+<a name="l-81"></a><span class="tm">20:38:57</span><span class="nk"> &lt;clauz&gt;</span> Ragazzi non riesco a seguire stasera
+<a name="l-82"></a><span class="tm">20:39:10</span><span class="nk"> &lt;stefanauss&gt;</span> ad accollo? :-D
+<a name="l-83"></a><span class="tm">20:39:20</span><span class="nk"> &lt;clauz&gt;</span> Orario e giorno veramente infelici e controproducenti
+<a name="l-84"></a><span class="tm">20:39:34</span><span class="nk"> &lt;leobowski&gt;</span> clauz ma per via della riunione?
+<a name="l-85"></a><span class="tm">20:40:16</span><span class="nk"> &lt;clauz&gt;</span> Se c'è gente nuova non mi posso mettere a chattare
+<a name="l-86"></a><span class="tm">20:40:20</span><span class="nk"> &lt;clauz&gt;</span> Sì
+<a name="l-87"></a><span class="tm">20:40:25</span><span class="nk"> &lt;albertux&gt;</span> faccio presente. che qui sia giorno che orario sono infelici...
+<a name="l-88"></a><span class="tm">20:40:29</span><span class="nk"> &lt;clauz&gt;</span> Bella!
+<a name="l-89"></a><span class="tm">20:40:32</span><span class="nk"> &lt;leobowski&gt;</span> ciao
+<a name="l-90"></a><span class="tm">20:40:37</span><span class="nk"> &lt;stefanauss&gt;</span> ciao clauz
+<a name="l-91"></a><span class="tm">20:41:01</span><span class="nk"> &lt;stefanauss&gt;</span> (nuovo topic sul conflict riunione romana poi)
+<a name="l-92"></a><span class="tm">20:41:02</span><span class="nk"> &lt;albertux&gt;</span> giovedi sera e' giorno di LUG
+<a name="l-93"></a><span class="tm">20:41:10</span><span class="nk"> &lt;leobowski&gt;</span> ok nuovo topic
+<a name="l-94"></a><span class="tm">20:41:24</span><span class="nk"> &lt;stefanauss&gt;</span> e questo?
+<a name="l-95"></a><span class="tm">20:41:39</span><span class="nk"> &lt;stefanauss&gt;</span> drop?
+<a name="l-96"></a><span class="tm">20:41:49</span><span class="nk"> &lt;leobowski&gt;</span> no aspe'
+<a name="l-97"></a><span class="tm">20:42:02</span><span class="nk"> &lt;leobowski&gt;</span> quanta gente c'era al primo meeting?
+<a name="l-98"></a><span class="tm">20:42:14</span><span class="nk"> &lt;stefanauss&gt;</span> ~20
+<a name="l-99"></a><span class="tm">20:42:19</span><span class="nk"> &lt;leobowski&gt;</span> al secondo?
+<a name="l-100"></a><span class="tm">20:42:28</span><span class="nk"> &lt;stefanauss&gt;</span> eh, spè
+<a name="l-101"></a><span class="tm">20:43:36</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">presenti meeting: 18 primo, 16 secondo</span>
+<a name="l-102"></a><span class="tm">20:43:56</span><span class="nk"> &lt;gabriel_sh&gt;</span> oggi siamo 5?
+<a name="l-103"></a><span class="tm">20:44:04</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">presenti meeting: 8 terzo</span>
+<a name="l-104"></a><span class="tm">20:44:04</span><span class="nk"> &lt;leobowski&gt;</span> yes
+<a name="l-105"></a><span class="tm">20:44:13</span><span class="nk"> &lt;leobowski&gt;</span> abbiamo un problema
+<a name="l-106"></a><span class="tm">20:44:30</span><span class="nk"> &lt;leobowski&gt;</span> se non lo pubblicizziamo bene e facciamo vedere che serve la gente non viene
+<a name="l-107"></a><span class="tm">20:45:23</span><span class="nk"> &lt;stefanauss&gt;</span> imo la cosa più importante è rendere banalissimo partecipare. se anche uno come te ha trovato matrix complesso, è chiaro che non va
+<a name="l-108"></a><span class="tm">20:45:30</span><span class="nk"> &lt;leobowski&gt;</span> quindi dobbiamo mandare un resoconto decente, e ricordare che c'e' il meeting
+<a name="l-109"></a><span class="tm">20:45:46</span><span class="nk"> &lt;stefanauss&gt;</span> esistono script IRC con tanto di autologin sul canale, devi solo scegliere il nick
+<a name="l-110"></a><span class="tm">20:46:00</span><span class="nk"> &lt;stefanauss&gt;</span> l'avevo proposto, ma è un po' caduto nel vuoto, non so se per rumore o disinteresse
+<a name="l-111"></a><span class="tm">20:46:21</span><span class="nk"> &lt;gabriel_sh&gt;</span> ma telegram non l'abbiamo collegato a sto canale?
+<a name="l-112"></a><span class="tm">20:46:22</span><span class="nk"> &lt;stefanauss&gt;</span> *script = web app
+<a name="l-113"></a><span class="tm">20:46:46</span><span class="nk"> &lt;leobowski&gt;</span> si puo' fare? (collegare telegram al canale?)
+<a name="l-114"></a><span class="tm">20:46:50</span><span class="nk"> &lt;gabriel_sh&gt;</span> yes
+<a name="l-115"></a><span class="tm">20:46:51</span><span class="nk"> &lt;stefanauss&gt;</span> si, leobowski
+<a name="l-116"></a><span class="tm">20:46:57</span><span class="nk"> &lt;gabriel_sh&gt;</span> https://github.com/FruitieX/teleirc
+<a name="l-117"></a><span class="tm">20:47:16</span><span class="nk"> &lt;stefanauss&gt;</span> se volete provo a mettere su entrambe per il prossimo meeting
+<a name="l-118"></a><span class="tm">20:47:26</span><span class="nk"> &lt;stefanauss&gt;</span> con prio a irc web però
+<a name="l-119"></a><span class="tm">20:47:32</span><span class="nk"> &lt;gabriel_sh&gt;</span> se ti prendi l'accollo volentieri
+<a name="l-120"></a><span class="tm">20:47:38</span><span class="nk"> &lt;gabriel_sh&gt;</span> è che su telegram abbiamo 100 e passa iscritti
+<a name="l-121"></a><span class="tm">20:47:40</span><span class="nk"> &lt;matteopedani[m]&gt;</span> Ma dovete parlare solo di metalinguaggio? Cioè parlate solo di come parlare?  Non avevate già dato da settimane?
+<a name="l-122"></a><span class="tm">20:47:49</span><span class="nk"> &lt;gabriel_sh&gt;</span> qua siamo 20
+<a name="l-123"></a><span class="tm">20:48:10</span><span class="nk"> &lt;gabriel_sh&gt;</span> se siamo in 5 parlare serve a poco
+<a name="l-124"></a><span class="tm">20:48:14</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">gabriel_sh:</span> è che va testato per bene: ad esempio se hai latenze rischi di fare un supercasino di conversazione
+<a name="l-125"></a><span class="tm">20:48:33</span><span class="nk"> &lt;lerrigatto&gt;</span> Internet mi ha abbandonato, scusate
+<a name="l-126"></a><span class="tm">20:48:38</span><span class="nk"> &lt;stefanauss&gt;</span> quindi opterei per lavorare prima alla roba più facile
+<a name="l-127"></a><span class="tm">20:48:42</span><span class="nk"> &lt;stefanauss&gt;</span> (sulla carta)
+<a name="l-128"></a><span class="tm">20:48:47</span><span class="nk"> &lt;leobowski&gt;</span> ma irc web lo devi tirare su te? https://webchat.freenode.net/?
+<a name="l-129"></a><span class="tm">20:49:16</span><span class="nk"> &lt;stefanauss&gt;</span> no! era per prevenire il fronte "ma dobbiamo avere tutto self-hosted!"
+<a name="l-130"></a><span class="tm">20:49:34</span><span class="nk"> &lt;gabriel_prova&gt;</span> direi che funziona
+<a name="l-131"></a><span class="tm">20:49:34</span><span class="nk"> &lt;stefanauss&gt;</span> (e per avere l'autologin)
+<a name="l-132"></a><span class="tm">20:50:09</span><span class="nk"> &lt;leobowski&gt;</span> vabbe' meglio perdere tempo su teleirc, l'altro gia' c'e' basta cercare
+<a name="l-133"></a><span class="tm">20:50:30</span><span class="nk"> &lt;stefanauss&gt;</span> ok, bene così, pubblicizziamo webchat su wiki e ovunque
+<a name="l-134"></a><span class="tm">20:50:41</span><span class="nk"> &lt;leobowski&gt;</span> io sono per spammare sul canale telegram ninux.org con teleirc
+<a name="l-135"></a><span class="tm">20:50:51</span><span class="nk"> &lt;gabriel_sh&gt;</span> io pure
+<a name="l-136"></a><span class="tm">20:51:01</span><span class="nk"> &lt;stefanauss&gt;</span> ok, allora ci perdo tempo sopra
+<a name="l-137"></a><span class="tm">20:51:10</span><span class="nk"> &lt;matteopedani[m]&gt;</span> io pure
+<a name="l-138"></a><span class="tm">20:51:29</span><span class="nk"> &lt;leobowski&gt;</span> ok
+<a name="l-139"></a><span class="tm">20:51:31</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">implementazione bridge telegram-irc</span>
+<a name="l-140"></a><span class="tm">20:51:43</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#link  </span><span class="cmdline">https://webchat.freenode.net/</span>
+<a name="l-141"></a><span class="tm">20:51:58</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">inserimento info per accesso irc da web</span>
+<a name="l-142"></a><span class="tm">20:52:05</span><span class="nk"> &lt;leobowski&gt;</span> agreed anche  di spammare sul canale telegram i meeting ?
+<a name="l-143"></a><span class="tm">20:52:14</span><span class="nk"> &lt;lerrigatto&gt;</span> Si
+<a name="l-144"></a><span class="tm">20:52:33</span><span class="nk"> &lt;albertux&gt;</span> vabbuo'..
+<a name="l-145"></a><span class="tm">20:52:39</span><span class="nk"> &lt;stefanauss&gt;</span> ahah, aspettate
+<a name="l-146"></a><span class="tm">20:52:43</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://webchat.freenode.net/?channels=%23ninux.org</span>
+<a name="l-147"></a><span class="tm">20:52:46</span><span class="nk"> &lt;stefanauss&gt;</span> lol
+<a name="l-148"></a><span class="tm">20:53:03</span><span class="nk"> &lt;stefanauss&gt;</span> fatto, implementato
+<a name="l-149"></a><span class="tm">20:53:24</span><span class="nk"> &lt;leobowski&gt;</span> :-)
+<a name="l-150"></a><span class="tm">20:53:27</span><span class="nk"> &lt;stefanauss&gt;</span> sisi spam
+<a name="l-151"></a><span class="tm">20:53:38</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agree </span><span class="cmdline">spamming sul canale telegram dei meeting</span>
+<a name="l-152"></a><span class="tm">20:54:07</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="topic">#topic </span><span class="topicline">data next meeting</span>
+<a name="l-153"></a><span class="tm">20:54:13</span><span class="nk"> &lt;leobowski&gt;</span> aspe'
+<a name="l-154"></a><span class="tm">20:54:19</span><span class="nk"> &lt;leobowski&gt;</span> dobbiamo decidere dei resoconti
+<a name="l-155"></a><span class="tm">20:54:41</span><span class="nk"> &lt;stefanauss&gt;</span> ok, sorry per il bump
+<a name="l-156"></a><span class="tm">20:54:48</span><span class="nk"> &lt;lerrigatto&gt;</span> Wiki?
+<a name="l-157"></a><span class="tm">20:55:08</span><span class="nk"> &lt;stefanauss&gt;</span> ti dirò, per me possiamo pure decidere di votare un accolo a inizio meeting, ma non credo raggiungerà l'obbiettivo
+<a name="l-158"></a><span class="tm">20:55:21</span><span class="nk"> &lt;leobowski&gt;</span> bastano 10 righe, io metterei tutto in lista, e poi qualcuno lo porta sul blog
+<a name="l-159"></a><span class="tm">20:55:29</span><span class="nk"> &lt;lerrigatto&gt;</span> Imho è il posto più facile e comodo.
+<a name="l-160"></a><span class="tm">20:55:49</span><span class="nk"> &lt;stefanauss&gt;</span> però scusa, nei primi incontri c'era una sorta di report e sintesi in diretta
+<a name="l-161"></a><span class="tm">20:55:52</span><span class="nk"> &lt;stefanauss&gt;</span> su etherpad
+<a name="l-162"></a><span class="tm">20:56:05</span><span class="nk"> &lt;stefanauss&gt;</span> tu vuoi qualcosa di ancora diverso, verboso e in prosa?
+<a name="l-163"></a><span class="tm">20:56:31</span><span class="nk"> &lt;lerrigatto&gt;</span> Su eterpad c'era l'agenda al massimo il link ai log e al prossimo meeting.
+<a name="l-164"></a><span class="tm">20:56:34</span><span class="nk"> &lt;leobowski&gt;</span> Voglio che qualcuno che non c'era capisce cosa abbiamo fatto e gli viene voglia di partecipare la prossima volta
+<a name="l-165"></a><span class="tm">20:56:54</span><span class="nk"> &lt;leobowski&gt;</span> un sacco di faccine e punti esclamativi :-) :-) :-) !!!!!!!
+<a name="l-166"></a><span class="tm">20:57:08</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> no, c'era proprio un resoconto scritto a mano, fatto in diretta
+<a name="l-167"></a><span class="tm">20:57:13</span><span class="nk"> &lt;lerrigatto&gt;</span> Imho se mettiamo su wiki e spammiamo in lista + eventuale blog è meglio di un link sperduto su etherpad
+<a name="l-168"></a><span class="tm">20:57:18</span><span class="nk"> &lt;stefanauss&gt;</span> non su tutti gli etherpad, ma almeno 2
+<a name="l-169"></a><span class="tm">20:57:46</span><span class="nk"> &lt;leobowski&gt;</span> va bene su etherpad, ma qualcuno si deve prendere la bega di scriverlo e farlo girare in lista
+<a name="l-170"></a><span class="tm">20:58:01</span><span class="nk"> &lt;leobowski&gt;</span> con uno stile che possa andare anche sul blog
+<a name="l-171"></a><span class="tm">20:58:11</span><span class="nk"> &lt;gferraiolo&gt;</span> ueueeeee
+<a name="l-172"></a><span class="tm">20:58:30</span><span class="nk"> &lt;leobowski&gt;</span> magari non c'e' bisogno di metterlo in prima pagina, magari va in una colonna laterale
+<a name="l-173"></a><span class="tm">20:58:30</span><span class="nk"> &lt;stefanauss&gt;</span> io declino ufficialmente l'accollo
+<a name="l-174"></a><span class="tm">20:58:43</span><span class="nk"> &lt;leobowski&gt;</span> mica sempre lo stesso...
+<a name="l-175"></a><span class="tm">20:59:05</span><span class="nk"> &lt;lerrigatto&gt;</span> A sto giro posso farlo io. Domani mi prendo i log, faccio una pagina sul wiki non so come e spammo in lista. Se qualcuno si accolla di ragguagliarmi sull'usp del wiki
+<a name="l-176"></a><span class="tm">20:59:26</span><span class="nk"> &lt;leobowski&gt;</span> va bene etherpad, non deve rimanere li per sempre
+<a name="l-177"></a><span class="tm">20:59:30</span><span class="nk"> &lt;stefanauss&gt;</span> certo, ma è per dire: anche se mi votate non li fo', specie se ho moderato nella session :-)
+<a name="l-178"></a><span class="tm">21:00:10</span><span class="nk"> &lt;albertux&gt;</span> io non puo'.
+<a name="l-179"></a><span class="tm">21:00:13</span><span class="nk"> &lt;leobowski&gt;</span> mi pare OK che se uno modera non sia anche quello che fa il verbale
+<a name="l-180"></a><span class="tm">21:00:39</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> si, anche su etherpad, in realtà qualsiasi strumento preferisci, purché poi lo possiamo trasferire sul blog
+<a name="l-181"></a><span class="tm">21:00:49</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> grazie!
+<a name="l-182"></a><span class="tm">21:00:51</span><span class="nk"> &lt;lerrigatto&gt;</span> Visto che in teoria è una riunione interplanetaria dovrebbe essere menzionata dal wiki
+<a name="l-183"></a><span class="tm">21:00:59</span><span class="nk"> &lt;lerrigatto&gt;</span> <span class="cmd">#accollo </span><span class="cmdline">mio</span>
+<a name="l-184"></a><span class="tm">21:01:19</span><span class="nk"> &lt;leobowski&gt;</span> ottimo, se mi condividi il pad ti aiuto
+<a name="l-185"></a><span class="tm">21:01:29</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#action </span><span class="cmdline">lerrigatto effettuerà il resoconto blog-ready di questo meeting</span>
+<a name="l-186"></a><span class="tm">21:01:34</span><span class="nk"> &lt;leobowski&gt;</span> anzi usa quello con l'odg, poi vediamo
+<a name="l-187"></a><span class="tm">21:01:41</span><span class="nk"> &lt;stefanauss&gt;</span> considero agreed il fatto di votare un accollatore a fine meeting?
+<a name="l-188"></a><span class="tm">21:01:50</span><span class="nk"> &lt;leobowski&gt;</span> a inizio meeting
+<a name="l-189"></a><span class="tm">21:01:50</span><span class="nk"> &lt;stefanauss&gt;</span> *inizio
+<a name="l-190"></a><span class="tm">21:01:53</span><span class="nk"> &lt;leobowski&gt;</span> ok
+<a name="l-191"></a><span class="tm">21:01:58</span><span class="nk"> &lt;leobowski&gt;</span> per me si
+<a name="l-192"></a><span class="tm">21:02:14</span><span class="nk"> &lt;lerrigatto&gt;</span> @stefanauss tu comunque a fine sessione manda la mail con il link ai log, io poi domani rispondo con il wiki/blog/blablayadayada
+<a name="l-193"></a><span class="tm">21:02:36</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> il link comparirà qui a fine meeting :-)
+<a name="l-194"></a><span class="tm">21:03:03</span><span class="nk"> &lt;lerrigatto&gt;</span> Eh ok ma su irc si perde
+<a name="l-195"></a><span class="tm">21:03:04</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">a inizio prossimi meeting verrà votato il reporter</span>
+<a name="l-196"></a><span class="tm">21:03:19</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> manderò link, no te preocupe
+<a name="l-197"></a><span class="tm">21:03:31</span><span class="nk"> &lt;lerrigatto&gt;</span> :*
+<a name="l-198"></a><span class="tm">21:03:37</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="topic">#topic </span><span class="topicline">data next meeting?</span>
+<a name="l-199"></a><span class="tm">21:04:02</span><span class="nk"> &lt;stefanauss&gt;</span> manterrei +3 week
+<a name="l-200"></a><span class="tm">21:04:12</span><span class="nk"> &lt;lerrigatto&gt;</span> 5 aprile?
+<a name="l-201"></a><span class="tm">21:04:23</span><span class="nk"> &lt;leobowski&gt;</span> avete sotto mano il doodle che abbiamo fatto per il giorno?
+<a name="l-202"></a><span class="tm">21:04:29</span><span class="nk"> &lt;lerrigatto&gt;</span> Per il giorno mercoledì o giovedì?
+<a name="l-203"></a><span class="tm">21:04:33</span><span class="nk"> &lt;leobowski&gt;</span> * per decidere il giorno
+<a name="l-204"></a><span class="tm">21:04:35</span><span class="nk"> &lt;leobowski&gt;</span> si
+<a name="l-205"></a><span class="tm">21:04:44</span><span class="nk"> &lt;stefanauss&gt;</span> no, non ho il doodle
+<a name="l-206"></a><span class="tm">21:04:57</span><span class="nk"> &lt;leobowski&gt;</span> ha senso spostarlo di mercoledi'?
+<a name="l-207"></a><span class="tm">21:05:03</span><span class="nk"> &lt;leobowski&gt;</span> o un altro giorno?
+<a name="l-208"></a><span class="tm">21:05:11</span><span class="nk"> &lt;lerrigatto&gt;</span> Giovedì cozza con roma
+<a name="l-209"></a><span class="tm">21:05:25</span><span class="nk"> &lt;lerrigatto&gt;</span> Che alla fine ok, tanto non riesco mai ad andsre al fusolab
+<a name="l-210"></a><span class="tm">21:05:40</span><span class="nk"> &lt;lerrigatto&gt;</span> Vedi stasera... Sto per strada connesso dal cellulare
+<a name="l-211"></a><span class="tm">21:05:57</span><span class="nk"> &lt;albertux&gt;</span> ack mercoledi
+<a name="l-212"></a><span class="tm">21:06:09</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">leobowski:</span> ha senso (per qualcuno) non ne avrà (per altri), è sempre così, ne discutiamo più o meno sempre
+<a name="l-213"></a><span class="tm">21:06:33</span><span class="nk"> &lt;stefanauss&gt;</span> si sta verificando che spesso quelli del meeting prima decidono date che non vanno bene a chi ci parteciperò
+<a name="l-214"></a><span class="tm">21:06:40</span><span class="nk"> &lt;stefanauss&gt;</span> *rà
+<a name="l-215"></a><span class="tm">21:06:48</span><span class="nk"> &lt;leobowski&gt;</span> si pero' abbiamo 5 persone oggi, tanto vale alternare e farne uno merc e uno giov
+<a name="l-216"></a><span class="tm">21:07:20</span><span class="nk"> &lt;stefanauss&gt;</span> vero
+<a name="l-217"></a><span class="tm">21:07:21</span><span class="nk"> &lt;lerrigatto&gt;</span> <span class="cmd">#daje</span><span class="cmdline"></span>
+<a name="l-218"></a><span class="tm">21:07:52</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">se data sarà mercoledì predisponente un accollo di moderazione, non posso moderare efficacemente il mercoledì</span>
+<a name="l-219"></a><span class="tm">21:08:10</span><span class="nk"> &lt;leobowski&gt;</span> come si fa a decidere chi modera?
+<a name="l-220"></a><span class="tm">21:08:19</span><span class="nk"> &lt;lerrigatto&gt;</span> Si segna sul pad
+<a name="l-221"></a><span class="tm">21:08:37</span><span class="nk"> &lt;leobowski&gt;</span> si ma operativamente? come si diventa moderatore?
+<a name="l-222"></a><span class="tm">21:08:43</span><span class="nk"> &lt;albertux&gt;</span> generalmente qui van bene tutti i gg tranne giove
+<a name="l-223"></a><span class="tm">21:08:54</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">chi comincia il meeting è automaticamente chair (mod)</span>
+<a name="l-224"></a><span class="tm">21:09:10</span><span class="nk"> &lt;leobowski&gt;</span> ah ok
+<a name="l-225"></a><span class="tm">21:09:11</span><span class="nk"> &lt;stefanauss&gt;</span> per assegnare/deassegnarne altri: #chair (nick) o #unchair (nick)
+<a name="l-226"></a><span class="tm">21:09:21</span><span class="nk"> &lt;albertux&gt;</span> giove  = LUG
+<a name="l-227"></a><span class="tm">21:09:30</span><span class="nk"> &lt;lerrigatto&gt;</span> Chi sta hostando il bot?
+<a name="l-228"></a><span class="tm">21:09:47</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#info </span><span class="cmdline">bot ostato su un container realizzato da zio proto</span>
+<a name="l-229"></a><span class="tm">21:11:10</span><span class="nk"> &lt;leobowski&gt;</span> abbiamo
+<a name="l-230"></a><span class="tm">21:11:18</span><span class="nk"> &lt;leobowski&gt;</span> * niente :-)
+<a name="l-231"></a><span class="tm">21:11:22</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#startvote </span><span class="cmdline">Next Meeting 05/04/2017 ore 21? Si, No</span>
+<a name="l-232"></a><span class="tm">21:11:22</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Begin voting on: Next Meeting 05/04/2017 ore 21? Valid vote options are Si, No.
+<a name="l-233"></a><span class="tm">21:11:22</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Vote using '#vote OPTION'. Only your last vote counts.
+<a name="l-234"></a><span class="tm">21:11:37</span><span class="nk"> &lt;lerrigatto&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-235"></a><span class="tm">21:11:39</span><span class="nk"> &lt;gabriel_sh&gt;</span> <span class="cmd">#vode </span><span class="cmdline">si</span>
+<a name="l-236"></a><span class="tm">21:11:43</span><span class="nk"> &lt;gabriel_sh&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-237"></a><span class="tm">21:11:54</span><span class="nk"> &lt;leobowski&gt;</span> <span class="cmd">#vote </span><span class="cmdline">Si</span>
+<a name="l-238"></a><span class="tm">21:12:04</span><span class="nk"> &lt;hispanico&gt;</span> <span class="cmd">#vote </span><span class="cmdline">si</span>
+<a name="l-239"></a><span class="tm">21:12:04</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#vote </span><span class="cmdline">No</span>
+<a name="l-240"></a><span class="tm">21:12:07</span><span class="nk"> &lt;matteopedani[m]&gt;</span> si
+<a name="l-241"></a><span class="tm">21:12:15</span><span class="nk"> &lt;matteopedani[m]&gt;</span> <span class="cmd">#vote </span><span class="cmdline">si</span>
+<a name="l-242"></a><span class="tm">21:12:24</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#endvote</span><span class="cmdline"></span>
+<a name="l-243"></a><span class="tm">21:12:24</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Voted on "Next Meeting 05/04/2017 ore 21?" Results are
+<a name="l-244"></a><span class="tm">21:12:24</span><span class="nk"> &lt;meetbot-ninux&gt;</span> Si (5): matteopedani[m], lerrigatto, leobowski, gabriel_sh, hispanico
+<a name="l-245"></a><span class="tm">21:12:24</span><span class="nk"> &lt;meetbot-ninux&gt;</span> No (1): stefanauss
+<a name="l-246"></a><span class="tm">21:12:44</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#agreed </span><span class="cmdline">Prossimo Meeting mercoledì 5 Aprile ore 21</span>
+<a name="l-247"></a><span class="tm">21:12:58</span><span class="nk"> &lt;albertux&gt;</span> <span class="cmd">#vote </span><span class="cmdline">no</span>
+<a name="l-248"></a><span class="tm">21:13:09</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#action </span><span class="cmdline">proposta di alternarli da adesso tra Mer e Gio, by leoboski</span>
+<a name="l-249"></a><span class="tm">21:14:01</span><span class="nk"> &lt;stefanauss&gt;</span> i topic ufficiali sono finiti, continuiamo o volete closing?
+<a name="l-250"></a><span class="tm">21:14:26</span><span class="nk"> &lt;leobowski&gt;</span> una cosa al volo
+<a name="l-251"></a><span class="tm">21:14:31</span><span class="nk"> &lt;stefanauss&gt;</span> siamo nella canonica ora considerato il ritardo di start
+<a name="l-252"></a><span class="tm">21:14:36</span><span class="nk"> &lt;leobowski&gt;</span> OK
+<a name="l-253"></a><span class="tm">21:14:52</span><span class="nk"> &lt;leobowski&gt;</span> io metterei all'odg del prossimo il voto sull'alternanza di giorno
+<a name="l-254"></a><span class="tm">21:15:01</span><span class="nk"> &lt;stefanauss&gt;</span> sono d'accordo
+<a name="l-255"></a><span class="tm">21:15:01</span><span class="nk"> &lt;leobowski&gt;</span> ma
+<a name="l-256"></a><span class="tm">21:15:11</span><span class="nk"> &lt;leobowski&gt;</span> secondo voi perche' siamo cosi' pochi?
+<a name="l-257"></a><span class="tm">21:15:13</span><span class="nk"> &lt;albertux&gt;</span> vediamo di non tardare #start.....
+<a name="l-258"></a><span class="tm">21:15:32</span><span class="nk"> &lt;stefanauss&gt;</span> 1) pessima pubblicità
+<a name="l-259"></a><span class="tm">21:15:50</span><span class="nk"> &lt;stefanauss&gt;</span> 2) difficile partecipare
+<a name="l-260"></a><span class="tm">21:15:55</span><span class="nk"> &lt;lerrigatto&gt;</span> A sto giro noj c'era nemmeno odg
+<a name="l-261"></a><span class="tm">21:15:59</span><span class="nk"> &lt;mikytux[m]&gt;</span> io ho fatto ritardo...pardon
+<a name="l-262"></a><span class="tm">21:16:54</span><span class="nk"> &lt;leobowski&gt;</span> <span class="hi">quindi:</span> migliorare pubblicita', costruire l'odg, facilitare la partecipazione.
+<a name="l-263"></a><span class="tm">21:16:58</span><span class="nk"> &lt;matteopedani[m]&gt;</span> perchè state a parlare sempre di come parlare
+<a name="l-264"></a><span class="tm">21:16:59</span><span class="nk"> &lt;albertux&gt;</span> la puntualita'e'l'anima del caxx... :)
+<a name="l-265"></a><span class="tm">21:17:29</span><span class="nk"> &lt;leobowski&gt;</span> facilitare lo stiamo facendo, col teleirc
+<a name="l-266"></a><span class="tm">21:17:36</span><span class="nk"> &lt;leobowski&gt;</span> (grazie Stefanauss)
+<a name="l-267"></a><span class="tm">21:17:37</span><span class="nk"> &lt;lerrigatto&gt;</span> Nonostante tutto io insisterei con i meeting irc. Migliorando un po' di cose come odg e pubblicità.
+<a name="l-268"></a><span class="tm">21:18:06</span><span class="nk"> &lt;leobowski&gt;</span> l'odg per mailing list non ha funzionato granche'
+<a name="l-269"></a><span class="tm">21:18:19</span><span class="nk"> &lt;lerrigatto&gt;</span> No, etherpad va benone
+<a name="l-270"></a><span class="tm">21:18:28</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">lerrigatto:</span> agreed. oltretutto io non sono sorpreso siamo 5, mi aspettavo che ci sarebbe stato un lungo periodo di rodaggio, serve insistere
+<a name="l-271"></a><span class="tm">21:18:39</span><span class="nk"> &lt;stefanauss&gt;</span> che sti meeting ufficiali e periodici servono, ho 0 dubbi
+<a name="l-272"></a><span class="tm">21:18:39</span><span class="nk"> &lt;albertux&gt;</span> anche un IRC al mese fatto bene basterebbe...
+<a name="l-273"></a><span class="tm">21:18:45</span><span class="nk"> &lt;lerrigatto&gt;</span> Servirebbe un reminder in ml settimanalr automatico
+<a name="l-274"></a><span class="tm">21:19:27</span><span class="nk"> &lt;lerrigatto&gt;</span> Poi imho è scialla se qualche volta c'è poco di cui parlare
+<a name="l-275"></a><span class="tm">21:19:47</span><span class="nk"> &lt;stefanauss&gt;</span> qualcuno si può guardare come lanciare un reminder automatico in ML?
+<a name="l-276"></a><span class="tm">21:20:23</span><span class="nk"> &lt;leobowski&gt;</span> un calendar?
+<a name="l-277"></a><span class="tm">21:20:23</span><span class="nk"> &lt;dardo82_&gt;</span> Io sono a letto con l'iPad, più facile di così...
+<a name="l-278"></a><span class="tm">21:21:04</span><span class="nk"> &lt;lerrigatto&gt;</span> Serve un mailserver con cron, chi cel'ha?
+<a name="l-279"></a><span class="tm">21:21:24</span><span class="nk"> &lt;dardo82_&gt;</span> Oltretutto uso lo stesso programma che sul Mac, per maggiore facilità...
+<a name="l-280"></a><span class="tm">21:21:38</span><span class="nk"> &lt;stefanauss&gt;</span> Aspè... ma ho il send later su thunderbird...
+<a name="l-281"></a><span class="tm">21:21:56</span><span class="nk"> &lt;stefanauss&gt;</span> ok. lo setto da adesso per mandare na mail il giorno del meeting
+<a name="l-282"></a><span class="tm">21:22:05</span><span class="nk"> &lt;stefanauss&gt;</span> tanto ho SEMPRE thunderbird aperto
+<a name="l-283"></a><span class="tm">21:22:12</span><span class="nk"> &lt;stefanauss&gt;</span> non è che lo posso chiudere :-)
+<a name="l-284"></a><span class="tm">21:22:34</span><span class="nk"> &lt;leobowski&gt;</span> beh a parte quando ripiena la memoria...
+<a name="l-285"></a><span class="tm">21:22:37</span><span class="nk"> &lt;leobowski&gt;</span> :-)
+<a name="l-286"></a><span class="tm">21:22:52</span><span class="nk"> &lt;lerrigatto&gt;</span> Fai ogni mercoledì, nel testo il link al pad con odg e alla pagina wiki in cui ficcheremo tuyti i resoconti
+<a name="l-287"></a><span class="tm">21:23:24</span><span class="nk"> &lt;leobowski&gt;</span> io metterei all'odg del prossimo proposte per fare a meno del thunderbid di stefanauss
+<a name="l-288"></a><span class="tm">21:23:31</span><span class="nk"> &lt;leobowski&gt;</span> e magari cerchiamo di parlarne in lista
+<a name="l-289"></a><span class="tm">21:23:40</span><span class="nk"> &lt;stefanauss&gt;</span> se sono pronti già da ora questi link posso scriverli, altrimenti dovrò fare reminder generico
+<a name="l-290"></a><span class="tm">21:23:46</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#link </span><span class="cmdline">https://addons.mozilla.org/it/thunderbird/addon/send-later-3/</span>
+<a name="l-291"></a><span class="tm">21:24:17</span><span class="nk"> &lt;lerrigatto&gt;</span> Si, ottima idea. Domani avrai i link, te li manderò in risposta alla tua mail con i log si stasera in ml :D
+<a name="l-292"></a><span class="tm">21:24:29</span><span class="nk"> &lt;lerrigatto&gt;</span> Sempre se riesco ad usare il wiki
+<a name="l-293"></a><span class="tm">21:24:45</span><span class="nk"> &lt;dardo82_&gt;</span> Quindi ci restano pubblicità e odg, che sono la stessa cosa.
+<a name="l-294"></a><span class="tm">21:24:56</span><span class="nk"> &lt;albertux&gt;</span> bye..
+<a name="l-295"></a><span class="tm">21:25:04</span><span class="nk"> &lt;stefanauss&gt;</span> non ti invidio, vorrei mettere all'odg di droppare sto wiki
+<a name="l-296"></a><span class="tm">21:25:11</span><span class="nk"> &lt;stefanauss&gt;</span> ma è complesso
+<a name="l-297"></a><span class="tm">21:25:13</span><span class="nk"> &lt;leobowski&gt;</span> una cosa per volta
+<a name="l-298"></a><span class="tm">21:25:22</span><span class="nk"> &lt;dardo82_&gt;</span> Se non annunci odg nella pubblicità che dici?
+<a name="l-299"></a><span class="tm">21:25:31</span><span class="nk"> &lt;leobowski&gt;</span> cominaiciamo a spammare, mandare resoconti e mettere su il telegram
+<a name="l-300"></a><span class="tm">21:25:39</span><span class="nk"> &lt;leobowski&gt;</span> e vediamo come va ok?
+<a name="l-301"></a><span class="tm">21:25:47</span><span class="nk"> &lt;lerrigatto&gt;</span> Imho aiuta parecchio, io lo scorso meeting l'ho perso poiché non me lo ero segnato sul calendario e ho visto il reminder troppo tardi
+<a name="l-302"></a><span class="tm">21:26:03</span><span class="nk"> &lt;lerrigatto&gt;</span> <span class="hi">Lebowski:</span> si, ok
+<a name="l-303"></a><span class="tm">21:26:03</span><span class="nk"> &lt;leobowski&gt;</span> spammi un link ad un etherpad che possiamo fare anche ora
+<a name="l-304"></a><span class="tm">21:26:45</span><span class="nk"> &lt;dardo82_&gt;</span> Certo che se non li cacate di striscio è inutili che la gente partecipi...
+<a name="l-305"></a><span class="tm">21:27:03</span><span class="nk"> &lt;mikytux[m]&gt;</span> concordo un reminder almeno 1 giorno prima e magari anche in mattinata e pomeriggio
+<a name="l-306"></a><span class="tm">21:27:11</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#action </span><span class="cmdline">next odg: proposte di reminder automatico</span>
+<a name="l-307"></a><span class="tm">21:27:15</span><span class="nk"> &lt;lerrigatto&gt;</span> http://pad.ninux.org/p/IRC-agenda-2017-04-05
+<a name="l-308"></a><span class="tm">21:27:24</span><span class="nk"> &lt;dardo82_&gt;</span> Se siete troppo occupati ad organizzare per dare ascolto a quello che vi si dice...
+<a name="l-309"></a><span class="tm">21:27:26</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#link </span><span class="cmdline">http://pad.ninux.org/p/IRC-agenda-2017-04-05</span>
+<a name="l-310"></a><span class="tm">21:28:03</span><span class="nk"> &lt;lerrigatto&gt;</span> Dardo cosa intendi?
+<a name="l-311"></a><span class="tm">21:28:10</span><span class="nk"> &lt;dardo82_&gt;</span> Allora forse fate bene a continuare a fare da soli, ma poi non lamentatevi della scarsa partecipazione.
+<a name="l-312"></a><span class="tm">21:29:03</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">dardo82_:</span> non cerchiamo di far nulla da soli, ma non è chiara la tua preoccupazione/idea
+<a name="l-313"></a><span class="tm">21:29:09</span><span class="nk"> &lt;leobowski&gt;</span> <span class="hi">dardo82:</span> ? proponi di fare qualcosa, non ho capito cosa dici
+<a name="l-314"></a><span class="tm">21:29:11</span><span class="nk"> &lt;stefanauss&gt;</span> spiegati meglio se puoi
+<a name="l-315"></a><span class="tm">21:29:46</span><span class="nk"> &lt;dardo82_&gt;</span> Non credo che ci sia molto da dire perché non è un problema vostro...
+<a name="l-316"></a><span class="tm">21:30:04</span><span class="nk"> &lt;lerrigatto&gt;</span> Credo si posaa tranquillamente discutere il testo del messaggio di reminder in ml. Imho deve contenere il pad di odg e i log del/dei precedenti. Creando una pagia su wiki con tutti i log è pure più facile
+<a name="l-317"></a><span class="tm">21:31:28</span><span class="nk"> &lt;leobowski&gt;</span> <span class="hi">dardo82:</span> non ti si capisce, cosa vuoi risolvere? pensi che il messaggio vada migliorato?
+<a name="l-318"></a><span class="tm">21:31:38</span><span class="nk"> &lt;dardo82_&gt;</span> Ma la gente che viene e vi trova impegnati a confabulare tra voi non si integra facilmente.
+<a name="l-319"></a><span class="tm">21:31:59</span><span class="nk"> &lt;leobowski&gt;</span> ok, andiamo avanti, come pensi che si possa fare meglio?
+<a name="l-320"></a><span class="tm">21:32:43</span><span class="nk"> &lt;leobowski&gt;</span> dardo siamo a fine meeting...
+<a name="l-321"></a><span class="tm">21:32:54</span><span class="nk"> &lt;lipos[m]&gt;</span> salve a tutti, scusate il ritardo
+<a name="l-322"></a><span class="tm">21:33:22</span><span class="nk"> &lt;leobowski&gt;</span> ciao lipsos
+<a name="l-323"></a><span class="tm">21:33:28</span><span class="nk"> &lt;lerrigatto&gt;</span> Ciao!
+<a name="l-324"></a><span class="tm">21:33:31</span><span class="nk"> &lt;dardo82_&gt;</span> Eh, aspetta che ora salvo il mondo dalla indifferenza e poi vado a cena...
+<a name="l-325"></a><span class="tm">21:33:35</span><span class="nk"> &lt;leobowski&gt;</span> siamo agli sgoccioli
+<a name="l-326"></a><span class="tm">21:33:43</span><span class="nk"> &lt;leobowski&gt;</span> vabbe'
+<a name="l-327"></a><span class="tm">21:33:48</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="hi">dardo82_:</span> può essere spiazzante, però tieni presente che IRC funziona un po' così, con tante conversazioni incrociate. non significa che si stiano ignorando
+<a name="l-328"></a><span class="tm">21:34:20</span><span class="nk"> &lt;stefanauss&gt;</span> vabbhé dardo, non stai scrivendo nulla di costruttivo, e non è che non ti si stia dando ascolto. quando ne vuoi parlare, noi saremo qui :-)
+<a name="l-329"></a><span class="tm">21:34:39</span><span class="nk"> &lt;stefanauss&gt;</span> sono rimaste cose in sospeso ragazzi?
+<a name="l-330"></a><span class="tm">21:34:44</span><span class="nk"> &lt;leobowski&gt;</span> non per me
+<a name="l-331"></a><span class="tm">21:34:51</span><span class="nk"> &lt;stefanauss&gt;</span> solo un
+<a name="l-332"></a><span class="tm">21:34:56</span><span class="nk"> &lt;dardo82_&gt;</span> IRC lo conosco e la realtà l'ho provata, ma visto che per voi non è costruttivo...
+<a name="l-333"></a><span class="tm">21:35:10</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#action </span><span class="cmdline">link e testo del reminder passeranno in lista</span>
+<a name="l-334"></a><span class="tm">21:35:27</span><span class="nk"> &lt;stefanauss&gt;</span> chiudo il meeting ragazzi
+<a name="l-335"></a><span class="tm">21:35:36</span><span class="nk"> &lt;leobowski&gt;</span> dardo vuoi suggerire qualcosa per il prossimo meeting
+<a name="l-336"></a><span class="tm">21:35:39</span><span class="nk"> &lt;leobowski&gt;</span> fallo in ml.
+<a name="l-337"></a><span class="tm">21:35:45</span><span class="nk"> &lt;leobowski&gt;</span> ciao a tutti
+<a name="l-338"></a><span class="tm">21:35:47</span><span class="nk"> &lt;stefanauss&gt;</span> <span class="cmd">#endmeeting</span><span class="cmdline"></span></pre>
+</body></html>
